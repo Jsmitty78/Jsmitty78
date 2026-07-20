@@ -2,6 +2,8 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:6d28d9,100:7c3aed&height=190&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Assistive%20Technology&descAlignY=60&descSize=18)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Founder+of+VisionPath;Building+Assistive+Technology;AI+%26+Computer+Vision;Engineering+Products+for+Real+Human+Needs)](https://git.io/typing-svg)
+
 ### Building technology that helps people move, decide, and live more independently.
 
 [![Portfolio](https://img.shields.io/badge/VisionPath-Visit_Website-6D28D9?style=for-the-badge&logo=safari&logoColor=white)](https://visionpath.tech)
@@ -28,6 +30,22 @@ I enjoy working where engineering, product development, and real human needs mee
 An AI-powered smart walker concept designed to help older adults and people with visual or mobility challenges navigate more safely. The current development focus is a practical prototype using camera-based perception, distance sensors, and simple audio or visual guidance.
 
 `Computer Vision` `YOLO` `Python` `Raspberry Pi` `Sensors` `Product Development`
+
+### PBL2: Computer Vision-Based Assistive Walker
+
+A working assistive-walker prototype developed with **Mahiro Ueda** and **Bien Cuenca** at Ritsumeikan University's Visual Information Engineering Laboratory. The system combines real-time obstacle detection, RGB-D distance estimation, a warning light, and directional audio prompts to tell the user whether an obstacle is on the left, center, or right.
+
+We trained a **YOLOv11n** model for 50 epochs on Google Colab using **7,686 images** and **14,216 labeled instances** across chairs, people, and tables. The final model achieved **91% precision**, **82% recall**, and **88% mAP@50**, with reliable prototype operation for 2.5 hours.
+
+`YOLOv11n` `Computer Vision` `RGB-D Sensing` `Intel RealSense` `ESP32` `Python` `Audio Navigation` `Hardware Prototyping`
+
+### Oxford Smart Walker Retrofit — 1st Place
+
+The winning product from the **2026 Oxford Venture Hackathon at Saïd Business School**. During a 36-hour sprint, our team built a low-cost retrofit concept that uses a repurposed smartphone to turn a standard NHS walking frame into a hazard-detecting smart walker. We interviewed more than 30 people in Oxford, found that 68% knew someone who had experienced a fall, and received follow-up interest from two care homes.
+
+The prototype was assembled with repurposed materials and focused on proving that safer mobility support could be added to existing walkers without requiring an entirely new device.
+
+`Mobile Computer Vision` `Rapid Prototyping` `User Research` `Assistive Technology` `Product Design`
 
 ### [MemoryPath](https://github.com/my-name-is-yu/MemoryPath)
 
