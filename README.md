@@ -2,8 +2,6 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:6d28d9,100:7c3aed&height=190&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Assistive%20Technology&descAlignY=60&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Founder+of+VisionPath;Building+Assistive+Technology;AI+%26+Computer+Vision;Engineering+Products+for+Real+Human+Needs)](https://git.io/typing-svg)
-
 ### Building technology that helps people move, decide, and live more independently.
 
 [![Portfolio](https://img.shields.io/badge/VisionPath-Visit_Website-6D28D9?style=for-the-badge&logo=safari&logoColor=white)](https://visionpath.tech)
@@ -99,6 +97,18 @@ learning: "Computer vision, embedded AI, and reliable product engineering"
 exploring: "How assistive technology can support independent mobility"
 open_to: "Internships, collaborations, pilot partners, and technical conversations"
 ```
+
+## Contribution activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated snake moving through Jake Smith's GitHub contribution graph" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ## Connect
 
