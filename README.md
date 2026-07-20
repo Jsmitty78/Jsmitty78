@@ -12,7 +12,7 @@
 
 ## About me
 
-I'm a Computer Engineering student at **Ritsumeikan University** in Osaka and the founder of **VisionPath**, an assistive-technology startup developing an AI-powered smart walker for safer, more independent mobility.
+I'm a 2nd year Computer Engineering student at **Ritsumeikan University** in Osaka and the founder of **VisionPath**, an assistive-technology startup developing an AI-powered smart walker for safer, more independent mobility.
 
 I enjoy working where engineering, product development, and real human needs meet. My recent projects have explored computer vision, healthcare navigation, responsible AI, and tools for dementia-care teams. I often lead product direction and presentations while contributing to prototyping, software development, user research, and testing.
 
