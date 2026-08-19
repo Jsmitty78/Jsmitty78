@@ -1,125 +1,87 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:6d28d9,100:7c3aed&height=190&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Assistive%20Technology&descAlignY=60&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=185&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Product%20Engineering%20%7C%20AI%20%7C%20Human-Centered%20Systems&descAlignY=60&descSize=18)
 
-### Building technology that helps people move, decide, and live more independently.
+### I turn real-world problems into tested, explainable products.
 
-[![Portfolio](https://img.shields.io/badge/VisionPath-Visit_Website-6D28D9?style=for-the-badge&logo=safari&logoColor=white)](https://visionpath.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-4338CA?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jake-smith-japan)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jakesmith1447@gmail.com)
+[![Portfolio](https://img.shields.io/badge/VisionPath-Website-0F172A?style=for-the-badge&logo=safari&logoColor=white)](https://visionpath.tech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jake_Smith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jake-smith-japan)
+[![Email](https://img.shields.io/badge/Email-Contact-0891B2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jakesmith1447@gmail.com)
 
 </div>
 
-## About me
+## About
 
-I'm a 2nd year Computer Engineering student at **Ritsumeikan University** in Osaka and the founder of **VisionPath**, an assistive-technology startup developing an AI-powered smart walker for safer, more independent mobility.
+I'm a second-year Computer Engineering student at **Ritsumeikan University** in Osaka, originally from Boston. I build at the intersection of software, AI, product development, and human needs.
 
-I enjoy working where engineering, product development, and real human needs meet. My recent projects have explored computer vision, healthcare navigation, responsible AI, and tools for dementia-care teams. I often lead product direction and presentations while contributing to prototyping, software development, user research, and testing.
+As founder of **VisionPath**, I am developing assistive-mobility technology for older adults. Across my projects, I work from user interviews and problem definition through prototyping, implementation, testing, and presentation. I care about products that are technically credible, easy to explain, and useful in the real world.
 
-- Based in Osaka, Japan, originally from Boston, USA
-- Interested in software engineering, AI, computer vision, embedded systems, and product development
-- Currently prototyping **PathOne** with cameras, sensors, Raspberry Pi, and real-time object detection
-- Open to internships, engineering collaborations, and assistive-technology research
+## Selected projects
 
-## Featured work
+### [Pathway: Smart-Walker Retrofit](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon) · 🏆 Oxford Venture Hackathon 1st Place
 
-### [VisionPath: PathOne](https://visionpath.tech)
+A repurposed smartphone turns a standard walking frame into a hazard-detection and caregiver-alert prototype. Built during a 36-hour sprint after **32 street interviews**; the portfolio reconstruction includes the surviving Python detector, a runnable browser demo, clear provenance notes, and **27 behavioral tests**.
 
-An AI-powered smart walker concept designed to help older adults and people with visual or mobility challenges navigate more safely. The current development focus is a practical prototype using camera-based perception, distance sensors, and simple audio or visual guidance.
+**My contribution:** concept development, user research, product direction, validation, and final pitch.
 
-`Computer Vision` `YOLO` `Python` `Raspberry Pi` `Sensors` `Product Development`
+**Stack:** JavaScript, Python, computer vision, accessibility, rapid prototyping
 
-### PBL2: Computer Vision-Based Assistive Walker
+### [MemoryPath](https://github.com/Jsmitty78/MemoryPath)
 
-A working assistive-walker prototype developed with **Mahiro Ueda** and **Bien Cuenca** at Ritsumeikan University's Visual Information Engineering Laboratory. The system combines real-time obstacle detection, RGB-D distance estimation, a warning light, and directional audio prompts to tell the user whether an obstacle is on the left, center, or right.
+A human-in-the-loop AI system that turns fragmented dementia-care records into citation-backed, nurse-approved Living Care Profiles. The prototype uses structured model output, server-side evidence verification, versioned approvals, realtime voice, and **58 automated tests**.
 
-We trained a **YOLOv11n** model for 50 epochs on Google Colab using **7,686 images** and **14,216 labeled instances** across chairs, people, and tables. The final model achieved **91% precision**, **82% recall**, and **88% mAP@50**, with reliable prototype operation for 2.5 hours.
+**My contribution:** original concept, nurse interview, product leadership, workflow design, frontend/backend implementation, testing, and presentation.
 
-`YOLOv11n` `Computer Vision` `RGB-D Sensing` `Intel RealSense` `ESP32` `Python` `Audio Navigation` `Hardware Prototyping`
+**Stack:** Next.js, TypeScript, OpenAI Agents SDK, Zod, Vitest
 
-### Oxford Smart Walker Retrofit — 1st Place
+### [AED Navi North Osaka](https://github.com/Jsmitty78/AED)
 
-The winning product from the **2026 Oxford Venture Hackathon at Saïd Business School**. During a 36-hour sprint, our team built a low-cost retrofit concept that uses a repurposed smartphone to turn a standard NHS walking frame into a hazard-detecting smart walker. We interviewed more than 30 people in Oxford, found that 68% knew someone who had experienced a fall, and received follow-up interest from two care homes.
+A bilingual, mobile-first AED finder for Ibaraki, Suita, and Takatsuki. It combines verified source metadata, nearest-location sorting, walking directions, an emergency interface, geolocation, and honest access-status labeling.
 
-The prototype was assembled with repurposed materials and focused on proving that safer mobility support could be added to existing walkers without requiring an entirely new device.
+**My contribution:** product concept, data design, interface design, React implementation, safety framing, and testing.
 
-`Mobile Computer Vision` `Rapid Prototyping` `User Research` `Assistive Technology` `Product Design`
-
-### [MemoryPath](https://github.com/my-name-is-yu/MemoryPath)
-
-A hackathon team project for dementia-care staff. MemoryPath turns scattered care records into a versioned Living Care Profile with citation-backed updates and a nurse approval step. The prototype includes structured AI output, evidence verification, human-in-the-loop review, and automated safety tests.
-
-`Next.js` `TypeScript` `OpenAI API` `Zod` `Vitest` `Human-in-the-Loop AI`
+**Stack:** React, Vite, MapLibre GL, Geolocation API, Node test runner
 
 ### [CarePath Navigator](https://route-to-care-ai.lovable.app)
 
-A healthcare navigation prototype that predicts hospital waiting times and helps users compare care options. Our team trained an XGBoost regression model using hospital data and achieved a held-out **MAE of 5.93 minutes** and **R² of 0.81**.
+A healthcare navigation prototype that compares care options and predicts hospital waiting times. Our XGBoost model achieved a held-out **MAE of 5.93 minutes** and **R² of 0.81**.
 
-`Python` `XGBoost` `React` `TypeScript` `Data Analysis` `Product Management`
+**My contribution:** product management, data analysis, application design, and team presentation.
 
-## Technologies
+**Stack:** Python, XGBoost, React, TypeScript
 
-<div align="center">
+## Additional engineering
 
-![Python](https://img.shields.io/badge/Python-312E81?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-4338CA?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-4F46E5?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-5B21B6?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-6D28D9?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-7C3AED?style=for-the-badge&logo=git&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-8B5CF6?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-6366F1?style=for-the-badge&logo=opencv&logoColor=white)
+At Ritsumeikan University's Visual Information Engineering Laboratory, my team built a computer-vision assistive walker using an Intel RealSense camera, YOLOv11n, ESP32 alerts, and directional audio. We trained on **7,686 images** and **14,216 labeled instances**, achieving **91% precision**, **82% recall**, and **88% mAP@50** for the prototype dataset.
 
-</div>
+## Tools I use
 
-| Area | Current experience |
+| Area | Technologies |
 |---|---|
-| AI and machine learning | Computer vision, YOLO prototypes, regression, structured LLM output, evaluation |
-| Product engineering | User interviews, requirements, prototyping, testing, demos, technical storytelling |
-| Web development | React, Next.js, TypeScript, API integration, responsive interfaces |
-| Hardware prototyping | Raspberry Pi, cameras, ultrasonic sensors, assistive-device experimentation |
+| Software | Python, Java, JavaScript, TypeScript, React, Next.js |
+| AI and data | Computer vision, YOLO, OpenCV, XGBoost, structured LLM output |
+| Product engineering | User research, requirements, prototyping, evaluation, technical storytelling |
+| Hardware | Raspberry Pi, ESP32, cameras, RGB-D sensing, ultrasonic sensors |
+| Quality | Automated testing, type checking, linting, CI, documentation |
 
 ## Selected recognition
 
-| Recognition | Project or program |
-|---|---|
-| 1st Place | Oxford Venture Hackathon 2026 |
-| 1st Place | MIT Startup Hackathon 2024 |
-| Osaka Life Science Nexus Award | ACCJ Health Tech Pitch 2026 |
-| Audience Award | Rocket Pitch Kansai 2025 |
-| Selected participant | J-StarX UK Student Course at Oxford, 2026 |
+- **1st Place**, Oxford Venture Hackathon 2026
+- **1st Place**, MIT Startup Hackathon 2024
+- **Osaka Life Science Nexus Award**, ACCJ Health Tech Pitch 2026
+- **Audience Award**, Rocket Pitch Kansai 2025
+- **Selected participant**, J-StarX UK Student Course at Oxford, 2026
 
-## Current focus
+## What I am building now
 
-```yaml
-building: "A functional PathOne smart-walker prototype"
-learning: "Computer vision, embedded AI, and reliable product engineering"
-exploring: "How assistive technology can support independent mobility"
-open_to: "Internships, collaborations, pilot partners, and technical conversations"
-```
-
-## Contribution activity
+- A functional **PathOne** smart-walker prototype at VisionPath
+- More reliable real-time computer vision and embedded AI systems
+- Products that connect engineering and business across Japan and the United States
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated snake moving through Jake Smith's GitHub contribution graph" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg" />
-</picture>
+**Osaka, Japan · Open to engineering, product, and innovation opportunities**
 
-</div>
-
-## Connect
-
-I'm always happy to speak with engineers, researchers, care professionals, founders, and teams working on meaningful technology.
-
-- Website: [visionpath.tech](https://visionpath.tech)
-- LinkedIn: [jake-smith-japan](https://www.linkedin.com/in/jake-smith-japan)
-- Email: [jakesmith1447@gmail.com](mailto:jakesmith1447@gmail.com)
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:6d28d9,100:312e81&height=110&section=footer)
+[visionpath.tech](https://visionpath.tech) · [LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com)
 
 </div>
