@@ -26,6 +26,16 @@ A repurposed smartphone turns a standard walking frame into a hazard-detection a
 
 **Stack:** JavaScript, Python, computer vision, accessibility, rapid prototyping
 
+### [CarePath Navigator](https://route-to-care-ai.lovable.app)
+
+A hospital decision-support prototype that helps patients compare nearby facilities using predicted wait times, distance, and confidence estimates. Early product research included **89 survey responses** and interviews with healthcare professionals. Our XGBoost model achieved a held-out **MAE of 5.93 minutes**, **RMSE of 8.42 minutes**, and **R² of 0.8105**.
+
+**My contribution:** project management, requirements coordination, architecture planning, development priorities, state and sequence diagrams, testing support, and final presentation.
+
+**Stack:** Python, XGBoost, Flask, React, TypeScript, system design
+
+[Live prototype](https://route-to-care-ai.lovable.app) · [Project documentation](https://daitera1.github.io/PBL3-Group-D/)
+
 ### [MemoryPath](https://github.com/Jsmitty78/MemoryPath)
 
 A human-in-the-loop AI system that turns fragmented dementia-care records into citation-backed, nurse-approved Living Care Profiles. The prototype uses structured model output, server-side evidence verification, versioned approvals, realtime voice, and **58 automated tests**.
@@ -33,22 +43,6 @@ A human-in-the-loop AI system that turns fragmented dementia-care records into c
 **My contribution:** original concept, nurse interview, product leadership, workflow design, frontend/backend implementation, testing, and presentation.
 
 **Stack:** Next.js, TypeScript, OpenAI Agents SDK, Zod, Vitest
-
-### [AED Navi North Osaka](https://github.com/Jsmitty78/AED)
-
-A bilingual, mobile-first AED finder for Ibaraki, Suita, and Takatsuki. It combines verified source metadata, nearest-location sorting, walking directions, an emergency interface, geolocation, and honest access-status labeling.
-
-**My contribution:** product concept, data design, interface design, React implementation, safety framing, and testing.
-
-**Stack:** React, Vite, MapLibre GL, Geolocation API, Node test runner
-
-### [CarePath Navigator](https://route-to-care-ai.lovable.app)
-
-A healthcare navigation prototype that compares care options and predicts hospital waiting times. Our XGBoost model achieved a held-out **MAE of 5.93 minutes** and **R² of 0.81**.
-
-**My contribution:** product management, data analysis, application design, and team presentation.
-
-**Stack:** Python, XGBoost, React, TypeScript
 
 ## Additional engineering
 
