@@ -27,7 +27,7 @@ My strongest work tends to be:
 | Project | What it does | Stack / focus |
 |---|---|---|
 | **[Oxford Venture Hackathon — 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)** | Pathway: a smartphone-based walking-frame prototype built during a 36-hour team sprint, informed by 32 street interviews. | Python, JavaScript, computer vision, physical prototyping |
-| **[Sprink — Innovation Cup 2nd Place](projects/sprink.md)** | Field assistant for sprinkler fitters, built with Yu in San Francisco. Reference search, reviewable source context, and mobile Ask workflows. | React, TypeScript, Hono, SQLite, retrieval |
+| **[Sprink — 2nd Place / $10,000 Special Prize](projects/sprink.md)** | Field assistant for sprinkler fitters, built with Yu in San Francisco. Reference search, reviewable source context, and mobile Ask workflows. | React, TypeScript, Hono, SQLite, retrieval |
 | **[Hospital Finder / CarePath Navigator](projects/hospital-finder.md)** | PBL3 hospital-comparison project. Project management, frontend development, and system architecture. | React, TypeScript, TanStack, Leaflet, ranking |
 | **[MemoryPath](projects/memorypath.md)** | Human-in-the-loop AI for care handoffs, with evidence-backed proposals and explicit approval. | Next.js, TypeScript, structured AI output, Zod |
 | **[People Bridge](projects/bridge.md)** | Anonymized QREC Venture Life Challenge HR prototype for organizing records and preparing follow-up questions. | Next.js, TypeScript, IndexedDB, local-model analysis |
@@ -42,7 +42,7 @@ My strongest work tends to be:
 
 Four teammates met at the event and built a smartphone-based walking-frame prototype. We conducted 32 street interviews, improvised a frame from lacrosse sticks, borrowed a 3D printer overnight, and demonstrated a simulated fall triggering a real call to our team's phone.
 
-**My role:** concept and user research lead, product direction, validation, and pitching. Built with Caleb Byrne, Antony He, and Aiyush Gupta.
+**My role:** concept development, user research, and hands-on prototype engineering. I helped integrate the smartphone with the physical walker prototype, test the hazard-detection and fall-alert workflow, and troubleshoot issues ahead of the live demonstration. I also led customer discovery and contributed to the final pitch. Built with Caleb Byrne, Antony He, and Aiyush Gupta.
 
 **Inside the repository:** the surviving Python detector, original event photos and footage, and a reconstructed JavaScript browser demo. The documentation clearly separates original work from the later reconstruction.
 
@@ -52,11 +52,13 @@ Four teammates met at the event and built a smartphone-based walking-frame proto
 
 **San Francisco · From field interviews to a working prototype in 48 hours**
 
-An assistant for sprinkler fitters: ask a field question, inspect its supporting reference, and work toward a reviewable next step. Built with Yu, with continued development after the competition.
+An assistant for sprinkler fitters: ask a field question, inspect its supporting reference, and work toward a reviewable next step. Yu Yoshimuta and I won a **$10,000 team Special Prize**. Built during September 25–27, 2026, with continued development after the competition.
 
 **My work:** customer interviews, product direction and pitching; later contributions to mobile Ask UX, reviewed voice input, source context, request cancellation, and failure handling.
 
 **Engineering:** React, TypeScript, Hono/Node, SQLite, tool-based AI workflows, explicit verification, and human confirmation.
+
+We received technical feedback from **Jim Giles, CTO of Indeed**, and advice from fellow judges **Robert Hohman** (Glassdoor co-founder and former CEO), **Damien Contreras** (Google Cloud), and **Ho Joon Cha** (OpenAI).
 
 [Read the case study and code excerpt](projects/sprink.md)
 
@@ -106,7 +108,7 @@ A project exploring how HR could find missing context across workplace conversat
 ## Selected recognition
 
 - **1st Place**, Oxford Venture Hackathon 2026
-- **2nd Place**, Recruit Holdings / Indeed Innovation Cup, San Francisco
+- **2nd Place / $10,000 Special Prize (team)**, Recruit Holdings / Indeed Innovation Cup, San Francisco
 - **1st Place**, MIT Startup Hackathon 2024
 - **Osaka Life Science Nexus Award**, ACCJ Health Tech Pitch 2026
 - **Audience Award**, Rocket Pitch Kansai 2025
