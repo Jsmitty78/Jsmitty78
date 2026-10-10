@@ -1,104 +1,82 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=185&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Product%20Engineering%20%7C%20AI%20%7C%20Human-Centered%20Systems&descAlignY=60&descSize=18)
+![Jake Smith — Computer Engineering student and product builder](assets/profile-banner.svg)
 
-### I build AI products around real operational problems.
+**Computer Engineering at Ritsumeikan University · Boston → Osaka**
 
-[![Portfolio](https://img.shields.io/badge/VisionPath-Website-0F172A?style=for-the-badge&logo=safari&logoColor=white)](https://visionpath.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jake_Smith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jake-smith-japan)
-[![Email](https://img.shields.io/badge/Email-Contact-0891B2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jakesmith1447@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com)
 
 </div>
 
-## About me
+I build software, talk to the people who might use it, and work with teams to turn those conversations into working prototypes. My projects span computer vision, AI-assisted workflows, and practical web applications.
 
-I'm a second-year Computer Engineering student at **Ritsumeikan University** in Osaka, originally from Boston. I like working where product, software, AI, and real users meet.
+## Selected projects
 
-As founder of **VisionPath**, I am developing assistive-mobility technology for older adults. Across my projects, I usually work from user interviews and problem definition through prototyping, implementation, testing, and presentation.
+### 01 · [Oxford Venture Hackathon — 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
 
-My strongest work tends to be:
-- AI products with a clear human-in-the-loop design
-- tools for healthcare, accessibility, field work, and operations
-- fast prototypes that are still honest about evidence, limitations, and safety
-- products built with users, not just around a technical demo
+**Pathway · A 36-hour team build in Oxford**
 
-## Featured projects
+[![The Pathway team with the first-place certificate](https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg)](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
 
-| Project | What it does | Stack / focus |
-|---|---|---|
-| **[Pathway: Smart-Walker Retrofit](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)** | Turns a standard walker into a hazard-detection and caregiver-alert prototype using a repurposed smartphone. Built after 32 street interviews during a 36-hour hackathon sprint. | JavaScript, Python, computer vision, accessibility |
-| **[MemoryPath](https://github.com/Jsmitty78/MemoryPath)** | Human-in-the-loop AI for dementia-care handoffs. Produces citation-backed Living Care Profile updates that require nurse approval before becoming active. | Next.js, TypeScript, OpenAI Agents SDK, Zod, Vitest |
-| **Sprink** *(private collaborative repo)* | Mobile-first AI assistant for sprinkler fitters that retrieves code/reference evidence, shows exact source context, and supports reviewed voice question entry. Built during the Recruit/Indeed Innovation Cup. | TypeScript, React, Hono, SQLite, retrieval, source verification |
-| **[PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge)** | HR decision-support prototype that finds possible gaps in shared understanding across workplace records and sends them to a human review queue. | Next.js, TypeScript, IndexedDB, bilingual UX |
-| **[AED Navi North Osaka](https://github.com/Jsmitty78/AED)** | Bilingual mobile-first AED finder for Ibaraki, Suita, and Takatsuki, with access-state handling, geolocation, directions, and emergency UX. | React, Vite, MapLibre, geolocation |
-| **CarePath Navigator** | Helps patients compare nearby hospitals using predicted wait times, distance, and confidence estimates. Research included 89 survey responses and healthcare interviews. | Python, XGBoost, Flask, React, TypeScript |
+Four teammates met at the event and built a smartphone-based walking-frame prototype. We conducted 32 street interviews, improvised a frame from lacrosse sticks, borrowed a 3D printer overnight, and demonstrated a simulated fall triggering a real call to our team's phone.
 
-## Selected project details
+**My role:** concept and user research lead, product direction, validation, and pitching. Built with Caleb Byrne, Antony He, and Aiyush Gupta.
 
-### 🏆 [Pathway: Smart-Walker Retrofit](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
+**Inside the repository:** the surviving Python detector, original event photos and footage, and a reconstructed JavaScript browser demo. The documentation clearly separates original work from the later reconstruction.
 
-A repurposed smartphone turns a standard walking frame into a hazard-detection and caregiver-alert prototype. Built during a 36-hour sprint after **32 street interviews**; the repository includes the surviving Python detector, a runnable browser demo, provenance notes, and **27 behavioral tests**.
+[Read the build story](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md) · [Explore the code](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/tree/main/src) · [Watch the original demos](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage)
 
-**My contribution:** concept development, user research, product direction, validation, and final pitch.
+### 02 · [Sprink — 2nd Place, Recruit Holdings / Indeed Innovation Cup](projects/sprink.md)
 
-### 🧠 [MemoryPath](https://github.com/Jsmitty78/MemoryPath)
+**San Francisco · From field interviews to a working prototype in 48 hours**
 
-A human-in-the-loop AI system that turns fragmented dementia-care records into citation-backed, nurse-approved Living Care Profiles. The prototype uses structured model output, server-side evidence verification, versioned approvals, realtime voice, and **58 automated tests**.
+An assistant for sprinkler fitters: ask a field question, inspect its supporting reference, and work toward a reviewable next step. Built with Yu, with continued development after the competition.
 
-**My contribution:** original concept, nurse interview, product leadership, workflow design, frontend/backend implementation, testing, and presentation.
+**My work:** customer interviews, product direction and pitching; later contributions to mobile Ask UX, reviewed voice input, source context, request cancellation, and failure handling.
 
-### 🔧 Sprink
+**Engineering:** React, TypeScript, Hono/Node, SQLite, tool-based AI workflows, explicit verification, and human confirmation.
 
-A focused code/reference assistant for professional sprinkler fitters. A fitter can type or speak a question, review the transcript, search an authorized source library, and inspect the supporting passage instead of relying on an unsupported generated answer.
+[Read the case study and code excerpt](projects/sprink.md)
 
-The current work includes mobile-first Ask UX, reviewed voice input, evidence-safe retrieval, source provenance, conflict handling, persistence checks, and automated CI. The repository is currently private because it is a collaborative competition project.
+### 03 · [Hospital Finder / CarePath Navigator](projects/hospital-finder.md)
 
-**My contribution:** product direction, customer discovery, workflow design, validation, pitching, and product development.
+**PBL3 · Project management, frontend development, and system design**
 
-### 🌉 [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge)
+A hospital comparison interface that brings distance, estimated waiting time, language, and specialty into one decision. I led the class project team, built much of the frontend, and contributed to backend work and architecture planning.
 
-Developed during my **PENCIL Co., Ltd. internship / Kyushu University QREC Venture Life Challenge 2026**. The prototype groups workplace records around issues, surfaces contradictions or missing context, and routes them to HR for human review rather than scoring employees.
+**Engineering:** React, TypeScript, TanStack, Leaflet maps, weighted ranking, and clear treatment of uncertain estimates. The portfolio interface uses seeded data; the case study distinguishes it from the broader proposed backend.
 
-[Live demo](https://pencil-people-bridge.vercel.app)
+[Read the technical case study](projects/hospital-finder.md)
 
-### ❤️ [AED Navi North Osaka](https://github.com/Jsmitty78/AED)
+### 04 · [MemoryPath](projects/memorypath.md)
 
-A bilingual mobile-first AED finder for Ibaraki, Suita, and Takatsuki. It handles location, access status, building placement, walking directions, and emergency UX while clearly separating verified information from unknown or changing data.
+**Transpose Platform AI Hackathon, Kansai · Human-in-the-loop AI**
 
-## Engineering + research
+A dementia-care handoff prototype where AI proposes updates with supporting evidence, and a person reviews them before approval.
 
-At Ritsumeikan University's Visual Information Engineering Laboratory, my team built a computer-vision assistive walker using an Intel RealSense camera, YOLOv11n, ESP32 alerts, and directional audio. We trained on **7,686 images** and **14,216 labeled instances**, achieving **91% precision**, **82% recall**, and **88% mAP@50** for the prototype dataset.
+**My role:** frontend work, fieldwork, user interviews, and product/workflow design with Yu. The repository also documents later technical development beyond the hackathon.
 
-## Tools I use
+**Engineering:** Next.js, TypeScript, structured model output, Zod validation, evidence checks, and versioned approvals.
 
-| Area | Technologies |
-|---|---|
-| Software | Python, Java, JavaScript, TypeScript, React, Next.js |
-| AI and data | Computer vision, YOLO, OpenCV, XGBoost, structured LLM output, retrieval systems |
-| Backend | Node.js, Hono, Flask, SQLite, API design |
-| Product engineering | User research, requirements, prototyping, evaluation, technical storytelling |
-| Hardware | Raspberry Pi, ESP32, cameras, RGB-D sensing, ultrasonic sensors |
-| Quality | Automated testing, type checking, CI, source provenance, documentation |
+[Read the case study](projects/memorypath.md) · [Explore the code](https://github.com/Jsmitty78/MemoryPath)
 
-## Selected recognition
+### 05 · [Bridge — HR workflow prototype](projects/bridge.md)
 
-- **1st Place**, Oxford Venture Hackathon 2026
-- **1st Place**, MIT Startup Hackathon 2024
-- **Osaka Life Science Nexus Award**, ACCJ Health Tech Pitch 2026
-- **Audience Award**, Rocket Pitch Kansai 2025
-- **Selected participant**, J-StarX UK Student Course at Oxford, 2026
+**Kyushu University QREC Venture Life Challenge · Fukuoka**
 
-## What I'm building now
+A project exploring how HR could find missing context across workplace conversations and prepare better follow-up questions. I worked on product definition, prototype development, and feedback from HR and engineers.
 
-- **PathOne / VisionPath** — assistive mobility technology for older adults
-- **Sprink** — source-grounded code/reference search for sprinkler fitters
-- More reliable real-time computer vision and embedded AI systems
-- Products connecting engineering and business across Japan and the United States
+**Engineering:** Next.js, TypeScript, typed API routes, rule-based detection, optional local-model analysis, IndexedDB, and bilingual interfaces.
 
-<div align="center">
+[Read the anonymized case study](projects/bridge.md)
 
-**Osaka, Japan · Open to engineering, product, AI, and innovation opportunities**
+## How I work
 
-[visionpath.tech](https://visionpath.tech) · [LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com)
+- Start with interviews and a specific user workflow.
+- Make interfaces and system boundaries understandable to the team.
+- Keep AI suggestions reviewable, with explicit error and uncertainty states.
+- Document what works, what is simulated, and what still needs testing.
 
-</div>
+I use AI-assisted development tools alongside code review, debugging, and testing. Team projects credit collaborators, and case studies distinguish my contribution from the team's work.
+
+**Interested in software engineering, product engineering, and AI internship opportunities.**

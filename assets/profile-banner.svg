@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Jake Smith</title><desc id="desc">Computer Engineering. Software, systems, and the people who use them. Boston to Osaka.</desc>
+  <rect width="1200" height="300" rx="16" fill="#111d2b"/>
+  <path d="M870 0v300M990 0v300M1110 0v300M800 90h400M800 210h400" stroke="#294052" stroke-width="1"/>
+  <rect x="56" y="52" width="40" height="5" fill="#74dfbd"/>
+  <text x="56" y="132" fill="#f5f7fa" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700">Jake Smith</text>
+  <text x="58" y="184" fill="#c5d3df" font-family="Arial,Helvetica,sans-serif" font-size="25">Software, systems, and the people who use them.</text>
+  <text x="58" y="249" fill="#74dfbd" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="2">COMPUTER ENGINEERING · BOSTON → OSAKA</text>
+  <circle cx="990" cy="150" r="65" fill="#172b3a" stroke="#74dfbd" stroke-width="2"/>
+  <path d="m975 130-20 20 20 20m30-40 20 20-20 20" stroke="#74dfbd" stroke-width="4" fill="none"/>
+</svg>
