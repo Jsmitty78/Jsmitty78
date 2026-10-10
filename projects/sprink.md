@@ -8,6 +8,10 @@ Yu and I built Sprink during a 48-hour sprint and won a **$10,000 Special Prize 
 
 [Back to my profile](../README.md) · [Explore the application code](sprink-source/)
 
+![Sprink team receiving the $10,000 Special Award at Innovation Cup in San Francisco](../assets/sprink-team-san-francisco.jpg)
+
+*Our team at the award presentation, after a 48-hour build in San Francisco. Photo from [my LinkedIn event post](https://www.linkedin.com/feed/update/urn:li:activity:7514156363523076096/).*
+
 ## Start with the job site
 
 We spoke with sprinkler fitters and a hotel maintenance engineer about their work. Three needs shaped the prototype: finding the relevant rule, preparing the materials for a task, and reconsidering a plan when an obstruction changes the job.
@@ -31,7 +35,7 @@ The later improvements are separate from the original 48-hour competition build.
 
 Presenting to the four judges gave us a chance to discuss both the implementation and the business behind it. Their feedback was part of the event, not a product endorsement.
 
-[Event and published award categories](https://innovation-cup2026.devpost.com/) · [My account of the event](https://www.linkedin.com/in/jake-smith-japan)
+[Event and published award categories](https://innovation-cup2026.devpost.com/) · [My account of the event](https://www.linkedin.com/feed/update/urn:li:activity:7514156363523076096/)
 
 ## My contribution
 
@@ -73,7 +77,7 @@ The pitch describes this boundary as: **LLM investigates. Scripts check. Workers
 
 *Mobile Ask demonstration. The visible reference is an invented stand-in, not real NFPA guidance.*
 
-Event and fieldwork photographs will be added when available. The story will connect the interviews, build, and final presentation. UI captures and the architecture image are documented in [media notes](../assets/sprink-media.md).
+The award photograph above connects the build story to our final presentation. UI captures and the architecture image are documented in [media notes](../assets/sprink-media.md).
 
 ## A small example from my engineering work
 

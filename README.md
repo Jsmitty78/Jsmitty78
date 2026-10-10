@@ -2,16 +2,19 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=185&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Product%20Engineering%20%7C%20AI%20%7C%20Human-Centered%20Systems&descAlignY=60&descSize=18)
 
-### I build AI products around real operational problems.
+### Product Engineering · AI · Founder & CEO of VisionPath
+
+I build AI products around real operational problems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jake_Smith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jake-smith-japan)
+[![VisionPath](https://img.shields.io/badge/VisionPath-Founder_%26_CEO-1D4ED8?style=for-the-badge)](https://visionpath.tech)
 [![Email](https://img.shields.io/badge/Email-Contact-0891B2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jakesmith1447@gmail.com)
 
 </div>
 
 ## About me
 
-I'm a second-year Computer Engineering student at **Ritsumeikan University** in Osaka, originally from Boston. I like working where product, software, AI, and real users meet.
+I'm a second-year Computer Engineering student at **Ritsumeikan University** in Osaka, originally from Boston. I'm the **Founder & CEO of [VisionPath](https://visionpath.tech)**, building assistive mobility technology for safer, more independent walking. My work connects product engineering, AI, and real users.
 
 Across my projects, I work from user interviews and problem definition through prototyping, implementation, testing, and presentation.
 
@@ -26,15 +29,15 @@ My strongest work tends to be:
 
 | Project | What it does | Stack / focus |
 |---|---|---|
-| **[Oxford Venture Hackathon — 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)** | Pathway: a smartphone-based walking-frame prototype built during a 36-hour team sprint, informed by 32 street interviews. | Python, JavaScript, computer vision, physical prototyping |
-| **[Sprink — 2nd Place / $10,000 Special Prize](projects/sprink.md)** | Field assistant for sprinkler fitters, built with Yu in San Francisco. Reference search, reviewable source context, and mobile Ask workflows. | React, TypeScript, Hono, SQLite, retrieval |
-| **[Hospital Finder / CarePath Navigator](projects/hospital-finder.md)** | PBL3 hospital-comparison project. Project management, frontend development, and system architecture. | React, TypeScript, TanStack, Leaflet, ranking |
-| **[MemoryPath](projects/memorypath.md)** | Human-in-the-loop AI for care handoffs, with evidence-backed proposals and explicit approval. | Next.js, TypeScript, structured AI output, Zod |
+| **[Oxford Venture Hackathon · 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)** | Pathway uses a smartphone mounted on a walking frame improvised from lacrosse sticks to detect obstacles and warn older adults about nearby hazards. Its fall-alert workflow explores calling a family member for help, demonstrated with a simulated fall and a real call to our team. | Python, JavaScript, computer vision, physical prototyping |
+| **[Sprink · 2nd Place / $10,000 Special Prize](projects/sprink.md)** | Field assistant for sprinkler fitters, built with Yu in San Francisco. Reference search, reviewable source context, and mobile Ask workflows. | React, TypeScript, Hono, SQLite, retrieval |
+| **[Hospital Finder / CarePath Navigator](projects/hospital-finder.md)** | CarePath Navigator compares hospitals using location, estimated waiting time, language support, and specialty. Its React interface combines map visualization with weighted ranking to help users compare care options; the portfolio demo uses seeded data. | React, TypeScript, TanStack, Leaflet, ranking |
+| **[MemoryPath · YC RFS / Transpose AI Hackathon concept](projects/memorypath.md)** | Turns SOAP notes, caregiver observations, and family memories into evidence-backed proposals for a dementia-care Living Care Profile. Optional GBrain knowledge retrieval supports the AI workflow, while nurses review citations and approve changes before they enter the profile. | Next.js, TypeScript, structured AI output, Zod |
 | **[People Bridge](projects/bridge.md)** | Anonymized QREC Venture Life Challenge HR prototype for organizing records and preparing follow-up questions. | Next.js, TypeScript, IndexedDB, local-model analysis |
 
 ## Selected project details
 
-### 🏆 [Oxford Venture Hackathon — 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
+### 🏆 [Oxford Venture Hackathon · 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
 
 **Pathway · A 36-hour team build in Oxford**
 
@@ -48,9 +51,13 @@ Four teammates met at the event and built a smartphone-based walking-frame proto
 
 [Read the build story](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md) · [Explore the code](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/tree/main/src) · [Watch the original demos](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage)
 
-### 🔧 [Sprink — 2nd Place, Recruit Holdings / Indeed Innovation Cup](projects/sprink.md)
+### 🔧 [Sprink · 2nd Place, Recruit Holdings / Indeed Innovation Cup](projects/sprink.md)
 
 **San Francisco · From field interviews to a working prototype in 48 hours**
+
+[![Sprink team receiving the $10,000 Special Award at Innovation Cup in San Francisco](assets/sprink-team-san-francisco.jpg)](projects/sprink.md)
+
+*Our team at the Recruit Holdings Innovation Cup award presentation.*
 
 An assistant for sprinkler fitters: ask a field question, inspect its supporting reference, and work toward a reviewable next step. Yu Yoshimuta and I won a **$10,000 team Special Prize**. Built during September 25–27, 2026, with continued development after the competition.
 
@@ -74,17 +81,19 @@ A hospital comparison interface that brings distance, estimated waiting time, la
 
 ### 🧠 [MemoryPath](projects/memorypath.md)
 
-**Transpose Platform AI Hackathon, Kansai · Human-in-the-loop AI**
+**YC Request for Startups concept · Transpose Platform AI Hackathon, Kansai**
 
-A dementia-care handoff prototype where AI proposes updates with supporting evidence, and a person reviews them before approval.
+A dementia-care handoff prototype that turns SOAP notes and care records into evidence-backed updates to a Living Care Profile. Nurses review the supporting evidence, edit proposals, and approve changes.
+
+Built at the Transpose Platform × Ritsumeikan University × OUVC event, featuring **Garry Tan, CEO of Y Combinator**, and a five-hour challenge based on **YC Request for Startups** themes.
 
 **My role:** frontend work, fieldwork, user interviews, and product/workflow design with Yu. The repository also documents later technical development beyond the hackathon.
 
-**Engineering:** Next.js, TypeScript, structured model output, Zod validation, evidence checks, and versioned approvals.
+**Engineering:** Next.js, TypeScript, structured model output, optional GBrain knowledge retrieval, Zod validation, evidence checks, and versioned approvals. The event introduced GStack for AI-assisted development; the case study explains the tooling and implementation.
 
 [Read the case study](projects/memorypath.md) · [Explore the code](https://github.com/Jsmitty78/MemoryPath)
 
-### 🌉 [Bridge — HR workflow prototype](projects/bridge.md)
+### 🌉 [Bridge · HR workflow prototype](projects/bridge.md)
 
 **Kyushu University QREC Venture Life Challenge · Fukuoka**
 
@@ -115,8 +124,16 @@ A project exploring how HR could find missing context across workplace conversat
 
 ## What I'm building now
 
+- **[VisionPath](https://visionpath.tech)**: Founder & CEO, building assistive mobility technology through product engineering, AI, and user research
 - **Sprink**: mobile reference search and reviewable AI assistance for sprinkler fitters
 - Practical software that connects engineering, user research, and product development
+
+## Contribution activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Snake animation eating my GitHub contribution squares" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg">
+</picture>
 
 <div align="center">
 
