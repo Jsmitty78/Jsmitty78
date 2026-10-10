@@ -1,8 +1,10 @@
 # Sprink
 
-**2nd Place · Recruit Holdings / Indeed Innovation Cup · San Francisco**
+**2nd Place · $10,000 team Special Prize · Recruit Holdings / Indeed Innovation Cup · San Francisco**
 
-A 48-hour team build with Yu, followed by continued product and engineering work.
+**Yu Yoshimuta and Jake Smith · September 25–27, 2026**
+
+Yu and I built Sprink during a 48-hour sprint and won a **$10,000 Special Prize as a team**, followed by continued product and engineering work.
 
 [Back to my profile](../README.md)
 
@@ -23,11 +25,19 @@ The product became Sprink: a field question leads to evidence and a possible nex
 
 The later improvements are separate from the original 48-hour competition build.
 
+## Judges and feedback
+
+**Jim Giles, CTO of Indeed**, gave us valuable technical feedback. **Robert Hohman, co-founder and former CEO of Glassdoor**, shared business advice on taking Sprink further. We also received feedback from **Damien Contreras of Google Cloud** and **Ho Joon Cha of OpenAI**.
+
+Presenting to the four judges gave us a chance to discuss both the implementation and the business behind it. Their feedback was part of the event, not a product endorsement.
+
+[Event and published award categories](https://innovation-cup2026.devpost.com/) · [My account of the event](https://www.linkedin.com/in/jake-smith-japan)
+
 ## My contribution
 
 I worked on customer discovery, product direction, workflow design, validation, pitching, and product development. My later repository contributions include the mobile Ask interface, browser dictation and its tests, bounded API requests, and provider-error handling.
 
-Yu contributed substantial core integration, planning, and workflow engineering. The architecture below describes our team system. Some of my development used AI-assisted tooling, with coauthor credit retained in the source history.
+Yu Yoshimuta contributed substantial core integration, planning, and workflow engineering. The architecture below describes our team system. Some of my development used AI-assisted tooling, with coauthor credit retained in the source history.
 
 ## How the system fits together
 
