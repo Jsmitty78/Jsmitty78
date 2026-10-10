@@ -1,0 +1,102 @@
+{
+  "projectId": "example-project",
+  "title": "Synthetic site adaptation",
+  "intent": "adapt_to_site",
+  "baselinePlan": {
+    "id": "baseline-1",
+    "coordinateFrame": {
+      "id": "drawing-frame",
+      "lengthUnit": "mm",
+      "axes": "right_handed_z_up"
+    },
+    "confirmation": "proposed",
+    "entities": [
+      {
+        "id": "pipe-1",
+        "kind": "pipe",
+        "productId": null,
+        "ports": [
+          {
+            "id": "start",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2500
+            },
+            "unknownReason": null
+          },
+          {
+            "id": "end",
+            "position": {
+              "x": 1000,
+              "y": 0,
+              "z": 2500
+            },
+            "unknownReason": null
+          }
+        ]
+      }
+    ],
+    "connections": []
+  },
+  "scope": {
+    "coordinateFrame": {
+      "id": "drawing-frame",
+      "lengthUnit": "mm",
+      "axes": "right_handed_z_up"
+    },
+    "includedEntityIds": [
+      "pipe-1"
+    ],
+    "excludedEntityIds": [],
+    "tieInEntityIds": []
+  },
+  "detailing": [
+    {
+      "id": "makeup-1",
+      "subjectIds": [
+        "pipe-1"
+      ],
+      "field": "thread_makeup",
+      "value": null,
+      "unit": "mm",
+      "unknownReason": "Product-specific makeup has not been confirmed",
+      "confirmation": "proposed",
+      "context": "detailing",
+      "source": {
+        "description": "Synthetic API example, not product data",
+        "assetId": null,
+        "page": null
+      }
+    }
+  ],
+  "siteFacts": [
+    {
+      "id": "duct-height",
+      "subjectIds": [
+        "pipe-1"
+      ],
+      "field": "measured_duct_bottom",
+      "value": 2400,
+      "unit": "mm",
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "observed",
+      "source": {
+        "description": "Synthetic field measurement; not field validated",
+        "assetId": null,
+        "page": null
+      }
+    }
+  ],
+  "changeRequest": {
+    "id": "change-1",
+    "description": "Synthetic duct intersects the selected route",
+    "affectedEntityIds": [
+      "pipe-1"
+    ],
+    "factIds": [
+      "duct-height"
+    ]
+  }
+}

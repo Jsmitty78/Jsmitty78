@@ -1,0 +1,2054 @@
+{
+  "project": {
+    "id": "synthetic-project",
+    "revision": 1,
+    "asOf": "2026-09-26"
+  },
+  "selectedRulePacks": [
+    "sf-local-change-2025"
+  ],
+  "facts": {
+    "sfNfpa13": {
+      "jurisdiction": {
+        "value": "san_francisco",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      },
+      "standard": {
+        "value": "nfpa13",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      },
+      "permitKind": {
+        "value": "new_building_site_permit",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      },
+      "sitePermitCodeCycle": {
+        "value": "2025",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      },
+      "architecturalPermitCodeCycle": {
+        "value": "2025",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      },
+      "editionElection": {
+        "value": "permit_basis",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-permit"
+        ],
+        "source": "fixture"
+      }
+    },
+    "systemType": {
+      "value": "wet",
+      "confirmed": true,
+      "evidenceIds": [
+        "ev-permit"
+      ],
+      "source": "fixture"
+    },
+    "sprinklerType": {
+      "value": "standard_spray",
+      "confirmed": true,
+      "evidenceIds": [
+        "ev-permit"
+      ],
+      "source": "fixture"
+    },
+    "storage": {
+      "value": "non_storage",
+      "confirmed": true,
+      "evidenceIds": [
+        "ev-permit"
+      ],
+      "source": "fixture"
+    },
+    "hazardClassification": {
+      "value": "ordinary_1",
+      "confirmed": true,
+      "evidenceIds": [
+        "ev-permit"
+      ],
+      "source": "fixture"
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-permit",
+      "kind": "permit",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "synthetic-project"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-permit",
+        "revision": "R1"
+      }
+    },
+    {
+      "id": "ev-approved",
+      "kind": "drawing",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "local-change-01"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-approved-drawing",
+        "revision": "R1"
+      }
+    },
+    {
+      "id": "ev-baseline",
+      "kind": "drawing",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "approved-plan-r1",
+        "ceiling-1",
+        "duct-1",
+        "head-1",
+        "pipe-old",
+        "room-1",
+        "tie-end",
+        "tie-start"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-approved-drawing",
+        "revision": "R1"
+      }
+    },
+    {
+      "id": "ev-proposed",
+      "kind": "drawing",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "bend-1",
+        "bend-2",
+        "bend-3",
+        "bend-4",
+        "ceiling-1",
+        "change-request-01",
+        "duct-1",
+        "elbow-1",
+        "elbow-2",
+        "elbow-3",
+        "elbow-4",
+        "head-1",
+        "local-change-01",
+        "pipe-a",
+        "pipe-b",
+        "pipe-c",
+        "pipe-d",
+        "pipe-e",
+        "proposed-plan-r2",
+        "room-1",
+        "tie-end",
+        "tie-start"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-proposed-drawing",
+        "revision": "R2"
+      }
+    },
+    {
+      "id": "ev-change-context",
+      "kind": "drawing",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "bend-1",
+        "bend-2",
+        "bend-3",
+        "bend-4",
+        "change-request-01",
+        "duct-1",
+        "elbow-1",
+        "elbow-2",
+        "elbow-3",
+        "elbow-4",
+        "head-1",
+        "local-change-01",
+        "pipe-a",
+        "pipe-b",
+        "pipe-c",
+        "pipe-d",
+        "pipe-e",
+        "pipe-old",
+        "room-1",
+        "synthetic-project",
+        "tie-end",
+        "tie-start"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-proposed-drawing",
+        "revision": "R2"
+      }
+    },
+    {
+      "id": "ev-installation",
+      "kind": "installation",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "change-request-01"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-field-record",
+        "revision": "R1"
+      }
+    },
+    {
+      "id": "ev-calculation",
+      "kind": "calculation",
+      "projectId": "synthetic-project",
+      "subjectIds": [
+        "synthetic-project",
+        "local-change-01"
+      ],
+      "documentRevision": {
+        "documentId": "synthetic-pressure-fixture",
+        "revision": "R1"
+      }
+    }
+  ],
+  "localChange": {
+    "id": "local-change-01",
+    "approvedDrawing": {
+      "document": {
+        "value": {
+          "documentId": "synthetic-approved-drawing",
+          "revision": "R1"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-approved"
+        ],
+        "source": "fixture"
+      },
+      "approval": {
+        "value": "approved",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-approved"
+        ],
+        "source": "fixture"
+      }
+    },
+    "revisedDrawing": {
+      "document": {
+        "value": {
+          "documentId": "synthetic-proposed-drawing",
+          "revision": "R2"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      },
+      "approval": {
+        "value": "approved",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      }
+    },
+    "changeRequest": {
+      "id": "change-request-01",
+      "description": {
+        "value": "Reroute one sprinkler branch around a fixed duct while retaining tie-ins.",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "affectedEntityIds": {
+        "value": [
+          "pipe-old",
+          "pipe-a",
+          "pipe-b",
+          "pipe-c",
+          "pipe-d",
+          "pipe-e",
+          "elbow-1",
+          "elbow-2",
+          "elbow-3",
+          "elbow-4"
+        ],
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "impactNeighborhood": {
+        "value": {
+          "roomIds": [
+            "room-1"
+          ],
+          "headIds": [
+            "head-1"
+          ],
+          "supportIds": [],
+          "ductIds": [
+            "duct-1"
+          ],
+          "segmentIds": [
+            "pipe-old",
+            "pipe-a",
+            "pipe-b",
+            "pipe-c",
+            "pipe-d",
+            "pipe-e"
+          ]
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "changeClassification": {
+        "value": "relocation_or_reroute",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "systemWorkType": {
+        "value": "existing_system_modification",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "existingSystem": {
+        "value": "yes",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "addsSprinklersOrPiping": {
+        "value": "yes",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "existingConfigurationAndRiserIncluded": {
+        "value": "yes",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      },
+      "remoteAreaChanged": {
+        "value": "no",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "hazardBecameMoreDemanding": {
+        "value": "no",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "waterSupplyRoutingOrBackflowChanged": {
+        "value": "no",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-change-context"
+        ],
+        "source": "fixture"
+      },
+      "headRemovalActions": [
+        {
+          "headId": "head-1",
+          "removedFromFitting": {
+            "value": null,
+            "confirmed": false,
+            "evidenceIds": [],
+            "source": "fixture"
+          },
+          "wasWelded": {
+            "value": null,
+            "confirmed": false,
+            "evidenceIds": [],
+            "source": "fixture"
+          },
+          "proposedReuse": {
+            "value": "no",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "plannedExcessPipeSegmentIds": {
+        "value": [],
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      },
+      "fieldInstallationDeviationFromApprovedPlan": {
+        "value": "no",
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-installation"
+        ],
+        "source": "fixture"
+      }
+    },
+    "baseline": {
+      "id": "approved-plan-r1",
+      "sourceDrawing": {
+        "value": {
+          "documentId": "synthetic-approved-drawing",
+          "revision": "R1"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-baseline"
+        ],
+        "source": "fixture"
+      },
+      "coordinateFrame": {
+        "value": {
+          "id": "local-frame-m",
+          "lengthUnit": "m"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-baseline"
+        ],
+        "source": "fixture"
+      },
+      "nodes": [
+        {
+          "id": "tie-start",
+          "kind": "tie_in",
+          "position": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "tieInNetCutOffset": {
+            "value": {
+              "value": 0,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "tie-end",
+          "kind": "tie_in",
+          "position": {
+            "value": {
+              "x": 4,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "tieInNetCutOffset": {
+            "value": {
+              "value": 0,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "id": "room-1",
+          "ceiling": {
+            "value": {
+              "id": "ceiling-1",
+              "kind": "flat",
+              "height": {
+                "value": 3.2,
+                "unit": "m"
+              }
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "ducts": [
+        {
+          "id": "duct-1",
+          "roomId": "room-1",
+          "geometry": {
+            "value": {
+              "kind": "axis_aligned_box",
+              "min": {
+                "x": 1.8,
+                "y": -0.1,
+                "z": 2.9,
+                "unit": "m",
+                "frameId": "local-frame-m"
+              },
+              "max": {
+                "x": 2.2,
+                "y": 0.1,
+                "z": 3.1,
+                "unit": "m",
+                "frameId": "local-frame-m"
+              }
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "id": "pipe-old",
+          "startNodeId": "tie-start",
+          "endNodeId": "tie-end",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "fittings": [],
+      "heads": [
+        {
+          "headId": "head-1",
+          "roomId": "room-1",
+          "ceilingId": "ceiling-1",
+          "position": {
+            "value": {
+              "x": 2,
+              "y": 0,
+              "z": 3,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "supports": [],
+      "bom": [
+        {
+          "itemId": "pipe-old",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 4,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "head-1",
+          "kind": "head",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-baseline"
+            ],
+            "source": "fixture"
+          }
+        }
+      ]
+    },
+    "proposed": {
+      "id": "proposed-plan-r2",
+      "sourceDrawing": {
+        "value": {
+          "documentId": "synthetic-proposed-drawing",
+          "revision": "R2"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      },
+      "coordinateFrame": {
+        "value": {
+          "id": "local-frame-m",
+          "lengthUnit": "m"
+        },
+        "confirmed": true,
+        "evidenceIds": [
+          "ev-proposed"
+        ],
+        "source": "fixture"
+      },
+      "nodes": [
+        {
+          "id": "tie-start",
+          "kind": "tie_in",
+          "position": {
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "tieInNetCutOffset": {
+            "value": {
+              "value": 0,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "bend-1",
+          "kind": "fitting_center",
+          "position": {
+            "value": {
+              "x": 1,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "fittingId": "elbow-1"
+        },
+        {
+          "id": "bend-2",
+          "kind": "fitting_center",
+          "position": {
+            "value": {
+              "x": 1,
+              "y": 1,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "fittingId": "elbow-2"
+        },
+        {
+          "id": "bend-3",
+          "kind": "fitting_center",
+          "position": {
+            "value": {
+              "x": 3,
+              "y": 1,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "fittingId": "elbow-3"
+        },
+        {
+          "id": "bend-4",
+          "kind": "fitting_center",
+          "position": {
+            "value": {
+              "x": 3,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "fittingId": "elbow-4"
+        },
+        {
+          "id": "tie-end",
+          "kind": "tie_in",
+          "position": {
+            "value": {
+              "x": 4,
+              "y": 0,
+              "z": 3.0,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "tieInNetCutOffset": {
+            "value": {
+              "value": 0,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "id": "room-1",
+          "ceiling": {
+            "value": {
+              "id": "ceiling-1",
+              "kind": "flat",
+              "height": {
+                "value": 3.2,
+                "unit": "m"
+              }
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "ducts": [
+        {
+          "id": "duct-1",
+          "roomId": "room-1",
+          "geometry": {
+            "value": {
+              "kind": "axis_aligned_box",
+              "min": {
+                "x": 1.8,
+                "y": -0.1,
+                "z": 2.9,
+                "unit": "m",
+                "frameId": "local-frame-m"
+              },
+              "max": {
+                "x": 2.2,
+                "y": 0.1,
+                "z": 3.1,
+                "unit": "m",
+                "frameId": "local-frame-m"
+              }
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "segments": [
+        {
+          "id": "pipe-a",
+          "startNodeId": "tie-start",
+          "endNodeId": "bend-1",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "pipe-b",
+          "startNodeId": "bend-1",
+          "endNodeId": "bend-2",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "pipe-c",
+          "startNodeId": "bend-2",
+          "endNodeId": "bend-3",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "pipe-d",
+          "startNodeId": "bend-3",
+          "endNodeId": "bend-4",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "pipe-e",
+          "startNodeId": "bend-4",
+          "endNodeId": "tie-end",
+          "outsideDiameter": {
+            "value": {
+              "value": 0.06,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A53 Schedule 40 steel",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 500,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtStart": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "connectionAtEnd": {
+            "value": {
+              "standard": "NPT",
+              "gender": "male"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtStart": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutEndDatumAtEnd": {
+            "value": "center_to_center",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "fittings": [
+        {
+          "id": "elbow-1",
+          "kind": {
+            "value": "elbow_90",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "centerNodeId": "bend-1",
+          "ports": [
+            {
+              "segmentId": "pipe-a",
+              "endpoint": "end",
+              "nodeId": "bend-1",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            },
+            {
+              "segmentId": "pipe-b",
+              "endpoint": "start",
+              "nodeId": "bend-1",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            }
+          ],
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A197 malleable iron",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 300,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "productId": {
+            "value": "Anvil 1101 candidate",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "elbow-2",
+          "kind": {
+            "value": "elbow_90",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "centerNodeId": "bend-2",
+          "ports": [
+            {
+              "segmentId": "pipe-b",
+              "endpoint": "end",
+              "nodeId": "bend-2",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            },
+            {
+              "segmentId": "pipe-c",
+              "endpoint": "start",
+              "nodeId": "bend-2",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            }
+          ],
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A197 malleable iron",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 300,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "productId": {
+            "value": "Anvil 1101 candidate",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "elbow-3",
+          "kind": {
+            "value": "elbow_90",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "centerNodeId": "bend-3",
+          "ports": [
+            {
+              "segmentId": "pipe-c",
+              "endpoint": "end",
+              "nodeId": "bend-3",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            },
+            {
+              "segmentId": "pipe-d",
+              "endpoint": "start",
+              "nodeId": "bend-3",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            }
+          ],
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A197 malleable iron",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 300,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "productId": {
+            "value": "Anvil 1101 candidate",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "id": "elbow-4",
+          "kind": {
+            "value": "elbow_90",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "centerNodeId": "bend-4",
+          "ports": [
+            {
+              "segmentId": "pipe-d",
+              "endpoint": "end",
+              "nodeId": "bend-4",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            },
+            {
+              "segmentId": "pipe-e",
+              "endpoint": "start",
+              "nodeId": "bend-4",
+              "centerToFace": {
+                "value": {
+                  "value": 0.0381,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "insertionOrThreadMakeup": {
+                "value": {
+                  "value": 0.0081,
+                  "unit": "m"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              },
+              "connection": {
+                "value": {
+                  "standard": "NPT",
+                  "gender": "female"
+                },
+                "confirmed": true,
+                "evidenceIds": [
+                  "ev-proposed"
+                ],
+                "source": "fixture"
+              }
+            }
+          ],
+          "nominalSize": {
+            "value": "NPS 1",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "material": {
+            "value": "ASTM A197 malleable iron",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "pressureRating": {
+            "value": {
+              "value": 300,
+              "unit": "psi"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "productId": {
+            "value": "Anvil 1101 candidate",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "heads": [
+        {
+          "headId": "head-1",
+          "roomId": "room-1",
+          "ceilingId": "ceiling-1",
+          "position": {
+            "value": {
+              "x": 2,
+              "y": 0,
+              "z": 3,
+              "unit": "m",
+              "frameId": "local-frame-m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "threadStandard": {
+            "value": "npt",
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ],
+      "supports": [],
+      "bom": [
+        {
+          "itemId": "pipe-a",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 0.97,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "pipe-b",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 0.94,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "pipe-c",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 1.94,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "pipe-d",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 0.94,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "pipe-e",
+          "kind": "pipe",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          },
+          "cutLength": {
+            "value": {
+              "value": 0.97,
+              "unit": "m"
+            },
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "elbow-1",
+          "kind": "fitting",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "elbow-2",
+          "kind": "fitting",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "elbow-3",
+          "kind": "fitting",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "elbow-4",
+          "kind": "fitting",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        },
+        {
+          "itemId": "head-1",
+          "kind": "head",
+          "quantity": {
+            "value": 1,
+            "confirmed": true,
+            "evidenceIds": [
+              "ev-proposed"
+            ],
+            "source": "fixture"
+          }
+        }
+      ]
+    },
+    "systemMaximumWorkingPressure": {
+      "value": {
+        "value": 175,
+        "unit": "psi",
+        "basis": "system_maximum"
+      },
+      "confirmed": true,
+      "evidenceIds": [
+        "ev-calculation"
+      ],
+      "source": "fixture"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "document": {
+    "id": "demo-company-procedure",
+    "title": "DEMONSTRATION company procedure (invented company)",
+    "publisher": "Sprink demo library (invented text)",
+    "type": "company_procedure",
+    "edition": "Rev B",
+    "scope": {},
+    "demonstration": true,
+    "authorization": {
+      "basis": "Written by the Sprink team for testing. Not from a real company.",
+      "storeAndIndex": true, "useWithAi": true, "display": "full"
+    }
+  },
+  "file": "demo-company-procedure.md",
+  "explanations": "demo-company-procedure.explanations.json"
+}

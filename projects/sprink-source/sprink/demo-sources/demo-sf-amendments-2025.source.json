@@ -1,0 +1,17 @@
+{
+  "document": {
+    "id": "demo-sf-amendments-2025",
+    "title": "DEMONSTRATION local amendments (not San Francisco text)",
+    "publisher": "Sprink demo library (invented text)",
+    "type": "local_amendment",
+    "edition": "2025 amendments",
+    "scope": { "standard": "nfpa13", "jurisdiction": "san_francisco", "amendsEdition": "2025" },
+    "demonstration": true,
+    "authorization": {
+      "basis": "Written by the Sprink team for testing. Contains no text from any jurisdiction.",
+      "storeAndIndex": true, "useWithAi": true, "display": "full"
+    }
+  },
+  "file": "demo-sf-amendments-2025.md",
+  "explanations": "demo-sf-amendments-2025.explanations.json"
+}

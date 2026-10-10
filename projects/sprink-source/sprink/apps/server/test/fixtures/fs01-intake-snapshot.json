@@ -1,0 +1,304 @@
+{
+  "id": "53133a09-bec7-4204-81e1-42b9c2637449",
+  "projectId": "verification-fs01",
+  "title": "FS01 official drawing intake",
+  "intent": "prepare_from_drawing",
+  "sourceDrawing": {
+    "assetId": "df169ef5-ed66-41c3-b825-2925cd55292d",
+    "drawingId": "FS-01-FS-02",
+    "revision": "A",
+    "page": 1,
+    "approval": "unreviewed",
+    "view": {
+      "sheetUnit": "pdf_pt",
+      "workArea": {
+        "x": 1460,
+        "y": 1238.251,
+        "width": 560,
+        "height": 560
+      },
+      "calibration": {
+        "method": "printed_scale",
+        "a": null,
+        "b": null,
+        "realDistance": null,
+        "printedScale": "1/8 in = 1 ft",
+        "reference": "FS-01 mezzanine printed scale 1/8 in = 1 ft; software trace, no field measurement",
+        "pointUncertaintyMm": 17.09729549248748
+      },
+      "frame": {
+        "origin": {
+          "x": 0,
+          "y": 0
+        },
+        "rotationDeg": 0
+      },
+      "derivativeOf": null
+    },
+    "scale": {
+      "value": 33.86666666666667,
+      "unit": "mm/pixel",
+      "reason": null,
+      "basis": "confirmed_inputs"
+    }
+  },
+  "baselinePlan": {
+    "id": "baseline",
+    "coordinateFrame": {
+      "id": "drawing-plan",
+      "lengthUnit": "mm",
+      "axes": "right_handed_z_up"
+    },
+    "confirmation": "confirmed",
+    "entities": [
+      {
+        "id": "p1",
+        "kind": "pipe",
+        "productId": null,
+        "ports": [
+          {
+            "id": "start",
+            "position": {
+              "x": 61989.546667,
+              "y": -60420.504,
+              "z": 0
+            },
+            "unknownReason": null
+          },
+          {
+            "id": "end",
+            "position": {
+              "x": 61989.546667,
+              "y": -63468.165333,
+              "z": 0
+            },
+            "unknownReason": null
+          }
+        ]
+      },
+      {
+        "id": "t1",
+        "kind": "tie_in",
+        "productId": null,
+        "ports": [
+          {
+            "id": "socket",
+            "position": {
+              "x": 61989.546667,
+              "y": -60420.504,
+              "z": 0
+            },
+            "unknownReason": null
+          }
+        ]
+      },
+      {
+        "id": "h1",
+        "kind": "head",
+        "productId": null,
+        "ports": [
+          {
+            "id": "center",
+            "position": {
+              "x": 61989.546667,
+              "y": -60420.504,
+              "z": 0
+            },
+            "unknownReason": null
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "kind": "tie_in",
+        "productId": null,
+        "ports": [
+          {
+            "id": "socket",
+            "position": {
+              "x": 61989.546667,
+              "y": -63468.165333,
+              "z": 0
+            },
+            "unknownReason": null
+          }
+        ]
+      },
+      {
+        "id": "h2",
+        "kind": "head",
+        "productId": null,
+        "ports": [
+          {
+            "id": "center",
+            "position": {
+              "x": 61989.546667,
+              "y": -63468.165333,
+              "z": 0
+            },
+            "unknownReason": null
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "id": "t1-joint",
+        "from": {
+          "entityId": "p1",
+          "portId": "start"
+        },
+        "to": {
+          "entityId": "t1",
+          "portId": "socket"
+        }
+      },
+      {
+        "id": "t2-joint",
+        "from": {
+          "entityId": "p1",
+          "portId": "end"
+        },
+        "to": {
+          "entityId": "t2",
+          "portId": "socket"
+        }
+      }
+    ]
+  },
+  "scope": {
+    "coordinateFrame": {
+      "id": "drawing-plan",
+      "lengthUnit": "mm",
+      "axes": "right_handed_z_up"
+    },
+    "includedEntityIds": [
+      "p1",
+      "t1",
+      "t2"
+    ],
+    "excludedEntityIds": [
+      "h1",
+      "h2"
+    ],
+    "tieInEntityIds": [
+      "t1",
+      "t2"
+    ]
+  },
+  "siteFacts": [],
+  "detailing": [
+    {
+      "id": "ui-materialRequirement",
+      "field": "materialRequirement",
+      "value": "Schedule 40 black steel pipe with threaded cast-iron fittings; exact SKU not selected",
+      "subjectIds": [],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Read by you from FS-02 general notes, official FM32361 PDF",
+        "assetId": null,
+        "page": null
+      }
+    },
+    {
+      "id": "ui-materialRequirement.material",
+      "field": "materialRequirement.material",
+      "value": "steel",
+      "subjectIds": [],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Read by you from FS-02 general notes, official FM32361 PDF",
+        "assetId": null,
+        "page": null
+      }
+    },
+    {
+      "id": "ui-sourceLabel.p1",
+      "field": "sourceLabel",
+      "value": "P27",
+      "subjectIds": [
+        "p1"
+      ],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Label read by you from FS-01-FS-02 p1; application IDs are separate",
+        "assetId": null,
+        "page": null
+      }
+    },
+    {
+      "id": "ui-sourceLabel.h1",
+      "field": "sourceLabel",
+      "value": "H1",
+      "subjectIds": [
+        "h1"
+      ],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Label read by you from FS-01-FS-02 p1; application IDs are separate",
+        "assetId": null,
+        "page": null
+      }
+    },
+    {
+      "id": "ui-sourceLabel.h2",
+      "field": "sourceLabel",
+      "value": "H3",
+      "subjectIds": [
+        "h2"
+      ],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Label read by you from FS-01-FS-02 p1; application IDs are separate",
+        "assetId": null,
+        "page": null
+      }
+    },
+    {
+      "id": "ui-nominalSize.p1",
+      "field": "nominalSize",
+      "value": "2 inch",
+      "subjectIds": [
+        "p1"
+      ],
+      "unit": null,
+      "unknownReason": null,
+      "confirmation": "confirmed",
+      "context": "detailing",
+      "source": {
+        "description": "Read by you from FS-01-FS-02 p1",
+        "assetId": null,
+        "page": null
+      }
+    }
+  ],
+  "changeRequest": null,
+  "selectedPlan": null,
+  "inputRevision": 8,
+  "configVersion": "scenario-integration-3-steel-interval",
+  "outputs": {
+    "candidates": null,
+    "results": [],
+    "requests": [],
+    "artifacts": []
+  },
+  "answers": [],
+  "run": null,
+  "createdAt": "2026-09-27T04:42:34.078Z",
+  "updatedAt": "2026-09-27T04:45:36.097Z"
+}

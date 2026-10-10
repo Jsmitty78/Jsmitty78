@@ -1,0 +1,7 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    { "sectionId": "DEMO-3.4", "text": "Submit a request for information and get a written response from the engineer of record before relocating any branch line.", "topic": "route-change-approval", "position": "engineer of record response before any relocation" },
+    { "sectionId": "DEMO-3.5", "text": "Keep at least 50 mm clear space between sprinkler piping and ductwork.", "topic": "pipe-obstruction-clearance", "position": "50 mm" }
+  ]
+}

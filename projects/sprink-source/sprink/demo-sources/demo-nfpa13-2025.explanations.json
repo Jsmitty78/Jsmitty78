@@ -1,0 +1,16 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    { "sectionId": "DEMO-8.2", "text": "A route change around an obstruction must be shown on a revised drawing before the pipe is modified.", "topic": "route-change-record", "position": "revised drawing before modifying" },
+    { "sectionId": "DEMO-8.2 Exception No. 1", "text": "If the obstruction is 600 mm wide or less along the original centerline and no more than four fittings are added, the change may be recorded on the as-built drawing instead.", "conditions": [
+      { "id": "obstruction-width", "question": "How wide is the duct, measured along the original pipe centerline?", "input": { "name": "obstructionWidth", "unit": "mm" }, "appliesWhen": { "op": "<=", "value": 600 } },
+      { "id": "added-fittings", "question": "How many fittings will the new route add?", "input": { "name": "addedFittings", "unit": "count" }, "appliesWhen": { "op": "<=", "value": 4 } }
+    ] },
+    { "sectionId": "Table DEMO-8.2", "text": "Rerouted NPS 1 to NPS 2 pipe needs at least 100 mm clearance to the obstruction.", "topic": "pipe-obstruction-clearance", "position": "100 mm" },
+    { "sectionId": "DEMO-9.1", "text": "Install a hanger within 600 mm of each fitting added to a relocated branch line.", "topic": "hanger-near-added-fitting", "position": "600 mm" },
+    { "sectionId": "Table DEMO-9.1", "text": "Hangers on relocated NPS 1 CPVC pipe may be at most 1.8 m apart." },
+    { "sectionId": "DEMO-10.4", "text": "Hydrostatically test the modified portion for 2 hours before returning it to service. The test pressure is unreadable in this copy." },
+    { "sectionId": "DEMO-11.9", "text": "Keep a record of every route change that names the drawing showing it." },
+    { "sectionId": "DEMO-A.8.2", "text": "Explanatory only: moving a branch around a duct can affect nearby sprinkler discharge, so check whether an obstruction review is needed." }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "facts": {
+    "jurisdiction": { "value": "san_francisco", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] },
+    "standard": { "value": "nfpa13", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] },
+    "permitKind": { "value": "new_building_site_permit", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] },
+    "sitePermitCodeCycle": { "value": "2025", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] },
+    "architecturalPermitCodeCycle": { "value": "2025", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] },
+    "editionElection": { "value": "permit_basis", "confirmed": true, "source": "fixture", "evidenceIds": ["synthetic-permit"] }
+  },
+  "context": {
+    "targetId": "synthetic-sf-project",
+    "taskRevision": 1,
+    "observations": [{ "id": "synthetic-permit", "targetId": "synthetic-sf-project" }]
+  }
+}

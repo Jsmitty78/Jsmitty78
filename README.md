@@ -60,7 +60,7 @@ An assistant for sprinkler fitters: ask a field question, inspect its supporting
 
 We received technical feedback from **Jim Giles, CTO of Indeed**, and advice from fellow judges **Robert Hohman** (Glassdoor co-founder and former CEO), **Damien Contreras** (Google Cloud), and **Ho Joon Cha** (OpenAI).
 
-[Read the case study and code excerpt](projects/sprink.md)
+[Read the case study](projects/sprink.md) · [Explore the code](projects/sprink-source/)
 
 ### 🏥 [Hospital Finder / CarePath Navigator](projects/hospital-finder.md)
 

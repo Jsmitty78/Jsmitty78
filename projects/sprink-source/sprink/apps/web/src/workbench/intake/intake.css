@@ -1,0 +1,46 @@
+/* Drawing intake: the sheet the user traces on, and its panel controls. */
+.fa-sheet { position: relative; width: 100%; height: 100%; min-height: 420px; background: #e9ecf0; overflow: hidden; touch-action: none; user-select: none; }
+.fa-sheet svg { display: block; cursor: grab; }
+.fa-sheet.tool-pan svg:active { cursor: grabbing; }
+.fa-sheet:not(.tool-pan) svg { cursor: crosshair; }
+.fa-sheet-paper { fill: #fff; }
+.fa-sheet-area { fill: rgba(75, 104, 95, .05); stroke: var(--fa-blue); }
+.fa-sheet-area.is-drag { fill: rgba(75, 104, 95, .1); }
+.fa-sheet-cal line { stroke: #96684d; }
+.fa-sheet-cal text { fill: #96684d; font-weight: 600; paint-order: stroke; stroke: #fff; stroke-width: .3em; }
+.fa-sheet-axes line { stroke: #716780; }
+.fa-sheet-axes circle { fill: #716780; }
+.fa-sheet-axes text { fill: #716780; font-weight: 600; paint-order: stroke; stroke: #fff; stroke-width: .3em; }
+.fa-sheet-plan line { stroke: rgba(75, 104, 95, .6); stroke-linecap: round; }
+.fa-sheet-trace line { stroke: var(--fa-blue); stroke-linecap: round; opacity: .85; }
+.fa-sheet-trace rect, .fa-sheet-trace circle { fill: #fff; stroke: var(--fa-blue); }
+.fa-sheet-trace .node-open_end line { stroke: var(--fa-blue); }
+.fa-sheet-trace text { fill: var(--fa-blue-ink); font-weight: 600; paint-order: stroke; stroke: #fff; stroke-width: .3em; }
+.fa-sheet-len { fill: var(--fa-ink) !important; font-family: var(--fa-mono); font-weight: 500 !important; }
+.fa-sheet-context line { stroke: var(--fa-existing); stroke-linecap: round; }
+.fa-sheet-head circle { fill: none; stroke: #7c8594; }
+.fa-sheet-head line { stroke: #7c8594; }
+.fa-sheet-pending { fill: #96684d; }
+.fa-sheet-hint { position: absolute; left: 12px; top: 12px; display: flex; gap: 6px; align-items: center; padding: 6px 10px; border-radius: 7px; background: var(--fa-ink); color: #fff; font-size: 13px; max-width: calc(100% - 24px); box-shadow: var(--fa-shadow); }
+.fa-sheet-bar { position: absolute; left: 12px; bottom: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; padding: 6px 10px; border-radius: 7px; background: rgba(255, 255, 255, .94); border: 1px solid var(--fa-line); font-size: 12.5px; max-width: calc(100% - 140px); }
+.fa-scale-eq { display: grid; grid-template-columns: 1fr auto auto 1fr auto; gap: 6px; align-items: center; }
+.fa-scale-eq input, .fa-scale-eq select { height: 34px; border: 1px solid var(--fa-line-2); border-radius: 7px; padding: 0 8px; min-width: 0; background: var(--fa-surface); }
+.fa-trace td input:not([type=checkbox]) { width: 100%; min-width: 60px; height: 30px; border: 1px solid var(--fa-line-2); border-radius: 6px; padding: 0 6px; }
+.fa-trace td select { height: 30px; }
+.fa-trace .fa-coord { width: 78px !important; min-width: 0 !important; display: inline-block; }
+.fa-context-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.fa-context-list li { display: grid; grid-template-columns: 110px 1fr auto; gap: 8px; align-items: center; font-size: 13px; color: var(--fa-ink-2); }
+.fa-context-list input { height: 30px; border: 1px solid var(--fa-line-2); border-radius: 6px; padding: 0 6px; min-width: 0; }
+.fa-actions.wrap { flex-wrap: wrap; }
+.fa-canvas .fa-context-pipe { stroke: var(--fa-existing); stroke-dasharray: 60 40; stroke-width: 2; vector-effect: non-scaling-stroke; fill: none; }
+.fa-canvas .fa-head.is-context { fill: none; stroke: var(--fa-existing); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.fa-legend .lg-context { display: inline-block; width: 14px; height: 0; border-top: 2px dashed var(--fa-existing); vertical-align: middle; margin-right: 6px; }
+.small { font-size: 12.5px; }
+.fa-chip input[type=radio], .fa-chip input[type=checkbox], .fa-trace input[type=checkbox] { width: auto; height: auto; min-width: 0; margin: 0; }
+.fa-context-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.fa-context-items li { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--fa-ink-2); }
+.fa-context-items small { margin-left: auto; color: var(--fa-ink-3, #8a94a3); }
+.fa-tagbox.is-context { border-style: dashed; color: var(--fa-ink-2); background: transparent; }
+.fa-rowwhy td { padding-top: 0 !important; border-top: 0 !important; }
+.fa-rowwhy ul { margin: 0; padding-left: 18px; font-size: 12px; color: #92400e; }
+.fa-steps .fa-warn { display: flex; gap: 4px; align-items: baseline; margin: 2px 0; }

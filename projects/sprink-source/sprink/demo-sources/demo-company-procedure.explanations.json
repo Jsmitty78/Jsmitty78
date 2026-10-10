@@ -1,0 +1,7 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    { "sectionId": "DEMO-FP-07.1", "text": "Stop work, photograph the obstruction, measure it, and call the foreman before cutting any pipe." },
+    { "sectionId": "DEMO-FP-07.2", "text": "The foreman may approve a reroute of 1 m or less without a request for information.", "topic": "route-change-approval", "position": "foreman approves 1 m or less without RFI" }
+  ]
+}

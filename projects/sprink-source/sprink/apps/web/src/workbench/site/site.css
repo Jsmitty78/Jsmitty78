@@ -1,0 +1,21 @@
+/* Site geometry: frame note, box grid and the plan/elevation views. */
+.fa-frame-note { border: 1px solid var(--fa-line); border-radius: 8px; padding: 8px 10px; background: var(--fa-surface-2, #f6f8fa); display: grid; gap: 4px; font-size: 13px; }
+.fa-frame-note p { margin: 0; overflow-wrap: anywhere; }
+.fa-boxgrid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr); gap: 6px 8px; align-items: center; }
+.fa-boxgrid input { height: 34px; border: 1px solid var(--fa-line-2); border-radius: 7px; padding: 0 8px; min-width: 0; background: var(--fa-surface); }
+.fa-row2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.fa-row2 > input { height: 34px; border: 1px solid var(--fa-line-2); border-radius: 7px; padding: 0 8px; min-width: 0; }
+.fa-badges { display: inline-flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.fa-gaps { margin: 0; padding-left: 18px; font-size: 12.5px; color: #92400e; }
+.fa-siteviews { display: grid; gap: 8px; }
+.fa-siteview { margin: 0; border: 1px solid var(--fa-line); border-radius: 8px; background: #fff; padding: 4px 6px; }
+.fa-siteview figcaption { font-size: 12px; color: var(--fa-ink-2); }
+.fa-siteview svg { width: 100%; height: auto; display: block; }
+.fa-siteview .axis { stroke: #c7ced8; stroke-dasharray: 3 3; }
+.fa-siteview .pipe { stroke: var(--fa-blue); stroke-width: 3; stroke-linecap: round; }
+.fa-siteview .pipe.is-pinned { stroke-width: 4; }
+.fa-siteview .box.duct rect { fill: rgba(234, 88, 12, .18); stroke: #c2410c; stroke-width: 1.5; }
+.fa-siteview .box.workEnvelope rect { fill: rgba(26, 111, 224, .04); stroke: #1a6fe0; stroke-width: 1.2; }
+.fa-siteview .box.is-draft rect { stroke-dasharray: 4 3; opacity: .6; }
+.fa-siteview text { font-size: 10px; fill: var(--fa-ink); }
+.fa-siteview .lbl { fill: var(--fa-ink-2); font-weight: 600; }

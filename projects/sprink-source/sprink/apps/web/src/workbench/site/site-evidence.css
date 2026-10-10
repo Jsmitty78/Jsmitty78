@@ -1,0 +1,12 @@
+.site-evidence { display:grid; gap:12px; min-width:0; }
+.site-evidence label { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.site-evidence label:has(input:not([type=checkbox])), .site-evidence label:has(textarea), .site-evidence label:has(select) { flex-direction:column; align-items:stretch; }
+.site-evidence input:not([type=checkbox]), .site-evidence select, .site-evidence textarea { max-width:100%; width:100%; box-sizing:border-box; font:inherit; padding:8px; }
+.site-evidence fieldset { min-width:0; margin:0; border:1px solid var(--fa-line-2); }
+.site-evidence p { overflow-wrap:anywhere; margin:0; }
+.site-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+.site-image { position:relative; width:100%; }
+.site-image img { display:block; width:100%; }
+.site-image svg { position:absolute; inset:0; width:100%; height:100%; color:var(--fa-blue); fill:currentColor; pointer-events:none; }
+.site-image text { font-size:3px; }
+@media(max-width:420px) { .site-fields { grid-template-columns:1fr; } }

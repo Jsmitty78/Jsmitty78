@@ -1,0 +1,270 @@
+{
+  "status": "local_bounded_software_acceptance_passed",
+  "configVersion": "scenario-integration-11-site-evidence",
+  "timeUtc": "2026-09-27T11:59:44.188275+00:00",
+  "reports": {
+    "site-acceptance-v11": {
+      "path": "e2e-out/site-acceptance-v11/report.json",
+      "checks": [
+        "AI returned a pipe from the real drawing",
+        "Human confirmation created the baseline",
+        "Steel source selection preserved",
+        "AI read the site coordinates",
+        "Synthetic evidence stays proposed",
+        "Measurement guide uses reviewed source location",
+        "Real Pi produced two bounded routes",
+        "Independent centerline oracle",
+        "Four elbows per route",
+        "Comparison draws pipe geometry",
+        "User selected a route",
+        "Envelope arithmetic ran",
+        "Browser download 1",
+        "Browser download 2",
+        "Browser download 3",
+        "Browser download 4",
+        "Response bound to selected plan",
+        "Mobile viewport fits",
+        "Old response is visibly stale",
+        "Oversized fitting envelope fails",
+        "Browser download 1",
+        "Browser download 2",
+        "Browser download 3",
+        "Browser download 4",
+        "AI returned a pipe from the real drawing",
+        "Human confirmation created the baseline",
+        "Steel source selection preserved",
+        "AI read the site coordinates",
+        "Synthetic evidence stays proposed",
+        "Measurement guide uses reviewed source location",
+        "Real Pi produced two bounded routes",
+        "Independent centerline oracle",
+        "Four elbows per route",
+        "Comparison draws pipe geometry",
+        "User selected a route",
+        "Envelope arithmetic ran",
+        "Browser download 1",
+        "Browser download 2",
+        "Browser download 3",
+        "Browser download 4",
+        "Response bound to selected plan",
+        "Mobile viewport fits",
+        "Old response is visibly stale",
+        "Oversized fitting envelope fails",
+        "Browser download 1",
+        "Browser download 2",
+        "Browser download 3",
+        "Browser download 4",
+        "No browser runtime errors"
+      ],
+      "packages": [
+        "8422cec0-23b8-4e39-b3ce-22eb8f7a16c1",
+        "2fc7fff0-4b74-4b05-b03e-f098bcbf5978"
+      ]
+    },
+    "site-state-v11": {
+      "path": "e2e-out/site-state-v11/report.json",
+      "checks": [
+        "Baseline and generated pipe segments render",
+        "Section draws saved X/Z geometry",
+        "Concurrent stale edit is rejected",
+        "Competing value not saved",
+        "Unavailable measurement survives reload",
+        "Independent confirmed inputs remain",
+        "Old results do not become current",
+        "Measurement controls fit mobile"
+      ],
+      "packages": [
+        "41f6a65c-1ccd-4947-a78c-930aeeab24ae"
+      ]
+    },
+    "site-review-v11": {
+      "path": "e2e-out/site-review-v11/report.json",
+      "checks": [
+        "Revised-plan response saved",
+        "Stale duplicate response rejected",
+        "Exactly one new response",
+        "Earlier plan and response retained",
+        "New response binds revised geometry",
+        "Persistent review topics retained"
+      ],
+      "packages": [
+        "8422cec0-23b8-4e39-b3ce-22eb8f7a16c1"
+      ]
+    },
+    "site-frame-v11": {
+      "path": "e2e-out/site-frame-v11/report.json",
+      "checks": [
+        "Frame correction drops prior duct and work coordinates",
+        "Changed frame clears adaptation target",
+        "Old outputs remain stale",
+        "Review history survives frame correction"
+      ],
+      "packages": [
+        "4f4cd206-0a4b-430d-9014-01d10a9102b6"
+      ]
+    },
+    "site-recovery-v11": {
+      "path": "e2e-out/site-recovery-v11/report.json",
+      "checks": [
+        "Bounded search reports no candidates",
+        "Rejected alternatives retain reasons",
+        "Unknown height not manufactured",
+        "No current usable routes with missing height",
+        "Editing interrupts the active run",
+        "Late run result is not published as current",
+        "Corrected inputs regenerate routes"
+      ],
+      "packages": [
+        "41f6a65c-1ccd-4947-a78c-930aeeab24ae"
+      ]
+    },
+    "site-restart-v11": {
+      "path": "e2e-out/site-restart-v11/report.json",
+      "checks": [
+        "Restart marks old run interrupted",
+        "Restart keeps confirmed facts",
+        "Restart does not publish late proposal",
+        "Provider failure is visible",
+        "Failure produces no fake proposal",
+        "UI retry succeeds with real Pi",
+        "Retry preserves unavailable values"
+      ],
+      "packages": [
+        "20d4a202-0d14-4faa-a869-292980fe613c"
+      ]
+    },
+    "site-reading-v11": {
+      "path": "e2e-out/site-reading-v11/report.json",
+      "checks": [
+        "Real AI reads rotated explicit dimension",
+        "Unreadable digit is unknown",
+        "Absent measurement is unknown",
+        "Human correction saved",
+        "Unconfirmed dimension not converted to fact",
+        "Original proposal retained for audit",
+        "Human location and target correction saved"
+      ],
+      "packages": [
+        "20d4a202-0d14-4faa-a869-292980fe613c"
+      ]
+    },
+    "site-jev-failure-v11": {
+      "path": "e2e-out/site-jev-failure-v11/report.json",
+      "checks": [
+        "JEV failure actually exercised",
+        "JEV failure never adopts a route",
+        "JEV failure remains explicit",
+        "Retry calls actual JEV successfully",
+        "Retry executes selected verification",
+        "Recovered routes remain proposals"
+      ],
+      "packages": [
+        "41f6a65c-1ccd-4947-a78c-930aeeab24ae"
+      ]
+    },
+    "catalog-v11": {
+      "path": "e2e-out/catalog-v11/report.json",
+      "checks": [
+        "Nominal manufacturer length produces one known cut",
+        "CP-010 retained",
+        "Catalog browser download 1",
+        "Catalog browser download 2",
+        "Catalog browser download 3",
+        "Catalog browser download 4",
+        "Ask responds",
+        "Ask cites labelled sources"
+      ],
+      "packages": [
+        "16c158fe-d42a-4793-b240-8df730a86547"
+      ]
+    },
+    "sample-boundary-v11": {
+      "path": "e2e-out/sample-boundary-v11/report.json",
+      "checks": [
+        "Synthetic sample is blocked without physical-end evidence",
+        "Missing physical-end reason is visible",
+        "Existing Ask endpoint responds",
+        "Ask preserves evidence boundary",
+        "Demo sources remain labelled"
+      ],
+      "packages": [
+        "914ba09a-1a4f-46bb-a9ae-3e07b47756e5"
+      ]
+    },
+    "ask-empty": {
+      "path": "e2e-out/ask-empty/report.json",
+      "checks": [
+        "Empty-library Ask returns no_source without invented citations"
+      ],
+      "packages": []
+    }
+  },
+  "productionWebBuild": "passed",
+  "typecheck": "passed",
+  "existingTests": {
+    "files": 52,
+    "tests": 897,
+    "newUnitTests": 0
+  },
+  "modelSpendUsd": 62.020973499999975,
+  "authorizedCumulativeCeilingUsd": 70,
+  "jevBillingIncluded": false,
+  "sourceSha256": {
+    "apps/server/src/exports/pdf.ts": "0575697281b3434a93baa1a046516b0c9dfaa06acd317d00d697c8cb601fcba6",
+    "apps/server/src/exports/types.ts": "28712e45c86631008b763f797b3bc0cebfe1ce041d0618668c98de6ad2d54101",
+    "apps/server/src/integration/runtime.ts": "7daef6574db1410900394b12baec14513dc57cd8d0defbe72bc098c28a287ff9",
+    "apps/server/src/integration/site-envelope.ts": "fc64506424eeb8cb92fbefec4739b386b7e6aa76b8a049699d0cf4c706afaece",
+    "apps/server/src/integration/snapshot.ts": "61a93f0d5ae73bffe149df61c8229c2a907f6105bfd3f8ca1fe329a89a2f2678",
+    "apps/server/src/work-packages/router.ts": "886121a4d9c62bf3bf12e356a875da45b4837041b44a3bb3660ea46c551c4b1a",
+    "apps/server/src/work-packages/service.ts": "0912e78dbe81214ae35f8a15dffecca7415f909f46a063ed9e55a6ed1751a87a",
+    "apps/server/src/work-packages/site-work.ts": "fa055188972865fceea956a57741fbd0e0eb86fc62acd5e719753a2cbf12db94",
+    "apps/web/src/workbench/Workbench.tsx": "931fe575ef6a58918cbecd20712a0fde816bc89c982479bf34f987d1ffdd2e06",
+    "apps/web/src/workbench/api.ts": "81296c42d54b483d302f90838ca8d962640e50e8e563cb676bc5639640b7daa8",
+    "apps/web/src/workbench/model.ts": "330cdf1186de60ed2881607e9ac38e4d9ee8d6007e8a32a5eb9fe625570af3dc",
+    "apps/web/src/workbench/site/SiteEvidence.tsx": "7b6971d789abb6fee7ccbc4688afb8b4b1fd7301e7e9da6a63a6f8d8f06c1110",
+    "apps/web/src/workbench/site/SiteSection.tsx": "70e380bf6654aa6516b93eb151af351515af26ef0e59a19f33bdb0364a632bdd",
+    "apps/web/src/workbench/site/SiteShapeEditor.tsx": "4c68fe96790455af19e8a24c69fff580b82577fa56bd2674a7fddde9ac9017b5",
+    "apps/web/src/workbench/site/site-evidence.css": "b204d3f812bbcc34b72a30de1e996fb42129d6281c741a905954be6d32ec6781",
+    "apps/web/src/workbench/workbench.css": "2d4f80c5e56ff50080f511670cd7abe11f4bcb494f4b1596b383302eef0b8fe0",
+    "fixtures/site-change/README.md": "37178855317564cd8a8db5038288bee45d6f8745f2812d1e4a6c426ed3976352",
+    "fixtures/site-change/ambiguous-rotated.png": "1d7d4f427c9a5a6670b203d0d4ca7589279951f2b6d632b500bbc600dd1c2ceb",
+    "fixtures/site-change/ambiguous.svg": "3320336a219e806cc760bcbbffeea1836aaf793ce865aeef3c370bdf54b4fa0d",
+    "fixtures/site-change/fs01.pdf": "a21d5748d0b7f15bea1da772fdb41a424651cb1e717534177b5144c6d51eef1f",
+    "fixtures/site-change/site-dimensions.png": "78ece33cc20ef73aa667d2031b93c7dc00082a5a584b01745e5ee363057d4b32",
+    "fixtures/site-change/site-dimensions.svg": "f99f2cd238b3288052f6e8835726b1369fb5fb755a0f260b0bb85b7caa680e88",
+    "fixtures/site-change/spears-pipe-dimensions.pdf": "619ed77aa28f5d15495c22c230b0ec66ff60c1a644fa93f9f5e014cefecfdf1d",
+    "fixtures/site-change/spears-pipe-lengths.pdf": "06a21b4d066b6676b1c8e6cf53d2a9c60245cbc2e0d11b565e87f8d830e7994b",
+    "package.json": "eca05357389ec4da0d006e2a93e9a1b750565cfd279fc415a754ffaa4a3e0545",
+    "packages/core/src/index.ts": "f4bb464df37a7447a011c8a73acf566c202159d848f99b657d78a771032d3f6a",
+    "packages/core/src/site-work.ts": "94cfc2dddf1a9953c3bcea70a124fb9c72189b94e1504d0fce23ec1a45454497",
+    "packages/core/src/work-package.ts": "6684d4018c50c071d838da28970052d47d6e2c58c383917390cd81ef63b7b3ff",
+    "packages/workflow/src/choice.ts": "6568d5e41ff8a105613a9a2690de74706abbae1883a063e795bf348d56db57ae",
+    "packages/workflow/src/contracts.ts": "302b31eb3f4e7dc0842875badb9bf787c17e3a4cbb8023ba9577627381c50ad4",
+    "packages/workflow/src/runner.ts": "9f3b02286d3587061e25931ca17197a138e76caeb935024b56031ac9c4612f46",
+    "pnpm-lock.yaml": "75e251df9c39c0595d9e0f9c97d71b4d1e0598864c7856405f5f61277f30607c",
+    "scripts/e2e-ask-empty.mjs": "210807ecdab73d918793a7f57e5bd7aef4b7f981a64985a5ea8e25ed7e270513",
+    "scripts/e2e-catalog-preparation.mjs": "166717f74f02a25078928b35aa1e45e99735ead6711406267c3f68fc5bce9bfe",
+    "scripts/e2e-regression.mjs": "5508ec203f4126222d1956c6938ecaa8e9086f9967027e6cea5ddba26f7e2293",
+    "scripts/e2e-site-change.mjs": "283024c17901a6bc7ec9e8a7347c6bab6d99ae3976ec4b5520c46922e1f8e289",
+    "scripts/e2e-site-frame.mjs": "9781c90f28621089a3193dbbbb2b5706a729615d9cda491d55b5cb1221ba1b95",
+    "scripts/e2e-site-jev-failure.mjs": "9706a8c453c20d3e3c836ce40adde7f0b07330a514185e6916fdc69587110258",
+    "scripts/e2e-site-reading.mjs": "5bf24f6d4e6197d67257c800577384d78ce352f60460719fc9573a05852a1b1d",
+    "scripts/e2e-site-recovery.mjs": "718c9d454b83875a74e4c336c6bfc5863bda5aa64dde4848bd9193a2dabee8ec",
+    "scripts/e2e-site-restart.mjs": "c872818ecab11d6ffd44978f2b19f629660351dcba4e89c130c5a8c4a5345a18",
+    "scripts/e2e-site-review.mjs": "c8536bc171bd9c15eb4bc004d72309472e35a8789ad45820ffc1cf630a623e89",
+    "scripts/e2e-site-state.mjs": "6016d72d2e552687a63a641b846e644ba410251b850ebd4fada2a9960cd637d6",
+    "scripts/site-e2e-server.ts": "294858dea9f098449e974903d06ba87d94d1a7661b95e62c253439c71e2fd0ed",
+    "scripts/verify-catalog-artifacts.py": "9e4c82056e386888e01a3c3b20739edb8cd6d7efbf24b606b598855b097724f8",
+    "scripts/verify-reading-oracles.py": "52bb647b8df128b17d65a6c0fd9813d1610d3263a32f5b4bce411319a82dc6df",
+    "scripts/verify-site-artifacts.py": "4a5cef25fbcd56a12c6619b3d5509dac18ebce4f00feac8ac4b4f1f5befc9ac5"
+  },
+  "providerTrace": "e2e-out/final-checks/real-provider-trace.json",
+  "limits": [
+    "single straight interval and duct",
+    "synthetic field sketch is not a site measurement",
+    "bounded supplied fitting/assembly boxes; not product-specific swept motion",
+    "support/head/hydraulic adequacy and actual installation approval remain human checks",
+    "PDF unresolved-item text remains verbose"
+  ],
+  "documentationOnlyPostRunChange": "Fixture README trailing whitespace removed for PR; executable source and fixtures unchanged."
+}

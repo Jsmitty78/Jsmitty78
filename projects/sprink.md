@@ -6,7 +6,7 @@
 
 Yu and I built Sprink during a 48-hour sprint and won a **$10,000 Special Prize as a team**, followed by continued product and engineering work.
 
-[Back to my profile](../README.md)
+[Back to my profile](../README.md) · [Explore the application code](sprink-source/)
 
 ## Start with the job site
 
@@ -100,6 +100,19 @@ A useful field interface has to work when the answer is unavailable, the microph
 
 The next evaluation is repeated field use: whether workers can verify a source, recover from an error, and reach the right next step. The prototype is not a substitute for professional code review.
 
-## Source and scope
+## Explore the code
 
-This case study is based on the Innovation Cup repository, subsequent implementation work, and our Sprink pitch deck. The implementation repositories remain private because they contain reference material and collaborative work. Selected code can be shown here without distributing the entire reference library.
+[Browse the application source](sprink-source/) from Yu Yoshimuta's `my-name-is-yu/InnovationCup` repository.
+
+| Start here | Code |
+|---|---|
+| Mobile Ask interface | [AskPanel.tsx](sprink-source/sprink/apps/web/src/workbench/ask/AskPanel.tsx) |
+| Reviewed voice input | [speech.ts](sprink-source/sprink/apps/web/src/workbench/ask/speech.ts) |
+| Backend API | [api.ts](sprink-source/sprink/apps/server/src/api.ts) |
+| Agent workflow | [runner.ts](sprink-source/sprink/packages/workflow/src/runner.ts) |
+| Planning and selection | [selection.ts](sprink-source/sprink/packages/planning/src/selection.ts) |
+| Tests | [Server tests](sprink-source/sprink/apps/server/test/) |
+
+This public snapshot includes the application source, tests, configuration, and technical documentation at commit `7efa012b2e15f433aa39bba0fcbafeac04399d9f`. It includes later work as well as the competition project. Team attribution and original source hashes are preserved.
+
+Reference PDFs, a source-derived drawing dataset, and some binary fixtures are excluded. **The full build requires the omitted dataset**, and some tests require the omitted fixtures. This is a source-review copy, not a turnkey demo. The [source README](sprink-source/) documents setup, provenance, and the exclusions.

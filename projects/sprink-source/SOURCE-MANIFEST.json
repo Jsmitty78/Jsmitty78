@@ -1,0 +1,2149 @@
+{
+  "upstream": "my-name-is-yu/InnovationCup",
+  "source_commit": "7efa012b2e15f433aa39bba0fcbafeac04399d9f",
+  "files": [
+    {
+      "path": ".github/workflows/sprink-ci.yml",
+      "source_path": ".github/workflows/sprink-ci.yml",
+      "sha": "e7866a3d1ed5d9c0c905a44edf12ebe7543cc9fa",
+      "local_blob_sha": "e7866a3d1ed5d9c0c905a44edf12ebe7543cc9fa",
+      "modified": false
+    },
+    {
+      "path": ".gitignore",
+      "source_path": ".gitignore",
+      "sha": "cb3fe54dd821d455187176d2f0dbaa9767e8ad75",
+      "local_blob_sha": "cb3fe54dd821d455187176d2f0dbaa9767e8ad75",
+      "modified": false
+    },
+    {
+      "path": "AGENTS.md",
+      "source_path": "AGENTS.md",
+      "sha": "0278c9b4c59dbf823905bb37fc7f31b70fe0a91a",
+      "local_blob_sha": "0278c9b4c59dbf823905bb37fc7f31b70fe0a91a",
+      "modified": false
+    },
+    {
+      "path": "ASK_PILOT_READINESS.md",
+      "source_path": "ASK_PILOT_READINESS.md",
+      "sha": "a00aaf9b6c10b9e0dddd088a23d95a96b56620da",
+      "local_blob_sha": "a00aaf9b6c10b9e0dddd088a23d95a96b56620da",
+      "modified": false
+    },
+    {
+      "path": "README.upstream.md",
+      "source_path": "README.md",
+      "sha": "879f66050b87ad08e966326bbe3f92b921edee81",
+      "local_blob_sha": "879f66050b87ad08e966326bbe3f92b921edee81",
+      "modified": false
+    },
+    {
+      "path": "docs/media/README.md",
+      "source_path": "docs/media/README.md",
+      "sha": "dd07f46f1f7f568177c79050b2e3a84e78817a40",
+      "local_blob_sha": "dd07f46f1f7f568177c79050b2e3a84e78817a40",
+      "modified": false
+    },
+    {
+      "path": "sprink/.env.example",
+      "source_path": "sprink/.env.example",
+      "sha": "8e8fe3c901c0f1bb96163a7d3e5bb95f15e64930",
+      "local_blob_sha": "8e8fe3c901c0f1bb96163a7d3e5bb95f15e64930",
+      "modified": false
+    },
+    {
+      "path": "sprink/.gitignore",
+      "source_path": "sprink/.gitignore",
+      "sha": "126645e6f6c199c1b3412950aafc9f8697dc38b3",
+      "local_blob_sha": "126645e6f6c199c1b3412950aafc9f8697dc38b3",
+      "modified": false
+    },
+    {
+      "path": "sprink/ASK_FRONTEND_PILOT_READINESS.md",
+      "source_path": "sprink/ASK_FRONTEND_PILOT_READINESS.md",
+      "sha": "041ef36f48e4a9c49c371155587998322c15ec72",
+      "local_blob_sha": "041ef36f48e4a9c49c371155587998322c15ec72",
+      "modified": false
+    },
+    {
+      "path": "sprink/README.md",
+      "source_path": "sprink/README.md",
+      "sha": "a54e0f8abae5a198feb5e7f56354de9d6c21f532",
+      "local_blob_sha": "a54e0f8abae5a198feb5e7f56354de9d6c21f532",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/package.json",
+      "source_path": "sprink/apps/server/package.json",
+      "sha": "6b6eea0d25d4507933bcdedaefa992f98f56ea3b",
+      "local_blob_sha": "6b6eea0d25d4507933bcdedaefa992f98f56ea3b",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/scripts/seed-adaptation-demo.ts",
+      "source_path": "sprink/apps/server/scripts/seed-adaptation-demo.ts",
+      "sha": "4b99e3e5c422d3236277df30e5b64dfa7a799ba4",
+      "local_blob_sha": "4b99e3e5c422d3236277df30e5b64dfa7a799ba4",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/api.ts",
+      "source_path": "sprink/apps/server/src/api.ts",
+      "sha": "5490f9dc2e07d1fcfcead95edcbcd48e3d899543",
+      "local_blob_sha": "5490f9dc2e07d1fcfcead95edcbcd48e3d899543",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/config.ts",
+      "source_path": "sprink/apps/server/src/config.ts",
+      "sha": "2fb0227256457df764b782c7f3fcb38dea9a6f24",
+      "local_blob_sha": "2fb0227256457df764b782c7f3fcb38dea9a6f24",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/drawing.ts",
+      "source_path": "sprink/apps/server/src/drawing.ts",
+      "sha": "853593ebbb09b7fbe487a7d804f63361bc5f5ec5",
+      "local_blob_sha": "853593ebbb09b7fbe487a7d804f63361bc5f5ec5",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/csv.ts",
+      "source_path": "sprink/apps/server/src/exports/csv.ts",
+      "sha": "b4d5d2b683f4a40fe6c2e232d1026f250204d086",
+      "local_blob_sha": "b4d5d2b683f4a40fe6c2e232d1026f250204d086",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/pdf.ts",
+      "source_path": "sprink/apps/server/src/exports/pdf.ts",
+      "sha": "f04034f06c691415f742393ec650c319ff332b9e",
+      "local_blob_sha": "f04034f06c691415f742393ec650c319ff332b9e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/routes.ts",
+      "source_path": "sprink/apps/server/src/exports/routes.ts",
+      "sha": "9e3d3a34ece748336830b455cf7f53549a2bce27",
+      "local_blob_sha": "9e3d3a34ece748336830b455cf7f53549a2bce27",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/service.ts",
+      "source_path": "sprink/apps/server/src/exports/service.ts",
+      "sha": "f7b55354c1de5fd0beb35086b4955834beea39ff",
+      "local_blob_sha": "f7b55354c1de5fd0beb35086b4955834beea39ff",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/snapshot.ts",
+      "source_path": "sprink/apps/server/src/exports/snapshot.ts",
+      "sha": "ec9e68853f9042a361256e68b6a49ebbff18d9f9",
+      "local_blob_sha": "ec9e68853f9042a361256e68b6a49ebbff18d9f9",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/exports/types.ts",
+      "source_path": "sprink/apps/server/src/exports/types.ts",
+      "sha": "4bf2727cbfc855e204e5167500b04b2cc61676b9",
+      "local_blob_sha": "4bf2727cbfc855e204e5167500b04b2cc61676b9",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/index.ts",
+      "source_path": "sprink/apps/server/src/index.ts",
+      "sha": "b5d84a7235bbd30370119aad4f6f7c643398a39f",
+      "local_blob_sha": "b5d84a7235bbd30370119aad4f6f7c643398a39f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/describe.ts",
+      "source_path": "sprink/apps/server/src/integration/describe.ts",
+      "sha": "a6900123b9878927b1b5f0c72e63c0160dd9c1bf",
+      "local_blob_sha": "a6900123b9878927b1b5f0c72e63c0160dd9c1bf",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/model.ts",
+      "source_path": "sprink/apps/server/src/integration/model.ts",
+      "sha": "dfe33daadcdb9d71fe83fb1f8883ad0d07c252bd",
+      "local_blob_sha": "dfe33daadcdb9d71fe83fb1f8883ad0d07c252bd",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/profiles.ts",
+      "source_path": "sprink/apps/server/src/integration/profiles.ts",
+      "sha": "409eb07860be9d551c5a94a0c90ff27f03c78e20",
+      "local_blob_sha": "409eb07860be9d551c5a94a0c90ff27f03c78e20",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/runtime.ts",
+      "source_path": "sprink/apps/server/src/integration/runtime.ts",
+      "sha": "d59f8c4be3738ce5052aebb4cd57a7b41cb2fd14",
+      "local_blob_sha": "d59f8c4be3738ce5052aebb4cd57a7b41cb2fd14",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/site-envelope.ts",
+      "source_path": "sprink/apps/server/src/integration/site-envelope.ts",
+      "sha": "996611fe3ef02eb6014846cd7a7bf2b72296b26d",
+      "local_blob_sha": "996611fe3ef02eb6014846cd7a7bf2b72296b26d",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/integration/snapshot.ts",
+      "source_path": "sprink/apps/server/src/integration/snapshot.ts",
+      "sha": "034a7a260a8b211a7c9dfcd756d6b0bd4f997321",
+      "local_blob_sha": "034a7a260a8b211a7c9dfcd756d6b0bd4f997321",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/models.ts",
+      "source_path": "sprink/apps/server/src/models.ts",
+      "sha": "faf8964b4a78759b98e9c7bec6af94ec55f48531",
+      "local_blob_sha": "faf8964b4a78759b98e9c7bec6af94ec55f48531",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/service.ts",
+      "source_path": "sprink/apps/server/src/service.ts",
+      "sha": "7374f54a4c73e72f06f08ac9aaeb747781cf0467",
+      "local_blob_sha": "7374f54a4c73e72f06f08ac9aaeb747781cf0467",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/ask.ts",
+      "source_path": "sprink/apps/server/src/sources/ask.ts",
+      "sha": "ff456c62515bb442c146c537ff68cb357e22e890",
+      "local_blob_sha": "ff456c62515bb442c146c537ff68cb357e22e890",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/demo.ts",
+      "source_path": "sprink/apps/server/src/sources/demo.ts",
+      "sha": "686e9c780fc4d74a657d6c8f595d0398e2d6a0f1",
+      "local_blob_sha": "686e9c780fc4d74a657d6c8f595d0398e2d6a0f1",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/parse.ts",
+      "source_path": "sprink/apps/server/src/sources/parse.ts",
+      "sha": "84cd7c1148c92c783b56f0850313606038a3bff6",
+      "local_blob_sha": "84cd7c1148c92c783b56f0850313606038a3bff6",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/pdf-excerpts.ts",
+      "source_path": "sprink/apps/server/src/sources/pdf-excerpts.ts",
+      "sha": "736267bc3a562b7accfd891571473cf32e53d287",
+      "local_blob_sha": "736267bc3a562b7accfd891571473cf32e53d287",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/pdf.ts",
+      "source_path": "sprink/apps/server/src/sources/pdf.ts",
+      "sha": "6e23e4f39858147be2d1d29e1c9a6b4eaaba2015",
+      "local_blob_sha": "6e23e4f39858147be2d1d29e1c9a6b4eaaba2015",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/retrieve.ts",
+      "source_path": "sprink/apps/server/src/sources/retrieve.ts",
+      "sha": "47f56353232c5a5e3e5931ce548355700f03a809",
+      "local_blob_sha": "47f56353232c5a5e3e5931ce548355700f03a809",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/router.ts",
+      "source_path": "sprink/apps/server/src/sources/router.ts",
+      "sha": "5db8a33773f3531e7dc7e0cd1b350ad64048cc18",
+      "local_blob_sha": "5db8a33773f3531e7dc7e0cd1b350ad64048cc18",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/semantic.ts",
+      "source_path": "sprink/apps/server/src/sources/semantic.ts",
+      "sha": "768e3cee6a9261ad99ea588a3f93102e92b6f2d5",
+      "local_blob_sha": "768e3cee6a9261ad99ea588a3f93102e92b6f2d5",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/store.ts",
+      "source_path": "sprink/apps/server/src/sources/store.ts",
+      "sha": "3dbc28c72454098e46c1e871a193cf44696269fd",
+      "local_blob_sha": "3dbc28c72454098e46c1e871a193cf44696269fd",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/sources/types.ts",
+      "source_path": "sprink/apps/server/src/sources/types.ts",
+      "sha": "043ee4577f908d7e61a644c4bb8a87dc80430af9",
+      "local_blob_sha": "043ee4577f908d7e61a644c4bb8a87dc80430af9",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/store.ts",
+      "source_path": "sprink/apps/server/src/store.ts",
+      "sha": "f6796332b536d13cff74003f7f56af4d1856c54f",
+      "local_blob_sha": "f6796332b536d13cff74003f7f56af4d1856c54f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/types/libheif-js.d.ts",
+      "source_path": "sprink/apps/server/src/types/libheif-js.d.ts",
+      "sha": "a0a83ff9b26b80380c811f3facc7e9032198ffe6",
+      "local_blob_sha": "a0a83ff9b26b80380c811f3facc7e9032198ffe6",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/decode.ts",
+      "source_path": "sprink/apps/server/src/uploads/decode.ts",
+      "sha": "4582965ccf6745c83d0296a1ee45d56e10dff0d7",
+      "local_blob_sha": "4582965ccf6745c83d0296a1ee45d56e10dff0d7",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/extract.ts",
+      "source_path": "sprink/apps/server/src/uploads/extract.ts",
+      "sha": "b97dfeb65ade3cf42d204b25ee44707bd4cfd494",
+      "local_blob_sha": "b97dfeb65ade3cf42d204b25ee44707bd4cfd494",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/formats.ts",
+      "source_path": "sprink/apps/server/src/uploads/formats.ts",
+      "sha": "e87707a4d57be9dbfa7e3818fd64397f070c0c3b",
+      "local_blob_sha": "e87707a4d57be9dbfa7e3818fd64397f070c0c3b",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/ocr.ts",
+      "source_path": "sprink/apps/server/src/uploads/ocr.ts",
+      "sha": "f5de1aac137e403b09d58874bd3ed98a2721365f",
+      "local_blob_sha": "f5de1aac137e403b09d58874bd3ed98a2721365f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/pdf.ts",
+      "source_path": "sprink/apps/server/src/uploads/pdf.ts",
+      "sha": "14219e3b19e01946233658c912f102f334d908ee",
+      "local_blob_sha": "14219e3b19e01946233658c912f102f334d908ee",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/router.ts",
+      "source_path": "sprink/apps/server/src/uploads/router.ts",
+      "sha": "b242ed0dd677fa18c7c7de0480746f9b6c88ae10",
+      "local_blob_sha": "b242ed0dd677fa18c7c7de0480746f9b6c88ae10",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/uploads/service.ts",
+      "source_path": "sprink/apps/server/src/uploads/service.ts",
+      "sha": "960fa3d681786670da1630b1cc1baf0a2e4d7527",
+      "local_blob_sha": "960fa3d681786670da1630b1cc1baf0a2e4d7527",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/work-packages/router.ts",
+      "source_path": "sprink/apps/server/src/work-packages/router.ts",
+      "sha": "300e33d4c6ad8cd357fd063d165909088956b727",
+      "local_blob_sha": "300e33d4c6ad8cd357fd063d165909088956b727",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/work-packages/service.ts",
+      "source_path": "sprink/apps/server/src/work-packages/service.ts",
+      "sha": "190a4218beb287b804ce94346885601802f3d4b8",
+      "local_blob_sha": "190a4218beb287b804ce94346885601802f3d4b8",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/work-packages/site-work.ts",
+      "source_path": "sprink/apps/server/src/work-packages/site-work.ts",
+      "sha": "89d14e5014a13d7a3c2b3b4b00d0fb3bcbf90354",
+      "local_blob_sha": "89d14e5014a13d7a3c2b3b4b00d0fb3bcbf90354",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/work-packages/store.ts",
+      "source_path": "sprink/apps/server/src/work-packages/store.ts",
+      "sha": "0377dc4d4408655d78fb9c7c0835dd67af9d2adf",
+      "local_blob_sha": "0377dc4d4408655d78fb9c7c0835dd67af9d2adf",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/src/work-packages/validation.ts",
+      "source_path": "sprink/apps/server/src/work-packages/validation.ts",
+      "sha": "d92307667515896a711a92f3f0adee3f2f8fef6e",
+      "local_blob_sha": "d92307667515896a711a92f3f0adee3f2f8fef6e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/ask-resilience.test.ts",
+      "source_path": "sprink/apps/server/test/ask-resilience.test.ts",
+      "sha": "71ebdd998f8a6c2631ea61046be523cca47a7f44",
+      "local_blob_sha": "71ebdd998f8a6c2631ea61046be523cca47a7f44",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/ask.test.ts",
+      "source_path": "sprink/apps/server/test/ask.test.ts",
+      "sha": "62d73f634e3d7cd238d23b3b90ae4536616d566e",
+      "local_blob_sha": "62d73f634e3d7cd238d23b3b90ae4536616d566e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/drawing-intake.test.ts",
+      "source_path": "sprink/apps/server/test/drawing-intake.test.ts",
+      "sha": "8e21a04dc8b0bb57e817e3dc71bd1515859957c3",
+      "local_blob_sha": "8e21a04dc8b0bb57e817e3dc71bd1515859957c3",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/drawing.test.ts",
+      "source_path": "sprink/apps/server/test/drawing.test.ts",
+      "sha": "5d7ca12ebd52b290d6311123d897a89f8c7c2a4f",
+      "local_blob_sha": "5d7ca12ebd52b290d6311123d897a89f8c7c2a4f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/exports.test.ts",
+      "source_path": "sprink/apps/server/test/exports.test.ts",
+      "sha": "22b90c60e2b0acad72714e16d20f10fa537cf6f8",
+      "local_blob_sha": "22b90c60e2b0acad72714e16d20f10fa537cf6f8",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/adaptation-package.ts",
+      "source_path": "sprink/apps/server/test/fixtures/adaptation-package.ts",
+      "sha": "0f10c8385d57066064979085a13bf7d748ab1486",
+      "local_blob_sha": "0f10c8385d57066064979085a13bf7d748ab1486",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/export-package.ts",
+      "source_path": "sprink/apps/server/test/fixtures/export-package.ts",
+      "sha": "9462475c6eb252b3d45f38ad98f4ce0af9141bc8",
+      "local_blob_sha": "9462475c6eb252b3d45f38ad98f4ce0af9141bc8",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/fs01-adaptation.ts",
+      "source_path": "sprink/apps/server/test/fixtures/fs01-adaptation.ts",
+      "sha": "e7fcfcad6e1c0e1c370b9bbd2e85f8eaab45b647",
+      "local_blob_sha": "e7fcfcad6e1c0e1c370b9bbd2e85f8eaab45b647",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/fs01-intake-snapshot.json",
+      "source_path": "sprink/apps/server/test/fixtures/fs01-intake-snapshot.json",
+      "sha": "649d5bad0b9bf355601dc25fa6750664d5b33c7f",
+      "local_blob_sha": "649d5bad0b9bf355601dc25fa6750664d5b33c7f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/integrated-package.ts",
+      "source_path": "sprink/apps/server/test/fixtures/integrated-package.ts",
+      "sha": "d9e3bc436a8040aa9583e0a9822f20d1fd7cbd34",
+      "local_blob_sha": "d9e3bc436a8040aa9583e0a9822f20d1fd7cbd34",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fixtures/source-search.ts",
+      "source_path": "sprink/apps/server/test/fixtures/source-search.ts",
+      "sha": "fcca7e3d8726af734a8a4ade99c8971612a386e4",
+      "local_blob_sha": "fcca7e3d8726af734a8a4ade99c8971612a386e4",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/fs01-fixture.ts",
+      "source_path": "sprink/apps/server/test/fs01-fixture.ts",
+      "sha": "bd597cf2d4e46c6214ff4bb236bc69d7a54befd7",
+      "local_blob_sha": "bd597cf2d4e46c6214ff4bb236bc69d7a54befd7",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/integration.test.ts",
+      "source_path": "sprink/apps/server/test/integration.test.ts",
+      "sha": "431f8ce224737c53f1a5943fa28810a2427bba79",
+      "local_blob_sha": "431f8ce224737c53f1a5943fa28810a2427bba79",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/pilot-persistence.test.ts",
+      "source_path": "sprink/apps/server/test/pilot-persistence.test.ts",
+      "sha": "52a65414f4b4e1258acce293374c4ae3174f539c",
+      "local_blob_sha": "52a65414f4b4e1258acce293374c4ae3174f539c",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/profile-coverage.test.ts",
+      "source_path": "sprink/apps/server/test/profile-coverage.test.ts",
+      "sha": "0d6d9403f3af147b265c5b0e8dfbd9e6f333a03c",
+      "local_blob_sha": "0d6d9403f3af147b265c5b0e8dfbd9e6f333a03c",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/project-evaluation.test.ts",
+      "source_path": "sprink/apps/server/test/project-evaluation.test.ts",
+      "sha": "ed93c85140e5b645b38c472aef11e77fa0f85d65",
+      "local_blob_sha": "ed93c85140e5b645b38c472aef11e77fa0f85d65",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/rules-search.test.ts",
+      "source_path": "sprink/apps/server/test/rules-search.test.ts",
+      "sha": "22de60d2880e77dc9fc6c5e80e77492ea16bb802",
+      "local_blob_sha": "22de60d2880e77dc9fc6c5e80e77492ea16bb802",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/semantic.test.ts",
+      "source_path": "sprink/apps/server/test/semantic.test.ts",
+      "sha": "bbd422efe87f3c40e3e7806a78f9a8d3f543f2c4",
+      "local_blob_sha": "bbd422efe87f3c40e3e7806a78f9a8d3f543f2c4",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/source-exports.test.ts",
+      "source_path": "sprink/apps/server/test/source-exports.test.ts",
+      "sha": "644d4f03e43c5b2177eb8eb0af4317f3493e2794",
+      "local_blob_sha": "644d4f03e43c5b2177eb8eb0af4317f3493e2794",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/source-pdf.test.ts",
+      "source_path": "sprink/apps/server/test/source-pdf.test.ts",
+      "sha": "f1beb2ac918fc790104c664ae58effc69be7c281",
+      "local_blob_sha": "f1beb2ac918fc790104c664ae58effc69be7c281",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/source-safety.test.ts",
+      "source_path": "sprink/apps/server/test/source-safety.test.ts",
+      "sha": "af34972599e673556db29c93793d9971699ec5b9",
+      "local_blob_sha": "af34972599e673556db29c93793d9971699ec5b9",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/steel-integration.test.ts",
+      "source_path": "sprink/apps/server/test/steel-integration.test.ts",
+      "sha": "83993e26ed6753b00b39235a966fc0acd3a04e5c",
+      "local_blob_sha": "83993e26ed6753b00b39235a966fc0acd3a04e5c",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/uploads.test.ts",
+      "source_path": "sprink/apps/server/test/uploads.test.ts",
+      "sha": "e70dd88e88f2f5cf175854b9642486ca50fe3996",
+      "local_blob_sha": "e70dd88e88f2f5cf175854b9642486ca50fe3996",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/work-packages.test.ts",
+      "source_path": "sprink/apps/server/test/work-packages.test.ts",
+      "sha": "dd6dc2a2ddc8c0ddeb10ee9ae2208afda8027511",
+      "local_blob_sha": "dd6dc2a2ddc8c0ddeb10ee9ae2208afda8027511",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/test/workflow.test.ts",
+      "source_path": "sprink/apps/server/test/workflow.test.ts",
+      "sha": "39eb527cc486a6d84dcec1881767a22dda28d28a",
+      "local_blob_sha": "39eb527cc486a6d84dcec1881767a22dda28d28a",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/server/tsconfig.json",
+      "source_path": "sprink/apps/server/tsconfig.json",
+      "sha": "832af421b968dba7f98ee2167ac6708e236f7532",
+      "local_blob_sha": "832af421b968dba7f98ee2167ac6708e236f7532",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/index.html",
+      "source_path": "sprink/apps/web/index.html",
+      "sha": "5ec55b427cc4d7cb611ce226d4304b14d6732690",
+      "local_blob_sha": "5ec55b427cc4d7cb611ce226d4304b14d6732690",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/package.json",
+      "source_path": "sprink/apps/web/package.json",
+      "sha": "a538a07884aa6a911600f4c30b9c8c07aeb455d2",
+      "local_blob_sha": "a538a07884aa6a911600f4c30b9c8c07aeb455d2",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/public/favicon.svg",
+      "source_path": "sprink/apps/web/public/favicon.svg",
+      "sha": "3bc0750b1b4fb6ec73b7099d5148e3356ad49677",
+      "local_blob_sha": "3bc0750b1b4fb6ec73b7099d5148e3356ad49677",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/main.tsx",
+      "source_path": "sprink/apps/web/src/main.tsx",
+      "sha": "3faae11cf997982455071c4805f91bb341ab281e",
+      "local_blob_sha": "3faae11cf997982455071c4805f91bb341ab281e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/vite-env.d.ts",
+      "source_path": "sprink/apps/web/src/vite-env.d.ts",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "local_blob_sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/PlanCanvas.tsx",
+      "source_path": "sprink/apps/web/src/workbench/PlanCanvas.tsx",
+      "sha": "070281608e48a06622a6cc61c2fcd2596584d77a",
+      "local_blob_sha": "070281608e48a06622a6cc61c2fcd2596584d77a",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/Workbench.tsx",
+      "source_path": "sprink/apps/web/src/workbench/Workbench.tsx",
+      "sha": "d229c37c1d991a54f340991f32e361fae2c8c544",
+      "local_blob_sha": "d229c37c1d991a54f340991f32e361fae2c8c544",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/WorkbenchApp.tsx",
+      "source_path": "sprink/apps/web/src/workbench/WorkbenchApp.tsx",
+      "sha": "7251ce99e630514b946b3db683939193cc664172",
+      "local_blob_sha": "7251ce99e630514b946b3db683939193cc664172",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/api.ts",
+      "source_path": "sprink/apps/web/src/workbench/api.ts",
+      "sha": "92cf8e96ba059488e662ec5207e3876273b277b1",
+      "local_blob_sha": "92cf8e96ba059488e662ec5207e3876273b277b1",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/AskPanel.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/AskPanel.test.ts",
+      "sha": "ff81b8d14716cf2a773a4716b5fb456f35cd45ea",
+      "local_blob_sha": "ff81b8d14716cf2a773a4716b5fb456f35cd45ea",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/AskPanel.tsx",
+      "source_path": "sprink/apps/web/src/workbench/ask/AskPanel.tsx",
+      "sha": "8c4accbfdd3b4b5a2253dea8b7534df4d28553a0",
+      "local_blob_sha": "8c4accbfdd3b4b5a2253dea8b7534df4d28553a0",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/askApi.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/askApi.ts",
+      "sha": "c8205e650486e6cda5e7d91895a8ea7688ea8a60",
+      "local_blob_sha": "c8205e650486e6cda5e7d91895a8ea7688ea8a60",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/askErrors.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/askErrors.test.ts",
+      "sha": "0edac5310b16f0516ddc7899bd989d99155d9399",
+      "local_blob_sha": "0edac5310b16f0516ddc7899bd989d99155d9399",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/askErrors.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/askErrors.ts",
+      "sha": "914525f7ea37a62282db4cd84f937164d5961ef1",
+      "local_blob_sha": "914525f7ea37a62282db4cd84f937164d5961ef1",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/askMessages.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/askMessages.ts",
+      "sha": "10064e035119b8a14e74b57c1b5e7be2c80476be",
+      "local_blob_sha": "10064e035119b8a14e74b57c1b5e7be2c80476be",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/rule-search.css",
+      "source_path": "sprink/apps/web/src/workbench/ask/rule-search.css",
+      "sha": "14aa75d08d7572bc88c1cbbacf50bbdc5ba8bf87",
+      "local_blob_sha": "14aa75d08d7572bc88c1cbbacf50bbdc5ba8bf87",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/speech.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/speech.test.ts",
+      "sha": "d00219cc21e32e890a191e0446971b2296c0dc85",
+      "local_blob_sha": "d00219cc21e32e890a191e0446971b2296c0dc85",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/speech.ts",
+      "source_path": "sprink/apps/web/src/workbench/ask/speech.ts",
+      "sha": "ff119bb60a16b7175d8e61f91316fc44245e3447",
+      "local_blob_sha": "ff119bb60a16b7175d8e61f91316fc44245e3447",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ask/uploads.tsx",
+      "source_path": "sprink/apps/web/src/workbench/ask/uploads.tsx",
+      "sha": "8ab2b42f86679c543020f53b8ecaf42681437b6d",
+      "local_blob_sha": "8ab2b42f86679c543020f53b8ecaf42681437b6d",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/assets/sprink-wordmark.png",
+      "source_path": "sprink/apps/web/src/workbench/assets/sprink-wordmark.png",
+      "sha": "f2aac93a9e35d950d7ae1e382f55e52df4cb56b5",
+      "local_blob_sha": "f2aac93a9e35d950d7ae1e382f55e52df4cb56b5",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/format.ts",
+      "source_path": "sprink/apps/web/src/workbench/format.ts",
+      "sha": "9009b4eaf63d176f759a01677e65e5c6e6176f8e",
+      "local_blob_sha": "9009b4eaf63d176f759a01677e65e5c6e6176f8e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inputs.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inputs.tsx",
+      "sha": "bc9584b4a82408dc1ae114ccca0b688f6e44db3a",
+      "local_blob_sha": "bc9584b4a82408dc1ae114ccca0b688f6e44db3a",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/FactsEditor.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/FactsEditor.tsx",
+      "sha": "76894d678770218cb77449ea8d2592f09a6e3f25",
+      "local_blob_sha": "76894d678770218cb77449ea8d2592f09a6e3f25",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/Inspections.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/Inspections.tsx",
+      "sha": "5730c8d68622b77b2a035776ebaa775064dcbc34",
+      "local_blob_sha": "5730c8d68622b77b2a035776ebaa775064dcbc34",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/PlanEditor.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/PlanEditor.tsx",
+      "sha": "8526599326b9f81900e3763637b9ce43b917462f",
+      "local_blob_sha": "8526599326b9f81900e3763637b9ce43b917462f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/RequestsPanel.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/RequestsPanel.tsx",
+      "sha": "bd2f9719ca3a9353dd6cefe4590fe48796055a46",
+      "local_blob_sha": "bd2f9719ca3a9353dd6cefe4590fe48796055a46",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/TaskDetail.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/TaskDetail.tsx",
+      "sha": "15ba2803666c758019f46f81cd5688616b6c2263",
+      "local_blob_sha": "15ba2803666c758019f46f81cd5688616b6c2263",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/api.ts",
+      "source_path": "sprink/apps/web/src/workbench/inspections/api.ts",
+      "sha": "5c74ec09d7749f7444c415609cdbec457b71fb9e",
+      "local_blob_sha": "5c74ec09d7749f7444c415609cdbec457b71fb9e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/drawing-editor.css",
+      "source_path": "sprink/apps/web/src/workbench/inspections/drawing-editor.css",
+      "sha": "b45bf15744e9add04e09036c6bfa566d42ba1ab2",
+      "local_blob_sha": "b45bf15744e9add04e09036c6bfa566d42ba1ab2",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/inspections.css",
+      "source_path": "sprink/apps/web/src/workbench/inspections/inspections.css",
+      "sha": "f82b211e96f0f2ff47ec4f6769bc592b1ce0576e",
+      "local_blob_sha": "f82b211e96f0f2ff47ec4f6769bc592b1ce0576e",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/types.ts",
+      "source_path": "sprink/apps/web/src/workbench/inspections/types.ts",
+      "sha": "ad7b370edae0f07a1266eef9232820672613a286",
+      "local_blob_sha": "ad7b370edae0f07a1266eef9232820672613a286",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/inspections/ui.tsx",
+      "source_path": "sprink/apps/web/src/workbench/inspections/ui.tsx",
+      "sha": "9a08a534de6f596e2b38a4f490961383395baef2",
+      "local_blob_sha": "9a08a534de6f596e2b38a4f490961383395baef2",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/IntakeInputs.tsx",
+      "source_path": "sprink/apps/web/src/workbench/intake/IntakeInputs.tsx",
+      "sha": "96950a58b8e45955c76779e5a8da2638b3cadee4",
+      "local_blob_sha": "96950a58b8e45955c76779e5a8da2638b3cadee4",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/SheetView.tsx",
+      "source_path": "sprink/apps/web/src/workbench/intake/SheetView.tsx",
+      "sha": "7e7444fc225a392b2a6f09bcc8173d05dd153cbd",
+      "local_blob_sha": "7e7444fc225a392b2a6f09bcc8173d05dd153cbd",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/intake.css",
+      "source_path": "sprink/apps/web/src/workbench/intake/intake.css",
+      "sha": "37b4384ed91ace2bfdf221baaa85ebf5d3f40e81",
+      "local_blob_sha": "37b4384ed91ace2bfdf221baaa85ebf5d3f40e81",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/pdf.ts",
+      "source_path": "sprink/apps/web/src/workbench/intake/pdf.ts",
+      "sha": "ae1f6a10e7c16335d3451cc162654d2b9a1ea523",
+      "local_blob_sha": "ae1f6a10e7c16335d3451cc162654d2b9a1ea523",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/sheet.ts",
+      "source_path": "sprink/apps/web/src/workbench/intake/sheet.ts",
+      "sha": "4e71afb62b589226a61f92f8751dd1dd6d05b477",
+      "local_blob_sha": "4e71afb62b589226a61f92f8751dd1dd6d05b477",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/intake/useIntake.ts",
+      "source_path": "sprink/apps/web/src/workbench/intake/useIntake.ts",
+      "sha": "5b0cb1d9a765c700aefb67bd7d902e552554fb45",
+      "local_blob_sha": "5b0cb1d9a765c700aefb67bd7d902e552554fb45",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/locale.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/locale.test.ts",
+      "sha": "1f0dedb496a6c0bff09afce67c533771c8f2584d",
+      "local_blob_sha": "1f0dedb496a6c0bff09afce67c533771c8f2584d",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/locale.tsx",
+      "source_path": "sprink/apps/web/src/workbench/locale.tsx",
+      "sha": "65afcf2026e5259f501d2d47fbdc5901a99a060b",
+      "local_blob_sha": "65afcf2026e5259f501d2d47fbdc5901a99a060b",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/logo.tsx",
+      "source_path": "sprink/apps/web/src/workbench/logo.tsx",
+      "sha": "9e7cb36a37eea4ccfd6853ab6b8a7807148f4cb8",
+      "local_blob_sha": "9e7cb36a37eea4ccfd6853ab6b8a7807148f4cb8",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/messages.ts",
+      "source_path": "sprink/apps/web/src/workbench/messages.ts",
+      "sha": "e41b422cb2a22e02ab5e6f7a30a23f1160a84572",
+      "local_blob_sha": "e41b422cb2a22e02ab5e6f7a30a23f1160a84572",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/model.ts",
+      "source_path": "sprink/apps/web/src/workbench/model.ts",
+      "sha": "1c43ce7072460f46274e5f9a671434afbeab07bf",
+      "local_blob_sha": "1c43ce7072460f46274e5f9a671434afbeab07bf",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/outputs.tsx",
+      "source_path": "sprink/apps/web/src/workbench/outputs.tsx",
+      "sha": "bab5c9e0f132c766d744d097f5438be28c862922",
+      "local_blob_sha": "bab5c9e0f132c766d744d097f5438be28c862922",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/poll.ts",
+      "source_path": "sprink/apps/web/src/workbench/poll.ts",
+      "sha": "447f166457824ffe87216da2959baa4e76b5b053",
+      "local_blob_sha": "447f166457824ffe87216da2959baa4e76b5b053",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/products.ts",
+      "source_path": "sprink/apps/web/src/workbench/products.ts",
+      "sha": "7e8f220d97b297343eb802fb27e93067010ecbf1",
+      "local_blob_sha": "7e8f220d97b297343eb802fb27e93067010ecbf1",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/retry.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/retry.test.ts",
+      "sha": "4f12278c5a92d0b9d186e2186583d8a55676d043",
+      "local_blob_sha": "4f12278c5a92d0b9d186e2186583d8a55676d043",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/sample.ts",
+      "source_path": "sprink/apps/web/src/workbench/sample.ts",
+      "sha": "dd04912f43cf024b9f8a648c030deec0e3d34a06",
+      "local_blob_sha": "dd04912f43cf024b9f8a648c030deec0e3d34a06",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/SiteEvidence.tsx",
+      "source_path": "sprink/apps/web/src/workbench/site/SiteEvidence.tsx",
+      "sha": "c77845fbe33b2fba9c81318d121707c77efe053f",
+      "local_blob_sha": "c77845fbe33b2fba9c81318d121707c77efe053f",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/SiteInputs.tsx",
+      "source_path": "sprink/apps/web/src/workbench/site/SiteInputs.tsx",
+      "sha": "40518c604c5e0b01522e1caa1a90ea1ea5fbd786",
+      "local_blob_sha": "40518c604c5e0b01522e1caa1a90ea1ea5fbd786",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/SiteSection.tsx",
+      "source_path": "sprink/apps/web/src/workbench/site/SiteSection.tsx",
+      "sha": "f9552698139ae912ee92471b450e7763f8e12b17",
+      "local_blob_sha": "f9552698139ae912ee92471b450e7763f8e12b17",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/SiteShapeEditor.tsx",
+      "source_path": "sprink/apps/web/src/workbench/site/SiteShapeEditor.tsx",
+      "sha": "75dceebbae32c27cd632138da48a5dafed3f3805",
+      "local_blob_sha": "75dceebbae32c27cd632138da48a5dafed3f3805",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/SiteViews.tsx",
+      "source_path": "sprink/apps/web/src/workbench/site/SiteViews.tsx",
+      "sha": "290906fff1b9bffabeb349915a3102ee980ca30b",
+      "local_blob_sha": "290906fff1b9bffabeb349915a3102ee980ca30b",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/shapes.css",
+      "source_path": "sprink/apps/web/src/workbench/site/shapes.css",
+      "sha": "9af296a0df04d93f6009070cdf8ba4fac73bbcc0",
+      "local_blob_sha": "9af296a0df04d93f6009070cdf8ba4fac73bbcc0",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/shapes.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/site/shapes.test.ts",
+      "sha": "19d2d7d825643b52b5058b0f0e62712e14c052bf",
+      "local_blob_sha": "19d2d7d825643b52b5058b0f0e62712e14c052bf",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/shapes.ts",
+      "source_path": "sprink/apps/web/src/workbench/site/shapes.ts",
+      "sha": "019201ac0ba6afcddd5d4dc734249e989e0e5ddc",
+      "local_blob_sha": "019201ac0ba6afcddd5d4dc734249e989e0e5ddc",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/site-evidence.css",
+      "source_path": "sprink/apps/web/src/workbench/site/site-evidence.css",
+      "sha": "8ea81707d0a85cf447d7de7db60a54b11d82c4eb",
+      "local_blob_sha": "8ea81707d0a85cf447d7de7db60a54b11d82c4eb",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/site/site.css",
+      "source_path": "sprink/apps/web/src/workbench/site/site.css",
+      "sha": "b80be4e8c91600f6967e3531029d17b6f965fdd5",
+      "local_blob_sha": "b80be4e8c91600f6967e3531029d17b6f965fdd5",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/ui.tsx",
+      "source_path": "sprink/apps/web/src/workbench/ui.tsx",
+      "sha": "a7fbe1041b03480452c5e3f25c53f4fca45a3232",
+      "local_blob_sha": "a7fbe1041b03480452c5e3f25c53f4fca45a3232",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/usePackage.ts",
+      "source_path": "sprink/apps/web/src/workbench/usePackage.ts",
+      "sha": "b49301ff9adb8ebe52a37763f61fcdb50c456566",
+      "local_blob_sha": "b49301ff9adb8ebe52a37763f61fcdb50c456566",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/workbench.css",
+      "source_path": "sprink/apps/web/src/workbench/workbench.css",
+      "sha": "a7dc40333faaf723dc31f934117dfdce2eb45884",
+      "local_blob_sha": "a7dc40333faaf723dc31f934117dfdce2eb45884",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/workflows.css",
+      "source_path": "sprink/apps/web/src/workbench/workflows.css",
+      "sha": "1e6c0f0f49964c8972d084d94ec12a5db9279c1c",
+      "local_blob_sha": "1e6c0f0f49964c8972d084d94ec12a5db9279c1c",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/workflows.test.ts",
+      "source_path": "sprink/apps/web/src/workbench/workflows.test.ts",
+      "sha": "c11d41c48dfdcbbc7f289c0940ea2d0eeaa552ed",
+      "local_blob_sha": "c11d41c48dfdcbbc7f289c0940ea2d0eeaa552ed",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/src/workbench/workflows.ts",
+      "source_path": "sprink/apps/web/src/workbench/workflows.ts",
+      "sha": "7871c3068a0b8b1637bd595e0194133136b73506",
+      "local_blob_sha": "7871c3068a0b8b1637bd595e0194133136b73506",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/tsconfig.json",
+      "source_path": "sprink/apps/web/tsconfig.json",
+      "sha": "b6040e590755152cf774c4fcadbac4c39e6e74a9",
+      "local_blob_sha": "b6040e590755152cf774c4fcadbac4c39e6e74a9",
+      "modified": false
+    },
+    {
+      "path": "sprink/apps/web/vite.config.ts",
+      "source_path": "sprink/apps/web/vite.config.ts",
+      "sha": "04d8ebeca07bfe0bddaa78f04812247ecf1b93c9",
+      "local_blob_sha": "04d8ebeca07bfe0bddaa78f04812247ecf1b93c9",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/README.md",
+      "source_path": "sprink/demo-sources/README.md",
+      "sha": "35a72ead93508c0b12f738fff329fcc1cc967ba8",
+      "local_blob_sha": "35a72ead93508c0b12f738fff329fcc1cc967ba8",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-company-procedure.explanations.json",
+      "source_path": "sprink/demo-sources/demo-company-procedure.explanations.json",
+      "sha": "c158cf3e34099e88a33f18293498a1528683aed4",
+      "local_blob_sha": "c158cf3e34099e88a33f18293498a1528683aed4",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-company-procedure.md",
+      "source_path": "sprink/demo-sources/demo-company-procedure.md",
+      "sha": "69c9bc1a65e79eb78a03981e42a31d75cec96fad",
+      "local_blob_sha": "69c9bc1a65e79eb78a03981e42a31d75cec96fad",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-company-procedure.source.json",
+      "source_path": "sprink/demo-sources/demo-company-procedure.source.json",
+      "sha": "509b055ca5656000c7505bda6d92ceecaf814933",
+      "local_blob_sha": "509b055ca5656000c7505bda6d92ceecaf814933",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-cpvc-install.explanations.json",
+      "source_path": "sprink/demo-sources/demo-cpvc-install.explanations.json",
+      "sha": "9ec11bca5483231416f0beb621385ca475cc0985",
+      "local_blob_sha": "9ec11bca5483231416f0beb621385ca475cc0985",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-cpvc-install.md",
+      "source_path": "sprink/demo-sources/demo-cpvc-install.md",
+      "sha": "a0a1ce4892598e97dbb2aa535e3d2086316029e3",
+      "local_blob_sha": "a0a1ce4892598e97dbb2aa535e3d2086316029e3",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-cpvc-install.source.json",
+      "source_path": "sprink/demo-sources/demo-cpvc-install.source.json",
+      "sha": "49d2114a8f8566cfe58284ccb65d975b00b9db66",
+      "local_blob_sha": "49d2114a8f8566cfe58284ccb65d975b00b9db66",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2022.explanations.json",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2022.explanations.json",
+      "sha": "211853fa2645fa7ad8e5bdecd7006a29cb23c845",
+      "local_blob_sha": "211853fa2645fa7ad8e5bdecd7006a29cb23c845",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2022.md",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2022.md",
+      "sha": "2f0dc4385ff243a6a6ea4c313c2eaa0262b39373",
+      "local_blob_sha": "2f0dc4385ff243a6a6ea4c313c2eaa0262b39373",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2022.source.json",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2022.source.json",
+      "sha": "088ef3e7dc3f1b49650a1f56258d717be5a2971f",
+      "local_blob_sha": "088ef3e7dc3f1b49650a1f56258d717be5a2971f",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2025.explanations.json",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2025.explanations.json",
+      "sha": "8b3503a8b032c69cd7ad1f35ca4056d2a0a7e5fc",
+      "local_blob_sha": "8b3503a8b032c69cd7ad1f35ca4056d2a0a7e5fc",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2025.md",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2025.md",
+      "sha": "8973e106d05c2504a769813054d731a3150bf18b",
+      "local_blob_sha": "8973e106d05c2504a769813054d731a3150bf18b",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-nfpa13-2025.source.json",
+      "source_path": "sprink/demo-sources/demo-nfpa13-2025.source.json",
+      "sha": "04712fec0ab144eebb216387b4c74746f441c150",
+      "local_blob_sha": "04712fec0ab144eebb216387b4c74746f441c150",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-project-spec.explanations.json",
+      "source_path": "sprink/demo-sources/demo-project-spec.explanations.json",
+      "sha": "c0dc02d6c254ca98b12df703f81a8841fe7c07a7",
+      "local_blob_sha": "c0dc02d6c254ca98b12df703f81a8841fe7c07a7",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-project-spec.md",
+      "source_path": "sprink/demo-sources/demo-project-spec.md",
+      "sha": "aca13c0d6ff084102f667a62a1da6e3b7fb69e0b",
+      "local_blob_sha": "aca13c0d6ff084102f667a62a1da6e3b7fb69e0b",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-project-spec.source.json",
+      "source_path": "sprink/demo-sources/demo-project-spec.source.json",
+      "sha": "f099548927a84031746db1cf168de2b32d3a942b",
+      "local_blob_sha": "f099548927a84031746db1cf168de2b32d3a942b",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-sf-amendments-2025.explanations.json",
+      "source_path": "sprink/demo-sources/demo-sf-amendments-2025.explanations.json",
+      "sha": "732f4f1645018b4040079f64f7d29b47cc61889c",
+      "local_blob_sha": "732f4f1645018b4040079f64f7d29b47cc61889c",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-sf-amendments-2025.md",
+      "source_path": "sprink/demo-sources/demo-sf-amendments-2025.md",
+      "sha": "f6657d21d6592d30b0ea4dfd7a01ebb50c184a77",
+      "local_blob_sha": "f6657d21d6592d30b0ea4dfd7a01ebb50c184a77",
+      "modified": false
+    },
+    {
+      "path": "sprink/demo-sources/demo-sf-amendments-2025.source.json",
+      "source_path": "sprink/demo-sources/demo-sf-amendments-2025.source.json",
+      "sha": "17bfb72ab33d4df998c04aef063b6f72f799b311",
+      "local_blob_sha": "17bfb72ab33d4df998c04aef063b6f72f799b311",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/acceptance/issue-12/README.md",
+      "source_path": "sprink/docs/acceptance/issue-12/README.md",
+      "sha": "b143724762d5b3b5cde73b7cce1ceeccd62b78ea",
+      "local_blob_sha": "b143724762d5b3b5cde73b7cce1ceeccd62b78ea",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/acceptance/site-change/README.md",
+      "source_path": "sprink/docs/acceptance/site-change/README.md",
+      "sha": "ded633a5038e887f4f368025053400b8b738bfb3",
+      "local_blob_sha": "ded633a5038e887f4f368025053400b8b738bfb3",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/acceptance/site-change/RESULTS.ja.md",
+      "source_path": "sprink/docs/acceptance/site-change/RESULTS.ja.md",
+      "sha": "8c3907927eb150476b701c33cf9a07b272db78fb",
+      "local_blob_sha": "8c3907927eb150476b701c33cf9a07b272db78fb",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/acceptance/site-change/evidence.json",
+      "source_path": "sprink/docs/acceptance/site-change/evidence.json",
+      "sha": "c9c8005819a561ab806a5bf1bd8183e7bd91aba6",
+      "local_blob_sha": "c9c8005819a561ab806a5bf1bd8183e7bd91aba6",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/ask-sprink.md",
+      "source_path": "sprink/docs/ask-sprink.md",
+      "sha": "bc8f8cf91a972c29716bcf492c4f2bf454366067",
+      "local_blob_sha": "bc8f8cf91a972c29716bcf492c4f2bf454366067",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/adaptation-interval.md",
+      "source_path": "sprink/docs/contracts/adaptation-interval.md",
+      "sha": "0ffa86c09ccc32977437b99f43f8a899e2be690c",
+      "local_blob_sha": "0ffa86c09ccc32977437b99f43f8a899e2be690c",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-2.create.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-2.create.json",
+      "sha": "3ce3f942794b19ef8806acf16c53b29327e76a32",
+      "local_blob_sha": "3ce3f942794b19ef8806acf16c53b29327e76a32",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-2.outputs.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-2.outputs.json",
+      "sha": "b475498d8fbfff527d59a14e0368b38e46080115",
+      "local_blob_sha": "b475498d8fbfff527d59a14e0368b38e46080115",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-2.response.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-2.response.json",
+      "sha": "1e64fc0be2c53639c2906f907776119d9e33778c",
+      "local_blob_sha": "1e64fc0be2c53639c2906f907776119d9e33778c",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-3.create.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-3.create.json",
+      "sha": "92a76c68f4d7423e8b5439c1ef6afacf2a2a73b1",
+      "local_blob_sha": "92a76c68f4d7423e8b5439c1ef6afacf2a2a73b1",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-3.outputs.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-3.outputs.json",
+      "sha": "30d3fa597f95a58c28eded84c24e489561d852d4",
+      "local_blob_sha": "30d3fa597f95a58c28eded84c24e489561d852d4",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/examples/scenario-3.response.json",
+      "source_path": "sprink/docs/contracts/examples/scenario-3.response.json",
+      "sha": "0ac313b3b0f6ebbe31dfea1df8eaf016fba0ed85",
+      "local_blob_sha": "0ac313b3b0f6ebbe31dfea1df8eaf016fba0ed85",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/contracts/work-package-api.en.md",
+      "source_path": "sprink/docs/contracts/work-package-api.en.md",
+      "sha": "e4170acd7c49310537f29df7b6ca70d2ffc5245f",
+      "local_blob_sha": "e4170acd7c49310537f29df7b6ca70d2ffc5245f",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/drawing/research-and-verification.md",
+      "source_path": "sprink/docs/drawing/research-and-verification.md",
+      "sha": "f1a280893c30868666006e79db00c39a311fda03",
+      "local_blob_sha": "f1a280893c30868666006e79db00c39a311fda03",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/fabrication/fixed-end-closure.md",
+      "source_path": "sprink/docs/fabrication/fixed-end-closure.md",
+      "sha": "415e6f73909531e2f02db223238be16cefbeae6c",
+      "local_blob_sha": "415e6f73909531e2f02db223238be16cefbeae6c",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/fabrication/steel-verification.md",
+      "source_path": "sprink/docs/fabrication/steel-verification.md",
+      "sha": "47382d40c580e322ac77f95372a95d20ddce9c94",
+      "local_blob_sha": "47382d40c580e322ac77f95372a95d20ddce9c94",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/issue-13-exports.md",
+      "source_path": "sprink/docs/issue-13-exports.md",
+      "sha": "5690b34294d84ecad797cd8cc5e48c37208248ae",
+      "local_blob_sha": "5690b34294d84ecad797cd8cc5e48c37208248ae",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/local-change-evaluation-contract.md",
+      "source_path": "sprink/docs/local-change-evaluation-contract.md",
+      "sha": "d2ef44499a0e8ee30bff7791e23b052f92a01ccf",
+      "local_blob_sha": "d2ef44499a0e8ee30bff7791e23b052f92a01ccf",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/local-change-evaluation.example.json",
+      "source_path": "sprink/docs/local-change-evaluation.example.json",
+      "sha": "0a34b3646c4f75d23020c0d4ac435cbbaf2e9714",
+      "local_blob_sha": "0a34b3646c4f75d23020c0d4ac435cbbaf2e9714",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/local-change-evaluation.example.md",
+      "source_path": "sprink/docs/local-change-evaluation.example.md",
+      "sha": "e211a6098a3c43604fd56a419a8b22196635d313",
+      "local_blob_sha": "e211a6098a3c43604fd56a419a8b22196635d313",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/local-change-integration-notes.md",
+      "source_path": "sprink/docs/local-change-integration-notes.md",
+      "sha": "69ce7b692d9a94e778927e2fc0d6e0fdf1283a27",
+      "local_blob_sha": "69ce7b692d9a94e778927e2fc0d6e0fdf1283a27",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/pi-rule-selection-design.md",
+      "source_path": "sprink/docs/pi-rule-selection-design.md",
+      "sha": "0adc3fb7a2ab1a6d3b928c8f186ae55228c088cd",
+      "local_blob_sha": "0adc3fb7a2ab1a6d3b928c8f186ae55228c088cd",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/project-evaluation-contract.md",
+      "source_path": "sprink/docs/project-evaluation-contract.md",
+      "sha": "5c987119c5abcd6ef9b13d276371bd7e506437ec",
+      "local_blob_sha": "5c987119c5abcd6ef9b13d276371bd7e506437ec",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-inventory.md",
+      "source_path": "sprink/docs/rule-inventory.md",
+      "sha": "6401a91d219d0772b0c0be36b6057ff77a03d60d",
+      "local_blob_sha": "6401a91d219d0772b0c0be36b6057ff77a03d60d",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-specs/local-change-product-candidate-pair-v1.md",
+      "source_path": "sprink/docs/rule-specs/local-change-product-candidate-pair-v1.md",
+      "sha": "48b5219f14c6a7e45aa6b6c826c59ab5fef33801",
+      "local_blob_sha": "48b5219f14c6a7e45aa6b6c826c59ab5fef33801",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-specs/local-sprinkler-change-sffd-v1.md",
+      "source_path": "sprink/docs/rule-specs/local-sprinkler-change-sffd-v1.md",
+      "sha": "daf8043de2be91c96cbdf1d7eb4703d099b36bf2",
+      "local_blob_sha": "daf8043de2be91c96cbdf1d7eb4703d099b36bf2",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-specs/manufacturer-tfp171-approval-temperature-finish-v1.md",
+      "source_path": "sprink/docs/rule-specs/manufacturer-tfp171-approval-temperature-finish-v1.md",
+      "sha": "d6214742aff75908622c0a55ea0adbe2ab8dc0db",
+      "local_blob_sha": "d6214742aff75908622c0a55ea0adbe2ab8dc0db",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-specs/manufacturer-tfp171-sequence-recessed-v1.md",
+      "source_path": "sprink/docs/rule-specs/manufacturer-tfp171-sequence-recessed-v1.md",
+      "sha": "9c7003f8c90e717011f970482455ffad83121846",
+      "local_blob_sha": "9c7003f8c90e717011f970482455ffad83121846",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/rule-specs/manufacturer-tfp171-wrench-flats-v1.md",
+      "source_path": "sprink/docs/rule-specs/manufacturer-tfp171-wrench-flats-v1.md",
+      "sha": "b16aeb1f69f285de3c23838c566dd1e4ca29b9bb",
+      "local_blob_sha": "b16aeb1f69f285de3c23838c566dd1e4ca29b9bb",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/san-francisco-basis.example.json",
+      "source_path": "sprink/docs/san-francisco-basis.example.json",
+      "sha": "3f5578e8d387e89c75b82d7f4d1ca1876d8a31b2",
+      "local_blob_sha": "3f5578e8d387e89c75b82d7f4d1ca1876d8a31b2",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/scenario-integration.md",
+      "source_path": "sprink/docs/scenario-integration.md",
+      "sha": "cc09997a92e00ca0012f00971bf3d472af15b6db",
+      "local_blob_sha": "cc09997a92e00ca0012f00971bf3d472af15b6db",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/testing.md",
+      "source_path": "sprink/docs/testing.md",
+      "sha": "7285123ad9ea08f6bbf4258204fb8045cd176ad1",
+      "local_blob_sha": "7285123ad9ea08f6bbf4258204fb8045cd176ad1",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/ui-workbench.md",
+      "source_path": "sprink/docs/ui-workbench.md",
+      "sha": "3a12546a1a470815d4e80a3092de7f365ad8e883",
+      "local_blob_sha": "3a12546a1a470815d4e80a3092de7f365ad8e883",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/verification/pi-astra-jev-rule-loop.md",
+      "source_path": "sprink/docs/verification/pi-astra-jev-rule-loop.md",
+      "sha": "a6582513df4079c761765cabe5d1f791cf26f6d8",
+      "local_blob_sha": "a6582513df4079c761765cabe5d1f791cf26f6d8",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/verification/pi-model-benchmark.json",
+      "source_path": "sprink/docs/verification/pi-model-benchmark.json",
+      "sha": "7f239857c12360ba3f9867afaf943b8fbbbf9037",
+      "local_blob_sha": "7f239857c12360ba3f9867afaf943b8fbbbf9037",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/verification/pi-model-benchmark.md",
+      "source_path": "sprink/docs/verification/pi-model-benchmark.md",
+      "sha": "97c33a55fff0c96332604ba8e0605d36fcb3d023",
+      "local_blob_sha": "97c33a55fff0c96332604ba8e0605d36fcb3d023",
+      "modified": false
+    },
+    {
+      "path": "sprink/docs/verification/rule-loop-cleanup.md",
+      "source_path": "sprink/docs/verification/rule-loop-cleanup.md",
+      "sha": "58d4a0535f82f6635d335c9bc634f8e6217f1c92",
+      "local_blob_sha": "41089dc84ee17db187ac14fe02688e3c6477fc1f",
+      "modified": true,
+      "reason": "Private local checkout path removed from historical audit."
+    },
+    {
+      "path": "sprink/docs/verification/work-package-e2e-2026-09-27.md",
+      "source_path": "sprink/docs/verification/work-package-e2e-2026-09-27.md",
+      "sha": "5519b730e1195f10fadb33b22189a92175ba75ca",
+      "local_blob_sha": "5519b730e1195f10fadb33b22189a92175ba75ca",
+      "modified": false
+    },
+    {
+      "path": "sprink/fixtures/site-change/README.md",
+      "source_path": "sprink/fixtures/site-change/README.md",
+      "sha": "fe1b091d1f9d919dd1210a0de2dcff1ea812fb4c",
+      "local_blob_sha": "fe1b091d1f9d919dd1210a0de2dcff1ea812fb4c",
+      "modified": false
+    },
+    {
+      "path": "sprink/fixtures/uploads/generate.py",
+      "source_path": "sprink/fixtures/uploads/generate.py",
+      "sha": "d61847c06a6bc44524105627bfda2b0eaf9e947d",
+      "local_blob_sha": "d61847c06a6bc44524105627bfda2b0eaf9e947d",
+      "modified": false
+    },
+    {
+      "path": "sprink/package.json",
+      "source_path": "sprink/package.json",
+      "sha": "ee07c30e7d43c23545953de4d69fe70f1b117299",
+      "local_blob_sha": "ee07c30e7d43c23545953de4d69fe70f1b117299",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/README.md",
+      "source_path": "sprink/packages/core/README.md",
+      "sha": "c28b934b78ba7b9ee1acf3306b1fd5acdf77e42f",
+      "local_blob_sha": "c28b934b78ba7b9ee1acf3306b1fd5acdf77e42f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/package.json",
+      "source_path": "sprink/packages/core/package.json",
+      "sha": "43e2c177f223b9f557f4cc3fa73bf430ef019b7d",
+      "local_blob_sha": "43e2c177f223b9f557f4cc3fa73bf430ef019b7d",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/adaptation.ts",
+      "source_path": "sprink/packages/core/src/adaptation.ts",
+      "sha": "fd65eb3776592e08930c951415ba13caca0cdf1e",
+      "local_blob_sha": "fd65eb3776592e08930c951415ba13caca0cdf1e",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/evidence.ts",
+      "source_path": "sprink/packages/core/src/evidence.ts",
+      "sha": "f6797e30ba79d5e6c2121dddd02898c93cb90408",
+      "local_blob_sha": "f6797e30ba79d5e6c2121dddd02898c93cb90408",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/head-validator.ts",
+      "source_path": "sprink/packages/core/src/head-validator.ts",
+      "sha": "0373977ff1f2d3b25a4eead9e96825b9ee95124f",
+      "local_blob_sha": "0373977ff1f2d3b25a4eead9e96825b9ee95124f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/index.ts",
+      "source_path": "sprink/packages/core/src/index.ts",
+      "sha": "cedfaf521a0258954a514a5e9d16a7bebcef25ab",
+      "local_blob_sha": "cedfaf521a0258954a514a5e9d16a7bebcef25ab",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/local-change-contract.ts",
+      "source_path": "sprink/packages/core/src/local-change-contract.ts",
+      "sha": "df8dca5554daab0090eb897c145cc1230aa627fa",
+      "local_blob_sha": "df8dca5554daab0090eb897c145cc1230aa627fa",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/local-change-geometry.ts",
+      "source_path": "sprink/packages/core/src/local-change-geometry.ts",
+      "sha": "109398a9c5d4a48b826b2b4b2f7c55d18500ddd2",
+      "local_blob_sha": "109398a9c5d4a48b826b2b4b2f7c55d18500ddd2",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/measurement-validator.ts",
+      "source_path": "sprink/packages/core/src/measurement-validator.ts",
+      "sha": "3f210f3ae8ef04b8ec4a6a4ce63ff64925ffca45",
+      "local_blob_sha": "3f210f3ae8ef04b8ec4a6a4ce63ff64925ffca45",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/plan-edit.ts",
+      "source_path": "sprink/packages/core/src/plan-edit.ts",
+      "sha": "02c32efe1e4c59dabbf19f99cc2ca4dd26d721db",
+      "local_blob_sha": "02c32efe1e4c59dabbf19f99cc2ca4dd26d721db",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/plan.ts",
+      "source_path": "sprink/packages/core/src/plan.ts",
+      "sha": "ae1313ba1792e1f3638b197a8f744e67e9506687",
+      "local_blob_sha": "ae1313ba1792e1f3638b197a8f744e67e9506687",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-contract.ts",
+      "source_path": "sprink/packages/core/src/project-contract.ts",
+      "sha": "954d56351625ad0eb9ca07779f928a1799b9910a",
+      "local_blob_sha": "954d56351625ad0eb9ca07779f928a1799b9910a",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-evaluator.ts",
+      "source_path": "sprink/packages/core/src/project-evaluator.ts",
+      "sha": "c20fd44922af96dd3e0c01d085c4aa772954af8d",
+      "local_blob_sha": "c20fd44922af96dd3e0c01d085c4aa772954af8d",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-rules/local-change.ts",
+      "source_path": "sprink/packages/core/src/project-rules/local-change.ts",
+      "sha": "a8f1f49004d5ccec80727ef1ad9a620e781bb602",
+      "local_blob_sha": "a8f1f49004d5ccec80727ef1ad9a620e781bb602",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-rules/manufacturer-extra.ts",
+      "source_path": "sprink/packages/core/src/project-rules/manufacturer-extra.ts",
+      "sha": "dcfa7e5d45d7cdadae31eb94fa7b451b104c2d72",
+      "local_blob_sha": "dcfa7e5d45d7cdadae31eb94fa7b451b104c2d72",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-rules/sf-common.ts",
+      "source_path": "sprink/packages/core/src/project-rules/sf-common.ts",
+      "sha": "e29f539716385355b26e7b190bb701e0602f6dea",
+      "local_blob_sha": "e29f539716385355b26e7b190bb701e0602f6dea",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-rules/sf-local-change-records.ts",
+      "source_path": "sprink/packages/core/src/project-rules/sf-local-change-records.ts",
+      "sha": "1cb7b4366293538f8d017cd66a55af4e624da56a",
+      "local_blob_sha": "1cb7b4366293538f8d017cd66a55af4e624da56a",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-rules/sf-supports-2025.ts",
+      "source_path": "sprink/packages/core/src/project-rules/sf-supports-2025.ts",
+      "sha": "38165faf7a91f6da447df93597680e4778605e20",
+      "local_blob_sha": "38165faf7a91f6da447df93597680e4778605e20",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/project-schemas.ts",
+      "source_path": "sprink/packages/core/src/project-schemas.ts",
+      "sha": "9e771c86812a6ebe39f8a2cee1f7ae4a7e20ec2f",
+      "local_blob_sha": "9e771c86812a6ebe39f8a2cee1f7ae4a7e20ec2f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/reference.ts",
+      "source_path": "sprink/packages/core/src/reference.ts",
+      "sha": "c4a9ab9a51d8a54ab724a3668a65438de938031f",
+      "local_blob_sha": "c4a9ab9a51d8a54ab724a3668a65438de938031f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/schemas.ts",
+      "source_path": "sprink/packages/core/src/schemas.ts",
+      "sha": "0a91fb221a0209117fc226433bd67d94f7352666",
+      "local_blob_sha": "0a91fb221a0209117fc226433bd67d94f7352666",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/sf-project-basis.ts",
+      "source_path": "sprink/packages/core/src/sf-project-basis.ts",
+      "sha": "d552ccb3f287e9fe9d4ae774b62827e67a14e524",
+      "local_blob_sha": "d552ccb3f287e9fe9d4ae774b62827e67a14e524",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/site-work.ts",
+      "source_path": "sprink/packages/core/src/site-work.ts",
+      "sha": "50e81894467cb1a8c17264ea62bc5a7fe5a95164",
+      "local_blob_sha": "50e81894467cb1a8c17264ea62bc5a7fe5a95164",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/types.ts",
+      "source_path": "sprink/packages/core/src/types.ts",
+      "sha": "2bdf9f8ecc427dd41e2f01393cd35373ad2f1723",
+      "local_blob_sha": "2bdf9f8ecc427dd41e2f01393cd35373ad2f1723",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/src/work-package.ts",
+      "source_path": "sprink/packages/core/src/work-package.ts",
+      "sha": "c664719201f6f09de6f2e364f7469b940218ca24",
+      "local_blob_sha": "c664719201f6f09de6f2e364f7469b940218ca24",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/test/project-cli.test.ts",
+      "source_path": "sprink/packages/core/test/project-cli.test.ts",
+      "sha": "e51bf1312eccc2c6cc40beb72043e6d2e1c2c756",
+      "local_blob_sha": "e51bf1312eccc2c6cc40beb72043e6d2e1c2c756",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/core/tsconfig.json",
+      "source_path": "sprink/packages/core/tsconfig.json",
+      "sha": "7a992f49204f0a530a617b5031aef69e363a8110",
+      "local_blob_sha": "7a992f49204f0a530a617b5031aef69e363a8110",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/CONTRACT.md",
+      "source_path": "sprink/packages/fabrication/CONTRACT.md",
+      "sha": "8ac656c8ca1fc376bc625cc5960ca0ded4938d2f",
+      "local_blob_sha": "8ac656c8ca1fc376bc625cc5960ca0ded4938d2f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/README.md",
+      "source_path": "sprink/packages/fabrication/README.md",
+      "sha": "b7fe32ecf774476984c990876db349a2e4919be0",
+      "local_blob_sha": "b7fe32ecf774476984c990876db349a2e4919be0",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/SOURCES.md",
+      "source_path": "sprink/packages/fabrication/SOURCES.md",
+      "sha": "70ab502892b63354b9765e539ce5be51c5d1d46b",
+      "local_blob_sha": "70ab502892b63354b9765e539ce5be51c5d1d46b",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/STEEL-CONTRACT.md",
+      "source_path": "sprink/packages/fabrication/STEEL-CONTRACT.md",
+      "sha": "897bb10eebb662956dcfb6f78ffe175d2e50a7bb",
+      "local_blob_sha": "897bb10eebb662956dcfb6f78ffe175d2e50a7bb",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/examples/fixtures.ts",
+      "source_path": "sprink/packages/fabrication/examples/fixtures.ts",
+      "sha": "297802a4b9f2dcf59ea7b9a2eae1f2f37eaf69f2",
+      "local_blob_sha": "297802a4b9f2dcf59ea7b9a2eae1f2f37eaf69f2",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/examples/write.ts",
+      "source_path": "sprink/packages/fabrication/examples/write.ts",
+      "sha": "75e14c6214fc23279456bc3ff66ac96c48fe9585",
+      "local_blob_sha": "75e14c6214fc23279456bc3ff66ac96c48fe9585",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/package.json",
+      "source_path": "sprink/packages/fabrication/package.json",
+      "sha": "772054658146baf234df2c5d5de5d4ec9a3ddefe",
+      "local_blob_sha": "772054658146baf234df2c5d5de5d4ec9a3ddefe",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/catalog.ts",
+      "source_path": "sprink/packages/fabrication/src/catalog.ts",
+      "sha": "71e66e44a4e8b5d3b0dd19460d10f43e05be6553",
+      "local_blob_sha": "71e66e44a4e8b5d3b0dd19460d10f43e05be6553",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/compare.ts",
+      "source_path": "sprink/packages/fabrication/src/compare.ts",
+      "sha": "2a9c3cb101af51c155db8caab5eee2b8db625aa2",
+      "local_blob_sha": "2a9c3cb101af51c155db8caab5eee2b8db625aa2",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/engine.ts",
+      "source_path": "sprink/packages/fabrication/src/engine.ts",
+      "sha": "4323e4258be68cecd5bbd1444e979ae233ac4c67",
+      "local_blob_sha": "4323e4258be68cecd5bbd1444e979ae233ac4c67",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/fixed-end-closure.ts",
+      "source_path": "sprink/packages/fabrication/src/fixed-end-closure.ts",
+      "sha": "abe70047f93fed1c6275bee8d022582451cd58cf",
+      "local_blob_sha": "abe70047f93fed1c6275bee8d022582451cd58cf",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/index.ts",
+      "source_path": "sprink/packages/fabrication/src/index.ts",
+      "sha": "d60b04ca4c39dc6ebf6c5dd5e0e43e9fd0353c40",
+      "local_blob_sha": "d60b04ca4c39dc6ebf6c5dd5e0e43e9fd0353c40",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/local-geometry-adapter.ts",
+      "source_path": "sprink/packages/fabrication/src/local-geometry-adapter.ts",
+      "sha": "86ccbf558a71ad3b57a8c66c0e9e972a74f639e5",
+      "local_blob_sha": "86ccbf558a71ad3b57a8c66c0e9e972a74f639e5",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/planning-product-adapter.ts",
+      "source_path": "sprink/packages/fabrication/src/planning-product-adapter.ts",
+      "sha": "fc355303fca99979ed05279b9597fac7c25a4d0d",
+      "local_blob_sha": "fc355303fca99979ed05279b9597fac7c25a4d0d",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/steel-catalog.ts",
+      "source_path": "sprink/packages/fabrication/src/steel-catalog.ts",
+      "sha": "2e9b9c20b0b9c6d87a8e0c00acdb9f979bfd5748",
+      "local_blob_sha": "2e9b9c20b0b9c6d87a8e0c00acdb9f979bfd5748",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/src/types.ts",
+      "source_path": "sprink/packages/fabrication/src/types.ts",
+      "sha": "7adf175bcbdc61b5c0f113d4c2d56175f576efd3",
+      "local_blob_sha": "7adf175bcbdc61b5c0f113d4c2d56175f576efd3",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/fabrication/tsconfig.json",
+      "source_path": "sprink/packages/fabrication/tsconfig.json",
+      "sha": "24bb9d40cbf92c79c1af1845d0ccc138fd6bc425",
+      "local_blob_sha": "24bb9d40cbf92c79c1af1845d0ccc138fd6bc425",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/README.md",
+      "source_path": "sprink/packages/planning/README.md",
+      "sha": "d025f135a999712b8b4c27ce49a25a33901b8550",
+      "local_blob_sha": "d025f135a999712b8b4c27ce49a25a33901b8550",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/fixtures/README.md",
+      "source_path": "sprink/packages/planning/fixtures/README.md",
+      "sha": "e19bd28b7b7c9277e616276fcfd2582d3af6d2bc",
+      "local_blob_sha": "e19bd28b7b7c9277e616276fcfd2582d3af6d2bc",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/fixtures/duct.ts",
+      "source_path": "sprink/packages/planning/fixtures/duct.ts",
+      "sha": "3b75106262995a7a77c0358d2f769f9c943769f0",
+      "local_blob_sha": "3b75106262995a7a77c0358d2f769f9c943769f0",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/package.json",
+      "source_path": "sprink/packages/planning/package.json",
+      "sha": "9f145c03e8d003b04dc845b4350505a18097ef4f",
+      "local_blob_sha": "9f145c03e8d003b04dc845b4350505a18097ef4f",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/fabrication-adapter.ts",
+      "source_path": "sprink/packages/planning/src/fabrication-adapter.ts",
+      "sha": "307b0e6a1d2d202e180e5f2afb02a4e9d862289a",
+      "local_blob_sha": "307b0e6a1d2d202e180e5f2afb02a4e9d862289a",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/generate.ts",
+      "source_path": "sprink/packages/planning/src/generate.ts",
+      "sha": "f1975bc2c8d8d807898b5e1accb9100cad0a8e94",
+      "local_blob_sha": "f1975bc2c8d8d807898b5e1accb9100cad0a8e94",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/geometry-port.ts",
+      "source_path": "sprink/packages/planning/src/geometry-port.ts",
+      "sha": "5b0227443e458912c3609fd2ab8ef582e06619e8",
+      "local_blob_sha": "5b0227443e458912c3609fd2ab8ef582e06619e8",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/index.ts",
+      "source_path": "sprink/packages/planning/src/index.ts",
+      "sha": "5422dd2d4158ba6023162d923cbbddf587a14990",
+      "local_blob_sha": "5422dd2d4158ba6023162d923cbbddf587a14990",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/selection.ts",
+      "source_path": "sprink/packages/planning/src/selection.ts",
+      "sha": "2fdf725546da2326783557fae1ee0f0c26ecee61",
+      "local_blob_sha": "2fdf725546da2326783557fae1ee0f0c26ecee61",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/src/types.ts",
+      "source_path": "sprink/packages/planning/src/types.ts",
+      "sha": "39b7c41255a1e19058aec9192a9b83f8f7783247",
+      "local_blob_sha": "39b7c41255a1e19058aec9192a9b83f8f7783247",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/planning/tsconfig.json",
+      "source_path": "sprink/packages/planning/tsconfig.json",
+      "sha": "4a9d60a05d80962520a0e8509a66b85189af0d4e",
+      "local_blob_sha": "4a9d60a05d80962520a0e8509a66b85189af0d4e",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/README.md",
+      "source_path": "sprink/packages/workflow/README.md",
+      "sha": "5e172ece5ddf1e9c4c36a81f4c59fcf8043c50c4",
+      "local_blob_sha": "5e172ece5ddf1e9c4c36a81f4c59fcf8043c50c4",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/package.json",
+      "source_path": "sprink/packages/workflow/package.json",
+      "sha": "7093b4688ab48b9eca667a644abe1f791e0ebd39",
+      "local_blob_sha": "7093b4688ab48b9eca667a644abe1f791e0ebd39",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/bounded.ts",
+      "source_path": "sprink/packages/workflow/src/bounded.ts",
+      "sha": "262525f6776c003179e18e0d1ebe1156aa2203d9",
+      "local_blob_sha": "262525f6776c003179e18e0d1ebe1156aa2203d9",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/choice.ts",
+      "source_path": "sprink/packages/workflow/src/choice.ts",
+      "sha": "e8ef4c5718b4ad8d5288affac5e103f6e8177d33",
+      "local_blob_sha": "e8ef4c5718b4ad8d5288affac5e103f6e8177d33",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/contracts.ts",
+      "source_path": "sprink/packages/workflow/src/contracts.ts",
+      "sha": "979db8c363159e2a75ec45375309e899692feeb1",
+      "local_blob_sha": "979db8c363159e2a75ec45375309e899692feeb1",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/index.ts",
+      "source_path": "sprink/packages/workflow/src/index.ts",
+      "sha": "c512bb5585fe86726b538086e4efb47b1237077a",
+      "local_blob_sha": "c512bb5585fe86726b538086e4efb47b1237077a",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/llm-stream.ts",
+      "source_path": "sprink/packages/workflow/src/llm-stream.ts",
+      "sha": "07ef78bf4b57d540ca9608b7d597dabaa39bd21b",
+      "local_blob_sha": "07ef78bf4b57d540ca9608b7d597dabaa39bd21b",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/src/runner.ts",
+      "source_path": "sprink/packages/workflow/src/runner.ts",
+      "sha": "6735098fd3b51778c023ebf3c7d1ceaf95ab16cf",
+      "local_blob_sha": "6735098fd3b51778c023ebf3c7d1ceaf95ab16cf",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/choice.test.ts",
+      "source_path": "sprink/packages/workflow/test/choice.test.ts",
+      "sha": "fa8c12a6a080f4c28c0923e7c4f6d62a015ede7a",
+      "local_blob_sha": "fa8c12a6a080f4c28c0923e7c4f6d62a015ede7a",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/fixtures/domain.ts",
+      "source_path": "sprink/packages/workflow/test/fixtures/domain.ts",
+      "sha": "4ba458f2289ad0b56c026a99905af27f426f38e0",
+      "local_blob_sha": "4ba458f2289ad0b56c026a99905af27f426f38e0",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/fixtures/scripted-stream.ts",
+      "source_path": "sprink/packages/workflow/test/fixtures/scripted-stream.ts",
+      "sha": "4f9868ea5efdfbb058b26d61909ddc4a50f4810c",
+      "local_blob_sha": "4f9868ea5efdfbb058b26d61909ddc4a50f4810c",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/integration-stream.ts",
+      "source_path": "sprink/packages/workflow/test/integration-stream.ts",
+      "sha": "2312e487f3452f3bf2ed7c87920defa42fa2cabe",
+      "local_blob_sha": "2312e487f3452f3bf2ed7c87920defa42fa2cabe",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/llm-stream.test.ts",
+      "source_path": "sprink/packages/workflow/test/llm-stream.test.ts",
+      "sha": "f21e7e2a836bad3feaa3ee4912ad17bfa459bb42",
+      "local_blob_sha": "f21e7e2a836bad3feaa3ee4912ad17bfa459bb42",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/test/workflow.test.ts",
+      "source_path": "sprink/packages/workflow/test/workflow.test.ts",
+      "sha": "c7264aa72fda9eaf436dde39c651f1261316e412",
+      "local_blob_sha": "c7264aa72fda9eaf436dde39c651f1261316e412",
+      "modified": false
+    },
+    {
+      "path": "sprink/packages/workflow/tsconfig.json",
+      "source_path": "sprink/packages/workflow/tsconfig.json",
+      "sha": "7680f9972d15be6325fe4f0c9bce6a30e5194967",
+      "local_blob_sha": "7680f9972d15be6325fe4f0c9bce6a30e5194967",
+      "modified": false
+    },
+    {
+      "path": "sprink/pnpm-lock.yaml",
+      "source_path": "sprink/pnpm-lock.yaml",
+      "sha": "81538977a391c38cdfad6ac18b69258d40134bc2",
+      "local_blob_sha": "81538977a391c38cdfad6ac18b69258d40134bc2",
+      "modified": false
+    },
+    {
+      "path": "sprink/pnpm-workspace.yaml",
+      "source_path": "sprink/pnpm-workspace.yaml",
+      "sha": "6f002730bd6698d8476129a5096358c6465d8b58",
+      "local_blob_sha": "6f002730bd6698d8476129a5096358c6465d8b58",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/attach-source-pdf.ts",
+      "source_path": "sprink/scripts/attach-source-pdf.ts",
+      "sha": "b6006a9997df5c3976e3357ced958bf13bece882",
+      "local_blob_sha": "b6006a9997df5c3976e3357ced958bf13bece882",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/benchmark-ask.ts",
+      "source_path": "sprink/scripts/benchmark-ask.ts",
+      "sha": "7537cbdcbc90bb31d0af2622cfa3572a597344d5",
+      "local_blob_sha": "7537cbdcbc90bb31d0af2622cfa3572a597344d5",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-ask-empty.mjs",
+      "source_path": "sprink/scripts/e2e-ask-empty.mjs",
+      "sha": "2e6add0dd23f2da0c91f89ae82d722b59a3f2ff8",
+      "local_blob_sha": "2e6add0dd23f2da0c91f89ae82d722b59a3f2ff8",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-ask-uploads.mjs",
+      "source_path": "sprink/scripts/e2e-ask-uploads.mjs",
+      "sha": "8cf9f9ea40cb8430591052d2771ae171486beedd",
+      "local_blob_sha": "8cf9f9ea40cb8430591052d2771ae171486beedd",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-catalog-preparation.mjs",
+      "source_path": "sprink/scripts/e2e-catalog-preparation.mjs",
+      "sha": "b01210f714d04c4de5a69950f919dc68f3ed6301",
+      "local_blob_sha": "b01210f714d04c4de5a69950f919dc68f3ed6301",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-regression.mjs",
+      "source_path": "sprink/scripts/e2e-regression.mjs",
+      "sha": "c2e6c3aa1a59534287236b4261528813738b202c",
+      "local_blob_sha": "c2e6c3aa1a59534287236b4261528813738b202c",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-change.mjs",
+      "source_path": "sprink/scripts/e2e-site-change.mjs",
+      "sha": "e58099b6c2abf58dde8f19e62a7fc3a08664e9e9",
+      "local_blob_sha": "e58099b6c2abf58dde8f19e62a7fc3a08664e9e9",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-frame.mjs",
+      "source_path": "sprink/scripts/e2e-site-frame.mjs",
+      "sha": "981aaa8b605033598f726c653e5df0895abfd048",
+      "local_blob_sha": "981aaa8b605033598f726c653e5df0895abfd048",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-jev-failure.mjs",
+      "source_path": "sprink/scripts/e2e-site-jev-failure.mjs",
+      "sha": "0caebf4d53e5028f276b3f93df18c31443a4c3fd",
+      "local_blob_sha": "0caebf4d53e5028f276b3f93df18c31443a4c3fd",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-reading.mjs",
+      "source_path": "sprink/scripts/e2e-site-reading.mjs",
+      "sha": "b8c3f9522d0af6d710d9e1243c5cde797e06c611",
+      "local_blob_sha": "b8c3f9522d0af6d710d9e1243c5cde797e06c611",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-recovery.mjs",
+      "source_path": "sprink/scripts/e2e-site-recovery.mjs",
+      "sha": "fdfc7043f1bad374b151408554dc50735b8b0e11",
+      "local_blob_sha": "fdfc7043f1bad374b151408554dc50735b8b0e11",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-restart.mjs",
+      "source_path": "sprink/scripts/e2e-site-restart.mjs",
+      "sha": "cb6d164f330a5a7d582732b84cea82a3d5d31272",
+      "local_blob_sha": "cb6d164f330a5a7d582732b84cea82a3d5d31272",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-review.mjs",
+      "source_path": "sprink/scripts/e2e-site-review.mjs",
+      "sha": "78aea67706f039c60d0b0591acc197999370fdf7",
+      "local_blob_sha": "78aea67706f039c60d0b0591acc197999370fdf7",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/e2e-site-state.mjs",
+      "source_path": "sprink/scripts/e2e-site-state.mjs",
+      "sha": "ce7b7140ba3253dd54c734efe22138a838bcea38",
+      "local_blob_sha": "ce7b7140ba3253dd54c734efe22138a838bcea38",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/evaluate-project.ts",
+      "source_path": "sprink/scripts/evaluate-project.ts",
+      "sha": "4ed163c9d437cf6d10fc4a6537673edd723027d8",
+      "local_blob_sha": "4ed163c9d437cf6d10fc4a6537673edd723027d8",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/extract-reference.py",
+      "source_path": "sprink/scripts/extract-reference.py",
+      "sha": "8230bb35e12b75a5906747dd125b73164661657a",
+      "local_blob_sha": "8230bb35e12b75a5906747dd125b73164661657a",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/import-sources.ts",
+      "source_path": "sprink/scripts/import-sources.ts",
+      "sha": "f1c8557545d56efffbe710f02b513f55ea80eac6",
+      "local_blob_sha": "f1c8557545d56efffbe710f02b513f55ea80eac6",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/prepare-source-excerpts.ts",
+      "source_path": "sprink/scripts/prepare-source-excerpts.ts",
+      "sha": "078ad0fed2be592486314f34fc6aa441ff8c9296",
+      "local_blob_sha": "078ad0fed2be592486314f34fc6aa441ff8c9296",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/replay.ts",
+      "source_path": "sprink/scripts/replay.ts",
+      "sha": "7c465833d6132412205024ba814f8f499eed2b45",
+      "local_blob_sha": "7c465833d6132412205024ba814f8f499eed2b45",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/resolve-sf-basis.ts",
+      "source_path": "sprink/scripts/resolve-sf-basis.ts",
+      "sha": "eb6f3716ad58f03fa544c67c32de018552ba8a69",
+      "local_blob_sha": "eb6f3716ad58f03fa544c67c32de018552ba8a69",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/site-e2e-server.ts",
+      "source_path": "sprink/scripts/site-e2e-server.ts",
+      "sha": "abfc24e0d79c96c098f1481539deebdddd3df403",
+      "local_blob_sha": "abfc24e0d79c96c098f1481539deebdddd3df403",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/verify-catalog-artifacts.py",
+      "source_path": "sprink/scripts/verify-catalog-artifacts.py",
+      "sha": "b25a94940b6a00020c479d5305ad9d295d1e080d",
+      "local_blob_sha": "b25a94940b6a00020c479d5305ad9d295d1e080d",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/verify-live-rule-loop.ts",
+      "source_path": "sprink/scripts/verify-live-rule-loop.ts",
+      "sha": "57344b0ce9dbae5d08180a6c3f51d4b8ee94a5ab",
+      "local_blob_sha": "57344b0ce9dbae5d08180a6c3f51d4b8ee94a5ab",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/verify-reading-oracles.py",
+      "source_path": "sprink/scripts/verify-reading-oracles.py",
+      "sha": "4128fdde25cb8f6b4a0833a5c0938bfb75447ee5",
+      "local_blob_sha": "4128fdde25cb8f6b4a0833a5c0938bfb75447ee5",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/verify-reference.ts",
+      "source_path": "sprink/scripts/verify-reference.ts",
+      "sha": "57c818593fca8fb330ce725986284bf8d7b94646",
+      "local_blob_sha": "57c818593fca8fb330ce725986284bf8d7b94646",
+      "modified": false
+    },
+    {
+      "path": "sprink/scripts/verify-site-artifacts.py",
+      "source_path": "sprink/scripts/verify-site-artifacts.py",
+      "sha": "c098f5141a181386572508cc511a7809111ca0bb",
+      "local_blob_sha": "c098f5141a181386572508cc511a7809111ca0bb",
+      "modified": false
+    },
+    {
+      "path": "sprink/tsconfig.base.json",
+      "source_path": "sprink/tsconfig.base.json",
+      "sha": "c358f4129022c1ef2c6015427185e4f69359c2ea",
+      "local_blob_sha": "c358f4129022c1ef2c6015427185e4f69359c2ea",
+      "modified": false
+    },
+    {
+      "path": "sprink/vitest.config.ts",
+      "source_path": "sprink/vitest.config.ts",
+      "sha": "75675957a2a3e910a21a9d0432c86aa7ccd23e45",
+      "local_blob_sha": "75675957a2a3e910a21a9d0432c86aa7ccd23e45",
+      "modified": false
+    }
+  ]
+}

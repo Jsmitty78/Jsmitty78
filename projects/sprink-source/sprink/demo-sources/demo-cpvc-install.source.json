@@ -1,0 +1,17 @@
+{
+  "document": {
+    "id": "demo-cpvc-install",
+    "title": "DEMONSTRATION CPVC installation instructions (not Spears text)",
+    "publisher": "Sprink demo library (invented text)",
+    "type": "manufacturer",
+    "edition": "Demo rev 1",
+    "scope": { "productIds": ["spears/CP-010", "spears/4206-010S"] },
+    "demonstration": true,
+    "authorization": {
+      "basis": "Written by the Sprink team for testing. Contains no manufacturer text.",
+      "storeAndIndex": true, "useWithAi": true, "display": "full"
+    }
+  },
+  "file": "demo-cpvc-install.md",
+  "explanations": "demo-cpvc-install.explanations.json"
+}

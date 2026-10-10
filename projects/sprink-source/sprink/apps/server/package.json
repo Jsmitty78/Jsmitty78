@@ -1,0 +1,32 @@
+{
+  "name": "@sprink/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@sprink/core": "workspace:*",
+    "@sprink/fabrication": "workspace:*",
+    "@sprink/planning": "workspace:*",
+    "@sprink/workflow": "workspace:*",
+    "@hono/node-server": "^1.19.0",
+    "@napi-rs/canvas": "^1.0.9",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "better-sqlite3": "^12.4.0",
+    "bmp-ts": "^1.0.9",
+    "hono": "^4.9.0",
+    "libheif-js": "^1.23.2",
+    "pdfjs-dist": "^6.3.289",
+    "pdfkit": "0.20.2",
+    "sharp": "^0.34.0",
+    "tesseract.js": "^7.0.0",
+    "typebox": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/pdfkit": "^0.17.6"
+  }
+}

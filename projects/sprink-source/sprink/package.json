@@ -1,0 +1,46 @@
+{
+  "name": "sprink-workspace",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @sprink/server --filter @sprink/web dev",
+    "test": "vitest run",
+    "typecheck": "pnpm -r typecheck",
+    "build": "pnpm --filter @sprink/web build",
+    "start": "pnpm --filter @sprink/server start",
+    "replay": "tsx scripts/replay.ts",
+    "rules:sf-basis": "node --import tsx scripts/resolve-sf-basis.ts",
+    "rules:evaluate": "node --import tsx scripts/evaluate-project.ts",
+    "sources:import": "node --import tsx scripts/import-sources.ts",
+    "e2e:site": "node scripts/e2e-site-change.mjs",
+    "e2e:site:server": "tsx scripts/site-e2e-server.ts",
+    "e2e:site:reading": "node scripts/e2e-site-reading.mjs",
+    "e2e:site:state": "node scripts/e2e-site-state.mjs",
+    "e2e:site:recovery": "node scripts/e2e-site-recovery.mjs",
+    "e2e:regression": "node scripts/e2e-regression.mjs",
+    "e2e:site:review": "node scripts/e2e-site-review.mjs",
+    "e2e:site:restart": "node scripts/e2e-site-restart.mjs",
+    "e2e:catalog": "node scripts/e2e-catalog-preparation.mjs",
+    "e2e:ask-empty": "node scripts/e2e-ask-empty.mjs",
+    "e2e:site:frame": "node scripts/e2e-site-frame.mjs",
+    "e2e:site:jev-failure": "node scripts/e2e-site-jev-failure.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "sharp"
+    ]
+  }
+}

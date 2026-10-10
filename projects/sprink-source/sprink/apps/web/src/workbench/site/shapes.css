@@ -1,0 +1,23 @@
+.fa-shape-editor { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.fa-shape-editor > .fa-canvas, .fa-shape-editor > .fa-sheet { flex: 1; min-height: 140px; }
+.fa-shape-tools { background: #fff; border-bottom: 1px solid #dce2e8; padding: 10px 14px; display: grid; gap: 8px; }
+.fa-shape-tools button[aria-pressed=true] { color: #1469ce; background: #eaf3ff; border-color: #1469ce; }
+.fa-shape-tools small { color: #526173; font-size: 11px; }
+.fa-shape-properties { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.fa-shape-properties label { display: grid; gap: 3px; font-size: 11px; }
+.fa-shape-properties input { padding: 5px; }
+.fa-shape-layer { touch-action: none; }
+.fa-stage > .fa-shape-editor { width: 100%; flex: 1; }
+.fa-shape-tools .fa-shape-properties input { width: 100%; min-width: 0; }
+.fa-shape-properties > small { grid-column: 1 / -1; }
+.fa-shape-tools button { border-radius: 6px; border: 1px solid #dce2e8; padding: 6px 9px; font: inherit; font-size: 12px; cursor: pointer; }
+
+.fa-shape-inspector { min-height: 110px; }
+.fa-shape-properties > b { grid-column: 1 / -1; font-size: 12px; }
+.wf-canvas-stage > .fa-shape-editor { flex: 1; min-width: 0; width: 100%; }
+.wf-canvas-stage .fa-shape-editor > .fa-canvas,
+.wf-canvas-stage .fa-shape-editor > .fa-sheet { height: auto; min-height: 180px; border: 1px solid var(--fa-line); border-radius: 8px; box-shadow: none; }
+.wf-canvas-stage .fa-shape-tools { border: 1px solid var(--fa-line); border-bottom: 0; border-radius: 8px 8px 0 0; }
+.fa-shape-tools button[aria-pressed=true] { color: var(--fa-accent-hover); background: var(--fa-accent-soft); border-color: var(--fa-accent); }
+.fa-shape-limits { font-size: 11px; color: var(--fa-muted); }
+.fa-shape-limits summary { cursor: pointer; }

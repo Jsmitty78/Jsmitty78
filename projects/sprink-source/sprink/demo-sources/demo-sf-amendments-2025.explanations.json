@@ -1,0 +1,15 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    {
+      "sectionId": "DEMO-SF-9.1.1",
+      "text": "This local amendment requires a hanger within 300 mm of each added fitting on a relocated branch line.",
+      "topic": "hanger-near-added-fitting",
+      "position": "300 mm"
+    },
+    {
+      "sectionId": "DEMO-SF-8.2.4",
+      "text": "In an occupied building, report the route change to the fire department plan reviewer before modifying the pipe."
+    }
+  ]
+}

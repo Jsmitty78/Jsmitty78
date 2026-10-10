@@ -1,0 +1,8 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    { "sectionId": "DEMO-M-4.1", "text": "Drain the system, cut square and deburr, and let the cement cure before pressurizing the modified joint." },
+    { "sectionId": "DEMO-M-4.2", "text": "Keep CPVC pipe at least 150 mm from hot-air supply outlets and other heat sources." },
+    { "sectionId": "DEMO-M-4.3", "text": "Support the relocated section so joints carry no pipe weight while curing, with a support within 300 mm of each new fitting." }
+  ]
+}

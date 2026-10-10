@@ -1,0 +1,136 @@
+{
+  "candidates": {
+    "id": "example-candidate-set",
+    "inputRevision": 1,
+    "configVersion": "work-package-contract-v1",
+    "baselinePlanId": "baseline-1",
+    "searchDescription": "Synthetic supplied candidate; no route generation",
+    "candidates": [
+      {
+        "plan": {
+          "id": "candidate-1",
+          "coordinateFrame": {
+            "id": "drawing-frame",
+            "lengthUnit": "mm",
+            "axes": "right_handed_z_up"
+          },
+          "confirmation": "proposed",
+          "entities": [
+            {
+              "id": "pipe-1",
+              "kind": "pipe",
+              "productId": null,
+              "ports": [
+                {
+                  "id": "start",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 2500
+                  },
+                  "unknownReason": null
+                },
+                {
+                  "id": "end",
+                  "position": {
+                    "x": 1000,
+                    "y": 500,
+                    "z": 2500
+                  },
+                  "unknownReason": null
+                }
+              ]
+            }
+          ],
+          "connections": []
+        },
+        "metrics": [
+          {
+            "name": "unknown added length",
+            "quantity": {
+              "value": null,
+              "unit": "mm",
+              "reason": "Synthetic comparison only",
+              "basis": "unknown"
+            }
+          }
+        ]
+      }
+    ],
+    "rejected": [],
+    "gaps": []
+  },
+  "results": [
+    {
+      "id": "example-result",
+      "inputRevision": 1,
+      "configVersion": "work-package-contract-v1",
+      "planId": "baseline-1",
+      "materials": [
+        {
+          "id": "material-1",
+          "entityIds": [
+            "pipe-1"
+          ],
+          "description": "Synthetic one-piece fixture",
+          "quantity": {
+            "value": 1,
+            "unit": "piece",
+            "reason": null,
+            "basis": "proposed_inputs"
+          }
+        }
+      ],
+      "cuts": [
+        {
+          "id": "cut-1",
+          "pieceId": "piece-1",
+          "sourceEntityIds": [
+            "pipe-1"
+          ],
+          "length": {
+            "value": null,
+            "unit": "mm",
+            "reason": "Makeup unknown",
+            "basis": "unknown"
+          }
+        }
+      ],
+      "assembly": [
+        {
+          "id": "operation-1",
+          "step": 1,
+          "pieceIds": [
+            "piece-1"
+          ],
+          "jointIds": [],
+          "instruction": "Synthetic draft operation only",
+          "procedureRef": null,
+          "unresolved": [
+            "Joint procedure pending"
+          ]
+        }
+      ],
+      "evaluations": [
+        {
+          "id": "check-1",
+          "subjectIds": [
+            "pipe-1"
+          ],
+          "status": "unknown",
+          "reason": "Synthetic source pending",
+          "sourceRefs": []
+        }
+      ],
+      "gaps": [
+        {
+          "id": "gap-1",
+          "subjectIds": [
+            "pipe-1"
+          ],
+          "reason": "Product makeup not confirmed"
+        }
+      ]
+    }
+  ]
+}

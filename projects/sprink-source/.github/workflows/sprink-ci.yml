@@ -1,0 +1,37 @@
+name: Sprink checks
+on:
+  pull_request:
+    paths:
+      - 'sprink/**'
+      - '.github/workflows/sprink-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'sprink/**'
+      - '.github/workflows/sprink-ci.yml'
+permissions:
+  contents: read
+concurrency:
+  group: sprink-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: sprink
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+          cache: pnpm
+          cache-dependency-path: sprink/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build

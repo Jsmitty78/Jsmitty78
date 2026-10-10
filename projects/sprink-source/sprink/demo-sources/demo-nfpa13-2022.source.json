@@ -1,0 +1,18 @@
+{
+  "document": {
+    "id": "demo-nfpa13-2022",
+    "title": "DEMONSTRATION stand-in for NFPA 13 (not NFPA text)",
+    "publisher": "Sprink demo library (invented text)",
+    "type": "published_code",
+    "edition": "2022",
+    "scope": { "standard": "nfpa13" },
+    "demonstration": true,
+    "authorization": {
+      "basis": "Written by the Sprink team for testing. Contains no NFPA text, so no NFPA licence is involved.",
+      "storeAndIndex": true, "useWithAi": true, "display": "full"
+    },
+    "extraction": { "method": "text" }
+  },
+  "file": "demo-nfpa13-2022.md",
+  "explanations": "demo-nfpa13-2022.explanations.json"
+}

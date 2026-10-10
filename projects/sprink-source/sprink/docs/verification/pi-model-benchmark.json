@@ -1,0 +1,516 @@
+{
+  "date": "2026-09-27",
+  "decision": "Keep gpt-6-astra / low; Sol not validated for both flows. Luna excluded by user.",
+  "priceBasis": "Official Standard USD computed from reported usage, not invoiced charges. Reasoning is a subset of output. Per-request input above 272000 doubles input/cache rates and multiplies output by 1.5.",
+  "measurementNotes": [
+    "Sequential paid trials. JEV fixed jev-1.13.0; 47-rule catalog plus 2 stop options unchanged.",
+    "Trials 7-11 include a runtime package-reference fix. Historical trial 4 cause remains unknown.",
+    "Old telemetry incorrectly marked JEV validation failures as usage unavailable; all actual JEV usage samples were present. Corrected counts here use calls minus samples.",
+    "First delta is first assistant stream delta including reasoning/tool arguments, not necessarily user-visible prose.",
+    "Trial 8 overlapped a 4.51-second local regression test and is excluded from latency ranking."
+  ],
+  "totalEstimatedUsd": 17.48372145,
+  "results": [
+    {
+      "trial": 1,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "scenario": "drawing",
+      "judgment": "passed",
+      "reason": "All required checks passed",
+      "wallMs": 58227,
+      "firstAssistantDeltaMs": 2147,
+      "assistantCalls": 23,
+      "toolCalls": 23,
+      "toolRejections": 1,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1059,
+        "cacheRead": 210334,
+        "cacheWrite": 69489,
+        "inputTotal": 280882,
+        "output": 1509,
+        "reasoning": 31,
+        "maxRequestInput": 30975
+      },
+      "usd": {
+        "openai": 1.1649865,
+        "jev": 0.0014647920000000001,
+        "total": 1.1664512919999999
+      },
+      "jev": {
+        "calls": 4,
+        "validationOrTransportFailures": 0,
+        "totalMs": 841,
+        "maxMs": 268,
+        "inputTokens": 34876,
+        "outputTokens": 3682,
+        "usageSamples": 4,
+        "usageMissingActual": 0
+      },
+      "savedAnswers": 1,
+      "humanAdoption": false,
+      "artifacts": 4,
+      "unresolvedItems": 44,
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 2,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "scenario": "site",
+      "judgment": "passed",
+      "reason": "All required checks passed",
+      "wallMs": 87941,
+      "firstAssistantDeltaMs": 1259,
+      "assistantCalls": 26,
+      "toolCalls": 30,
+      "toolRejections": 1,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 2098,
+        "cacheRead": 1637605,
+        "cacheWrite": 479474,
+        "inputTotal": 2119177,
+        "output": 2186,
+        "reasoning": 11,
+        "maxRequestInput": 233984
+      },
+      "usd": {
+        "openai": 7.76131,
+        "jev": 0.0028891380000000003,
+        "total": 7.7641991379999995
+      },
+      "jev": {
+        "calls": 5,
+        "validationOrTransportFailures": 0,
+        "totalMs": 1372,
+        "maxMs": 298,
+        "inputTokens": 68789,
+        "outputTokens": 4619,
+        "usageSamples": 5,
+        "usageMissingActual": 0
+      },
+      "savedAnswers": 0,
+      "humanAdoption": true,
+      "artifacts": 4,
+      "unresolvedItems": 314,
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 3,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "low",
+      "scenario": "drawing",
+      "judgment": "passed",
+      "reason": "All required checks passed",
+      "wallMs": 45600,
+      "firstAssistantDeltaMs": 1630,
+      "assistantCalls": 23,
+      "toolCalls": 29,
+      "toolRejections": 2,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1062,
+        "cacheRead": 317723,
+        "cacheWrite": 113247,
+        "inputTotal": 432032,
+        "output": 1624,
+        "reasoning": 82,
+        "maxRequestInput": 47247
+      },
+      "usd": {
+        "openai": 0.36502609999999996,
+        "jev": 0.0018307800000000002,
+        "total": 0.36685687999999994
+      },
+      "jev": {
+        "calls": 5,
+        "validationOrTransportFailures": 0,
+        "totalMs": 983,
+        "maxMs": 230,
+        "inputTokens": 43590,
+        "outputTokens": 4620,
+        "usageSamples": 5,
+        "usageMissingActual": 0
+      },
+      "savedAnswers": 1,
+      "humanAdoption": false,
+      "artifacts": 4,
+      "unresolvedItems": 45,
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 4,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "low",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Live run stopped: domain_or_adapter_error",
+      "wallMs": 9361,
+      "firstAssistantDeltaMs": 1597,
+      "assistantCalls": 5,
+      "toolCalls": 8,
+      "toolRejections": 1,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1012,
+        "cacheRead": 103131,
+        "cacheWrite": 77394,
+        "inputTotal": 181537,
+        "output": 251,
+        "reasoning": 0,
+        "maxRequestInput": 77397
+      },
+      "usd": {
+        "openai": 0.21864520000000004,
+        "jev": 0.00040933200000000004,
+        "total": 0.21905453200000005
+      },
+      "jev": {
+        "calls": 1,
+        "validationOrTransportFailures": 0,
+        "totalMs": 322,
+        "maxMs": 322,
+        "inputTokens": 9746,
+        "outputTokens": 927,
+        "usageSamples": 1,
+        "usageMissingActual": 0
+      },
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 5,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "scenario": "drawing",
+      "judgment": "passed",
+      "reason": "All required checks passed",
+      "wallMs": 28864,
+      "firstAssistantDeltaMs": 615,
+      "assistantCalls": 21,
+      "toolCalls": 26,
+      "toolRejections": 3,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1054,
+        "cacheRead": 129794,
+        "cacheWrite": 59368,
+        "inputTotal": 190216,
+        "output": 1384,
+        "reasoning": 164,
+        "maxRequestInput": 39183
+      },
+      "usd": {
+        "openai": 0.00951634,
+        "jev": 0.00073143,
+        "total": 0.01024777
+      },
+      "jev": {
+        "calls": 2,
+        "validationOrTransportFailures": 0,
+        "totalMs": 657,
+        "maxMs": 385,
+        "inputTokens": 17415,
+        "outputTokens": 1849,
+        "usageSamples": 2,
+        "usageMissingActual": 0
+      },
+      "savedAnswers": 1,
+      "humanAdoption": false,
+      "artifacts": 4,
+      "unresolvedItems": 44,
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 6,
+      "condition": "before_reference_fix",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Site scenario did not request human adoption.\n+ actual - expected\n\n+ undefined\n- 'candidate_selection'\n",
+      "wallMs": 31162,
+      "firstAssistantDeltaMs": 719,
+      "assistantCalls": 17,
+      "toolCalls": 20,
+      "toolRejections": 4,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1046,
+        "cacheRead": 1116423,
+        "cacheWrite": 306855,
+        "inputTotal": 1424324,
+        "output": 1904,
+        "reasoning": 52,
+        "maxRequestInput": 306858
+      },
+      "usd": {
+        "openai": 0.07790677,
+        "jev": 0.0020597220000000004,
+        "total": 0.079966492
+      },
+      "jev": {
+        "calls": 3,
+        "validationOrTransportFailures": 0,
+        "totalMs": 739,
+        "maxMs": 339,
+        "inputTokens": 49041,
+        "outputTokens": 2767,
+        "usageSamples": 3,
+        "usageMissingActual": 0
+      },
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 7,
+      "condition": "after_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "low",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Live run stopped: ambiguous_distribution",
+      "wallMs": 59293,
+      "firstAssistantDeltaMs": 1697,
+      "assistantCalls": 23,
+      "toolCalls": 27,
+      "toolRejections": 5,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 2081,
+        "cacheRead": 2116177,
+        "cacheWrite": 392118,
+        "inputTotal": 2510376,
+        "output": 1870,
+        "reasoning": 41,
+        "maxRequestInput": 307443
+      },
+      "usd": {
+        "openai": 2.1599283000000007,
+        "jev": 0.003917676,
+        "total": 2.1638459760000006
+      },
+      "jev": {
+        "calls": 6,
+        "validationOrTransportFailures": 1,
+        "totalMs": 1573,
+        "maxMs": 367,
+        "inputTokens": 93278,
+        "outputTokens": 5536,
+        "usageSamples": 6,
+        "usageMissingActual": 0
+      },
+      "toolErrorCodes": [
+        "invalid_rule_target",
+        "required_inspections_missing",
+        "unclassified_error_text_omitted"
+      ],
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 8,
+      "condition": "after_reference_fix",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Live run stopped: ambiguous_distribution",
+      "timingNote": "A 4.51-second local regression test run overlapped this trial; exclude from latency ranking.",
+      "wallMs": 20446,
+      "firstAssistantDeltaMs": 596,
+      "assistantCalls": 8,
+      "toolCalls": 11,
+      "toolRejections": 1,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1023,
+        "cacheRead": 248288,
+        "cacheWrite": 100628,
+        "inputTotal": 349939,
+        "output": 1420,
+        "reasoning": 666,
+        "maxRequestInput": 100631
+      },
+      "usd": {
+        "openai": 0.01587368,
+        "jev": 0.001036182,
+        "total": 0.016909862
+      },
+      "jev": {
+        "calls": 2,
+        "validationOrTransportFailures": 1,
+        "totalMs": 556,
+        "maxMs": 323,
+        "inputTokens": 24671,
+        "outputTokens": 1854,
+        "usageSamples": 2,
+        "usageMissingActual": 0
+      },
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 9,
+      "condition": "after_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Registered source passage was not inspected.",
+      "wallMs": 82024,
+      "firstAssistantDeltaMs": 1408,
+      "assistantCalls": 24,
+      "toolCalls": 37,
+      "toolRejections": 3,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 2079,
+        "cacheRead": 2171907,
+        "cacheWrite": 674716,
+        "inputTotal": 2848702,
+        "output": 3288,
+        "reasoning": 515,
+        "maxRequestInput": 331214
+      },
+      "usd": {
+        "openai": 2.8432654,
+        "jev": 0.002276232,
+        "total": 2.8455416319999998
+      },
+      "jev": {
+        "calls": 4,
+        "validationOrTransportFailures": 0,
+        "totalMs": 1160,
+        "maxMs": 383,
+        "inputTokens": 54196,
+        "outputTokens": 3692,
+        "usageSamples": 4,
+        "usageMissingActual": 0
+      },
+      "toolErrorCodes": [
+        "invalid_rule_target",
+        "candidate_comparison_missing",
+        "adopted_plan_regeneration_blocked"
+      ],
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 10,
+      "condition": "after_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "low",
+      "scenario": "drawing",
+      "judgment": "passed",
+      "reason": "All required checks passed",
+      "wallMs": 37533,
+      "firstAssistantDeltaMs": 1548,
+      "assistantCalls": 19,
+      "toolCalls": 27,
+      "toolRejections": 2,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 1049,
+        "cacheRead": 174565,
+        "cacheWrite": 103926,
+        "inputTotal": 279540,
+        "output": 1463,
+        "reasoning": 51,
+        "maxRequestInput": 43295
+      },
+      "usd": {
+        "openai": 0.311456,
+        "jev": 0.001087086,
+        "total": 0.312543086
+      },
+      "jev": {
+        "calls": 3,
+        "validationOrTransportFailures": 0,
+        "totalMs": 914,
+        "maxMs": 419,
+        "inputTokens": 25883,
+        "outputTokens": 2769,
+        "usageSamples": 3,
+        "usageMissingActual": 0
+      },
+      "toolErrorCodes": [
+        "required_inspections_missing",
+        "invalid_rule_target"
+      ],
+      "savedAnswers": 1,
+      "humanAdoption": false,
+      "artifacts": 4,
+      "unresolvedItems": 44,
+      "retainedGeneratedFiles": 0
+    },
+    {
+      "trial": 11,
+      "condition": "after_reference_fix",
+      "model": "gpt-6-sol",
+      "effort": "low",
+      "scenario": "site",
+      "judgment": "failed",
+      "reason": "Registered source passage was not inspected.",
+      "wallMs": 72564,
+      "firstAssistantDeltaMs": 1557,
+      "assistantCalls": 27,
+      "toolCalls": 35,
+      "toolRejections": 2,
+      "toolNoProgress": 0,
+      "modelErrors": 0,
+      "automaticRetries": 0,
+      "tokens": {
+        "inputUncached": 2090,
+        "cacheRead": 2051264,
+        "cacheWrite": 594244,
+        "inputTotal": 2647598,
+        "output": 2210,
+        "reasoning": 126,
+        "maxRequestInput": 333363
+      },
+      "usd": {
+        "openai": 2.5333379999999996,
+        "jev": 0.00476679,
+        "total": 2.5381047899999998
+      },
+      "jev": {
+        "calls": 7,
+        "validationOrTransportFailures": 0,
+        "totalMs": 2059,
+        "maxMs": 372,
+        "inputTokens": 113495,
+        "outputTokens": 6463,
+        "usageSamples": 7,
+        "usageMissingActual": 0
+      },
+      "toolErrorCodes": [
+        "required_inspections_missing",
+        "invalid_rule_target"
+      ],
+      "retainedGeneratedFiles": 0
+    }
+  ]
+}

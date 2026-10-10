@@ -1,0 +1,11 @@
+{
+  "author": "Sprink team (demonstration notes)",
+  "notes": [
+    { "sectionId": "DEMO-8.2", "text": "A route change around an obstruction must be shown on a revised drawing before the pipe is modified.", "topic": "route-change-record", "position": "revised drawing before modifying" },
+    { "sectionId": "DEMO-8.2 Exception No. 1", "text": "If the obstruction is 300 mm wide or less along the original centerline, the change may be recorded on the as-built drawing instead.", "conditions": [
+      { "id": "obstruction-width", "question": "How wide is the duct, measured along the original pipe centerline?", "input": { "name": "obstructionWidth", "unit": "mm" }, "appliesWhen": { "op": "<=", "value": 300 } }
+    ] },
+    { "sectionId": "Table DEMO-8.2", "text": "Rerouted NPS 1 to NPS 2 pipe needs at least 75 mm clearance to the obstruction.", "topic": "pipe-obstruction-clearance", "position": "75 mm" },
+    { "sectionId": "DEMO-9.1", "text": "Install a hanger within 900 mm of each fitting added to a relocated branch line.", "topic": "hanger-near-added-fitting", "position": "900 mm" }
+  ]
+}

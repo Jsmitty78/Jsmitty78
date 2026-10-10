@@ -1,0 +1,430 @@
+{
+  "source_commit": "7efa012b2e15f433aa39bba0fcbafeac04399d9f",
+  "files": [
+    {
+      "path": "docs/media/architecture.png",
+      "sha": "f528246237d381d98c5d51b6fa7a540559b94aa1",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "docs/media/materials-assembly.gif",
+      "sha": "818b2a1f5dd095da03e219bc9cb125b183993924",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "docs/media/rule-search.gif",
+      "sha": "2dcfbf768e33d31bb212f877b2f572df5d62667c",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "docs/media/site-change.gif",
+      "sha": "824c647f9aba3b7e2b9f794d48e6d3b824e1c7cb",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/acceptance/issue-12/comparison.png",
+      "sha": "0f63d0de8c3ee8b2e53e895f527eaa2cdff38968",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/acceptance/issue-12/export.png",
+      "sha": "791dbec9a9520469b6bf49543fb5daa9d988c2d6",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/acceptance/issue-12/fs01-comparison.png",
+      "sha": "791359e126e1f67cad20e15f48c7472118233d41",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/acceptance/issue-12/fs01-export.png",
+      "sha": "647f1d218ca0430e60620577d583a67fcdd06be8",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/drawing/edited-plan.svg",
+      "sha": "74e878a0f05797479e42cf598be16a1b2273923c",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/editor-verified.png",
+      "sha": "1ef2388f62b6703e7e5bad15e8c7390b0f21f305",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/edit.png",
+      "sha": "4c3f37fa69daf34431b8516d1a83517048131ac5",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/edit.svg",
+      "sha": "680ebb79070da946e394f8e56aac88521e354722",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/edited-v3.json",
+      "sha": "7c6896f9a6b15a97ce830262014feefaf17739a5",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/edited-v3.svg",
+      "sha": "7ed644e5848c62b5fd80ed73be9a0c3d8d73ff39",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/editor-verified.png",
+      "sha": "ed9e5dbbe8fe4af0b421ac208793076c1bbbf579",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/geometry-report.json",
+      "sha": "1ee3381e733ee71355f10a6064ee42070b0aaed5",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/original.png",
+      "sha": "0f9913a4f794ecde61215d51ace01dd5c71ba407",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/original.svg",
+      "sha": "5601c88044d75a84ad588bf2631334756e5cbe17",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/overlay.png",
+      "sha": "d78eab7fc2ed83ba44033e86a03f8d3be81af028",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/overlay.svg",
+      "sha": "b2d9f2afe9d62186087414676f48340c89309318",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/pdf-mezzanine.png",
+      "sha": "b801d24c3279d9d87e8e110d189d418c5acd753e",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/drawing/reference/source-derived-plan.svg",
+      "sha": "c395886292237f199cefe2ae007a149978947426",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/docs/ui/05-prepare-results.png",
+      "sha": "5f7ae5d014e4fdb4235ac72a35a970c3ccb82af4",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/06-prepare-piece-selected.png",
+      "sha": "a26ca3fe7e5bf56728f6a1ed866ac57486d48f8e",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/12-adapt-routes.png",
+      "sha": "8fac97a22d380afc2571ee00057280d58ffe6d4a",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/14-adapt-revised-package.png",
+      "sha": "4a9042408faa11bec245c1ac1f7ba5850b80b8f5",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/16-adapt-export.png",
+      "sha": "6af4bbe76e1b889de4a175df499b85495fad52df",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/20-phone-adapt.png",
+      "sha": "1bfb3b0d3023b8268d8cc77841a152c2eac3af3f",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/22b-phone-prepare-panel.png",
+      "sha": "92b3916ef1360a9e452867f1083168c508f7adb8",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/31-manual-unknown-cuts.png",
+      "sha": "ba6f3a48f9a9c1ffe13851119e32a2da8e9f65e0",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/33-selection-cleared.png",
+      "sha": "35c30ce64954afa499d02aa309974840b71742ce",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/34-no-routes.png",
+      "sha": "bb17bc9819055453100aab45b263b12b6668d696",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/35-integrated-inspections.png",
+      "sha": "1b8ac58e7cbd0da0c66382b11d402ffc9cc4546e",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/36-inspections-mobile.png",
+      "sha": "560559535e4921c2e9c82bc3af06ba802e780a81",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-calculation.png",
+      "sha": "e526a99cf2a387a04a5db4d9fca3444d2d7eca14",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-conditions-conflicts.png",
+      "sha": "b1bdba1e21030bc7d4f8acfdfde22c91777a0733",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-duct-answer.png",
+      "sha": "e7b6e05d5475093a1aa1a6c146ff8e1b38fc3bd4",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-empty.png",
+      "sha": "71f25520ed7a088fc936d988bffa3f2b3d666769",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-exception-applies.png",
+      "sha": "a51230d629bffdbb264c94f172d299f641051ad9",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-library.png",
+      "sha": "0d6299f974cb33dc4ddb6b1b461cf587988755f2",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-no-source.png",
+      "sha": "45dd0d5bf79d045e64389552088a8793d4cee24b",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-open-table.png",
+      "sha": "6efafc88508a8722c21951368aa7e3fb39a6c452",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-phone.png",
+      "sha": "fe5794a5fd6adf6fc3f48ca10622175770a8d205",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-answer-page.png",
+      "sha": "fa288a7e0afbea54e68f6d9eefac60ef200f0098",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-formats.png",
+      "sha": "eef94500a48b9408a9b417cd170b00e900ddf4d8",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-phone-library.png",
+      "sha": "e8042fa091866fa444f5a7ef32a396652f5af987",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-phone.png",
+      "sha": "693474b058e57a86bfe0cf08d0b2ee3ca5647c98",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-retry.png",
+      "sha": "d991891198d368d5e5af342dbfe6947f73052c01",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-review-unclear.png",
+      "sha": "b311bdd9e16ccd59230962870b51ca5ed555f51e",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/ask-upload-site-photos.png",
+      "sha": "135901c52f93ff94ea04713b895e2fe478352400",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/intake-rotated-adapt.png",
+      "sha": "ad3add1520cfd1c5e7975632c21c1ff0adb7d875",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/intake-sheet-overlay.png",
+      "sha": "b31b27c3f361d7a87acce864fff71f27d954979c",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/intake-traced.png",
+      "sha": "a0f6179bc327af7a2dc9a30dbf33ac7efba12587",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/prep-assembly.png",
+      "sha": "40ada81c011abe443b81d47dc5d49e92d27cad80",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/prep-context.png",
+      "sha": "0a00e860c9f9604a759fbfd242aa1b2ea1fe9ffe",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/prep-materials.png",
+      "sha": "a55e00dc417daafdc5911ad433b32adb8554214c",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/site-duct-panel.png",
+      "sha": "3d2907076e446c04dfe54bff83c96a4167ba3c08",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/site-frame.png",
+      "sha": "f71011df86017d62c77209844a6275db5b0a2c37",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/site-missing-height.png",
+      "sha": "7df86130b9f855f4a9ec03569e3c65cc97ba2ca5",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/site-views.png",
+      "sha": "2c354350c084a4c45f32c018c6b99c22a6b666ea",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/docs/ui/sprink-workbench.png",
+      "sha": "10d70ceca45ada8dcce3cbb69a4a91622e1a961d",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/site-change/ambiguous-rotated.png",
+      "sha": "5cd21916ffd4f5f37ea6ed490dcbb78a9b4f05cf",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/site-change/ambiguous.svg",
+      "sha": "cf2b50eb197320e4930bcc8865da3e9aa789405c",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/fixtures/site-change/fs01.pdf",
+      "sha": "d32812670020e186417a60816b5ed1a4d468df6f",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/site-change/site-dimensions.png",
+      "sha": "d7b65b7811262f58189720cfa5331c0955af7b85",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/site-change/site-dimensions.svg",
+      "sha": "e8948544f2e3224c8af45ded82d159f225b90c74",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    },
+    {
+      "path": "sprink/fixtures/site-change/spears-pipe-dimensions.pdf",
+      "sha": "08bf9c9a0cc7f755cc4d5d13cb03b60ea1488ba0",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/site-change/spears-pipe-lengths.pdf",
+      "sha": "f39bc5db1d6ce3c718f75940a582d2c1e4d61223",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/animated.gif",
+      "sha": "227e2a49b977a4325cc466b0d914ac9b33c043ab",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/corrupt.pdf",
+      "sha": "fc65393c5073f52e55267f5b54fbf4f607aaad53",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/label.bmp",
+      "sha": "1fdd90091f09f22c6a229bf1c3048ab1f8727a48",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/label.gif",
+      "sha": "ef180ebb3d65417801e939f9e0b85ec8be71f9a2",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/label.png",
+      "sha": "7d8ec6fc1e763b0de51c49d4f238a86be243d12d",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/label.webp",
+      "sha": "459aeae8f1d2bf39e7a368bb1d19e14665820125",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/locked.pdf",
+      "sha": "ee11cd91ed09fe3baf5b965b8fb9cc134e030c00",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/mixed-procedure.pdf",
+      "sha": "2667016e15d5603d3564b18f60b7f4c1248913cc",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/native-text-manual.pdf",
+      "sha": "a10f967beb9d0b301b4f5326a5346a95c135b19a",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/oversized-dimensions.png",
+      "sha": "319b06005732700a7c17eaa118c76ae4c92765a6",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/renamed-jpeg.heic",
+      "sha": "75aad80265ae74ef4c0e0d6eaa98f9fcc0b9ab0e",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/scanned-spec.pdf",
+      "sha": "40ff32892695536cc45baed6ed3c97b4af1da9bb",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/site-duct-rotated.jpg",
+      "sha": "d1a2bf607c661939716c3f365e5cd1b7528cf3a8",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/site-label-iphone.heic",
+      "sha": "1528e8170f7521fe4305da5bfdee9e6b67528118",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/two-page.tiff",
+      "sha": "ecbf7e4a208adcac7be6220181dce500be16c466",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/fixtures/uploads/unclear-scan.png",
+      "sha": "bb03449debc7850b8d9fb0cd338a528594d418c3",
+      "reason": "Unreviewed image, video, PDF, or binary fixture excluded from public source snapshot."
+    },
+    {
+      "path": "sprink/packages/core/src/reference/itd-mezzanine.json",
+      "sha": "1e23a3fb3ee4c315ea251a8b419547970511b790",
+      "reason": "Source-derived drawing data or vector drawing asset omitted pending redistribution review."
+    }
+  ]
+}
