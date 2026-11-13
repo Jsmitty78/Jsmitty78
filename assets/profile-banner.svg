@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Jake Smith</title><desc id="desc">Computer Engineering. Software, systems, and the people who use them. Boston to Osaka.</desc>
-  <rect width="1200" height="300" rx="16" fill="#111d2b"/>
-  <path d="M870 0v300M990 0v300M1110 0v300M800 90h400M800 210h400" stroke="#294052" stroke-width="1"/>
-  <rect x="56" y="52" width="40" height="5" fill="#74dfbd"/>
-  <text x="56" y="132" fill="#f5f7fa" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700">Jake Smith</text>
-  <text x="58" y="184" fill="#c5d3df" font-family="Arial,Helvetica,sans-serif" font-size="25">Software, systems, and the people who use them.</text>
-  <text x="58" y="249" fill="#74dfbd" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="2">COMPUTER ENGINEERING · BOSTON → OSAKA</text>
-  <circle cx="990" cy="150" r="65" fill="#172b3a" stroke="#74dfbd" stroke-width="2"/>
-  <path d="m975 130-20 20 20 20m30-40 20 20-20 20" stroke="#74dfbd" stroke-width="4" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Jake Smith — Product engineering, AI and physical prototypes</title>
+<desc id="desc">An engineering portfolio from Boston to Osaka. Founder and CEO of VisionPath.</desc>
+<rect width="1280" height="360" rx="18" fill="#122D42"/>
+<g fill="none" stroke="#315367" stroke-width="2">
+<path d="M884 0v83c0 35 28 63 63 63h97c35 0 63 28 63 63v151"/>
+<path d="M939 0v60c0 18 15 33 33 33h94c51 0 93 42 93 93v174"/>
+<path d="M994 0v27c0 8 6 14 14 14h62c80 0 145 65 145 145v174"/>
+</g>
+<path d="M826 360v-72c0-39 32-71 71-71h79c36 0 65-29 65-65V0" stroke="#F3CA68" stroke-width="5" fill="none"/>
+<circle cx="826" cy="288" r="9" fill="#F3CA68"/>
+<circle cx="1041" cy="92" r="9" fill="#F3CA68"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="64" y="64" font-size="22" fill="#BBD0DE">Product engineering / AI / Physical prototypes</text>
+<text x="59" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="86" fill="#FFFFFF">Jake Smith</text>
+<text x="64" y="221" font-size="28" fill="#EAF2F7">Building useful technology around real people.</text>
+<path d="M64 262h650" stroke="#315367"/>
+<text x="64" y="309" font-size="21" fill="#BBD0DE">Founder &amp; CEO, VisionPath</text>
+<text x="608" y="309" font-size="21" fill="#BBD0DE">Boston to Osaka</text>
+</g>
 </svg>

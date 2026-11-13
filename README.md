@@ -1,144 +1,87 @@
-<div align="center">
+![Jake Smith — Product engineering, AI and physical prototypes. Founder and CEO of VisionPath. Boston to Osaka.](assets/profile-banner.svg)
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=185&section=header&text=Jake%20Smith&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Product%20Engineering%20%7C%20AI%20%7C%20Human-Centered%20Systems&descAlignY=60&descSize=18)
+**[VisionPath](https://visionpath.tech)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/jake-smith-japan)** &nbsp; / &nbsp; **[Get in touch](mailto:jakesmith1447@gmail.com)**
 
-### Product Engineering · AI · Founder & CEO of VisionPath
+I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I build software and physical prototypes for accessibility, healthcare, and field work—from talking with users to getting a working demo into their hands.
 
-I build AI products around real operational problems.
+Currently building **assistive mobility technology at VisionPath** and **reviewable AI tools for sprinkler fitters with Sprink**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jake_Smith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jake-smith-japan)
-[![VisionPath](https://img.shields.io/badge/VisionPath-Founder_%26_CEO-1D4ED8?style=for-the-badge)](https://visionpath.tech)
-[![Email](https://img.shields.io/badge/Email-Contact-0891B2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jakesmith1447@gmail.com)
+## Selected work
 
-</div>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="The Pathway team with the Oxford first-place certificate" width="100%"></a>
+<h3><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon">Pathway</a></h3>
+<p><strong>1st Place · Oxford Venture Hackathon</strong></p>
+<p>A smartphone and an improvised walking frame, built into an obstacle-detection and fall-alert prototype in 36 hours.</p>
+<p><strong>My work:</strong> user research, physical prototype integration, testing, and pitching. Our team conducted 32 street interviews.</p>
+<p><sub>Python · JavaScript · Computer vision · Hardware</sub></p>
+<p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="The Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
+<h3><a href="projects/sprink.md">Sprink</a></h3>
+<p><strong>2nd Place · $10,000 team Special Prize</strong></p>
+<p>An AI field assistant for sprinkler fitters: ask a question, inspect the reference, and review the next step.</p>
+<p><strong>My work:</strong> customer interviews, product direction, pitching, and later mobile Ask UX, voice input, and failure handling.</p>
+<p><sub>React · TypeScript · Hono · SQLite · Retrieval</sub></p>
+<p><a href="projects/sprink.md">Case study</a> · <a href="projects/sprink-source/">Explore the code</a></p>
+</td>
+</tr>
+</table>
 
-## About me
+### [PBL4 · Multi-projector image blending](projects/pbl4.md)
 
-I'm a second-year Computer Engineering student at **Ritsumeikan University** in Osaka, originally from Boston. I'm the **Founder & CEO of [VisionPath](https://visionpath.tech)**, building assistive mobility technology for safer, more independent walking. My work connects product engineering, AI, and real users.
+**Two projectors. One wide image. A 12-person engineering team.**
 
-Across my projects, I work from user interviews and problem definition through prototyping, implementation, testing, and presentation.
+<a href="projects/pbl4.md"><img src="https://raw.githubusercontent.com/daitera1/PBL4-G1/main/Documentation/final-deliverable-2026-11-12/real.JPG" alt="The PBL4 team's photographed two-projector output from the final project documentation" width="100%"></a>
 
-My strongest work tends to be:
+A Python application that prepares left and right projector images and applies gamma-corrected alpha masks to the overlap. The repository includes both a baseline and a gamma-corrected implementation, alongside the team's demonstration photos and final presentation.
 
-- AI products with a clear human-in-the-loop design
-- tools for healthcare, accessibility, field work, and operations
-- practical prototypes with clear documentation and testable behavior
-- products shaped by conversations with real users
+**My role:** project manager, coordinating Development, Documentation, and Management; organizing Jira tasks, team check-ins, shared resources, and the final handover. I also helped with the practical projector setup.
 
-## Featured projects
+`Python` `OpenCV` `NumPy` `UML` `Jira` `Technical documentation`
 
-| Project | What it does | Stack / focus |
-|---|---|---|
-| **[Oxford Venture Hackathon · 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)** | Pathway uses a smartphone mounted on a walking frame improvised from lacrosse sticks to detect obstacles and warn older adults about nearby hazards. Its fall-alert workflow explores calling a family member for help, demonstrated with a simulated fall and a real call to our team. | Python, JavaScript, computer vision, physical prototyping |
-| **[Sprink · 2nd Place / $10,000 Special Prize](projects/sprink.md)** | Field assistant for sprinkler fitters, built with Yu in San Francisco. Reference search, reviewable source context, and mobile Ask workflows. | React, TypeScript, Hono, SQLite, retrieval |
-| **[Hospital Finder / CarePath Navigator](projects/hospital-finder.md)** | CarePath Navigator compares hospitals using location, estimated waiting time, language support, and specialty. Its React interface combines map visualization with weighted ranking to help users compare care options; the portfolio demo uses seeded data. | React, TypeScript, TanStack, Leaflet, ranking |
-| **[MemoryPath · YC RFS / Transpose AI Hackathon concept](projects/memorypath.md)** | Turns SOAP notes, caregiver observations, and family memories into evidence-backed proposals for a dementia-care Living Care Profile. Optional GBrain knowledge retrieval supports the AI workflow, while nurses review citations and approve changes before they enter the profile. | Next.js, TypeScript, structured AI output, Zod |
-| **[People Bridge](projects/bridge.md)** | Anonymized QREC Venture Life Challenge HR prototype for organizing records and preparing follow-up questions. | Next.js, TypeScript, IndexedDB, local-model analysis |
+[Project overview](projects/pbl4.md) · [Team repository](https://github.com/daitera1/PBL4-G1) · [Code & run guide](https://github.com/daitera1/PBL4-G1/tree/main/Development) · [Final presentation](https://github.com/daitera1/PBL4-G1/tree/main/Presentation)
 
-## Selected project details
+### More projects
 
-### 🏆 [Oxford Venture Hackathon · 1st Place](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
+| Project | What I worked on |
+| :--- | :--- |
+| **[CarePath Navigator / Hospital Finder](projects/hospital-finder.md)** | Led the PBL3 team and built much of the frontend for comparing hospitals by distance, waiting time, language, and specialty. React, TypeScript, Leaflet; seeded portfolio demo. |
+| **[MemoryPath](projects/memorypath.md)** | Frontend, interviews, and workflow design for a dementia-care handoff prototype with evidence-backed proposals and nurse approval. Built with Yu at the Transpose Platform AI Hackathon. [Code](https://github.com/Jsmitty78/MemoryPath). |
+| **[People Bridge](projects/bridge.md)** | Product definition and prototype development for an HR tool that organizes records and prepares follow-up questions. Anonymized QREC Venture Life Challenge case study. |
 
-**Pathway · A 36-hour team build in Oxford**
+## How I work
 
-[![The Pathway team with the first-place certificate](https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg)](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon)
+**Understand the problem → build with the team → test with people → document the result.**
 
-Four teammates met at the event and built a smartphone-based walking-frame prototype. We conducted 32 street interviews, improvised a frame from lacrosse sticks, borrowed a 3D printer overnight, and demonstrated a simulated fall triggering a real call to our team's phone.
+| Software & AI | Systems & delivery |
+| :--- | :--- |
+| Python, TypeScript, JavaScript, Java | Raspberry Pi, ESP32, cameras, RGB-D sensing |
+| React, Next.js, Node.js, Hono, Flask | User research, requirements, prototyping |
+| OpenCV, YOLO, structured LLM output, retrieval | Testing, CI, UML, Jira, technical documentation |
 
-**My role:** concept development, user research, and hands-on prototype engineering. I helped integrate the smartphone with the physical walker prototype, test the hazard-detection and fall-alert workflow, and troubleshoot issues ahead of the live demonstration. I also led customer discovery and contributed to the final pitch. Built with Caleb Byrne, Antony He, and Aiyush Gupta.
+## Recognition
 
-**Inside the repository:** the surviving Python detector, original event photos and footage, and a reconstructed JavaScript browser demo. The documentation clearly separates original work from the later reconstruction.
+- **1st Place** — Oxford Venture Hackathon 2026
+- **2nd Place / $10,000 team Special Prize** — Recruit Holdings / Indeed Innovation Cup, San Francisco
+- **1st Place** — MIT Startup Hackathon 2024
+- **Osaka Life Science Nexus Award** — ACCJ Health Tech Pitch 2026
+- **Audience Award** — Rocket Pitch Kansai 2025
 
-[Read the build story](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md) · [Explore the code](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/tree/main/src) · [Watch the original demos](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage)
-
-### 🔧 [Sprink · 2nd Place, Recruit Holdings / Indeed Innovation Cup](projects/sprink.md)
-
-**San Francisco · From field interviews to a working prototype in 48 hours**
-
-[![Sprink team receiving the $10,000 Special Award at Innovation Cup in San Francisco](assets/sprink-team-san-francisco.jpg)](projects/sprink.md)
-
-*Our team at the Recruit Holdings Innovation Cup award presentation.*
-
-An assistant for sprinkler fitters: ask a field question, inspect its supporting reference, and work toward a reviewable next step. Yu Yoshimuta and I won a **$10,000 team Special Prize**. Built during September 25–27, 2026, with continued development after the competition.
-
-**My work:** customer interviews, product direction and pitching; later contributions to mobile Ask UX, reviewed voice input, source context, request cancellation, and failure handling.
-
-**Engineering:** React, TypeScript, Hono/Node, SQLite, tool-based AI workflows, explicit verification, and human confirmation.
-
-We received technical feedback from **Jim Giles, CTO of Indeed**, and advice from fellow judges **Robert Hohman** (Glassdoor co-founder and former CEO), **Damien Contreras** (Google Cloud), and **Ho Joon Cha** (OpenAI).
-
-[Read the case study](projects/sprink.md) · [Explore the code](projects/sprink-source/)
-
-### 🏥 [Hospital Finder / CarePath Navigator](projects/hospital-finder.md)
-
-**PBL3 · Project management, frontend development, and system design**
-
-A hospital comparison interface that brings distance, estimated waiting time, language, and specialty into one decision. I led the class project team, built much of the frontend, and contributed to backend work and architecture planning.
-
-**Engineering:** React, TypeScript, TanStack, Leaflet maps, weighted ranking, and clear treatment of uncertain estimates. The portfolio interface uses seeded data; the case study distinguishes it from the broader proposed backend.
-
-[Read the technical case study](projects/hospital-finder.md)
-
-### 🧠 [MemoryPath](projects/memorypath.md)
-
-**YC Request for Startups concept · Transpose Platform AI Hackathon, Kansai**
-
-A dementia-care handoff prototype that turns SOAP notes and care records into evidence-backed updates to a Living Care Profile. Nurses review the supporting evidence, edit proposals, and approve changes.
-
-Built at the Transpose Platform × Ritsumeikan University × OUVC event, featuring **Garry Tan, CEO of Y Combinator**, and a five-hour challenge based on **YC Request for Startups** themes.
-
-**My role:** frontend work, fieldwork, user interviews, and product/workflow design with Yu. The repository also documents later technical development beyond the hackathon.
-
-**Engineering:** Next.js, TypeScript, structured model output, optional GBrain knowledge retrieval, Zod validation, evidence checks, and versioned approvals. The event introduced GStack for AI-assisted development; the case study explains the tooling and implementation.
-
-[Read the case study](projects/memorypath.md) · [Explore the code](https://github.com/Jsmitty78/MemoryPath)
-
-### 🌉 [Bridge · HR workflow prototype](projects/bridge.md)
-
-**Kyushu University QREC Venture Life Challenge · Fukuoka**
-
-A project exploring how HR could find missing context across workplace conversations and prepare better follow-up questions. I worked on product definition, prototype development, and feedback from HR and engineers.
-
-**Engineering:** Next.js, TypeScript, typed API routes, rule-based detection, optional local-model analysis, IndexedDB, and bilingual interfaces.
-
-[Read the anonymized case study](projects/bridge.md)
-
-## Tools I use
-
-| Area | Technologies |
-|---|---|
-| Software | Python, Java, JavaScript, TypeScript, React, Next.js |
-| AI and data | Computer vision, YOLO, OpenCV, XGBoost, structured LLM output, retrieval systems |
-| Backend | Node.js, Hono, Flask, SQLite, API design |
-| Product engineering | User research, requirements, prototyping, evaluation, technical storytelling |
-| Hardware | Raspberry Pi, ESP32, cameras, RGB-D sensing, ultrasonic sensors |
-| Quality | Automated testing, type checking, CI, source provenance, documentation |
-
-## Selected recognition
-
-- **1st Place**, Oxford Venture Hackathon 2026
-- **2nd Place / $10,000 Special Prize (team)**, Recruit Holdings / Indeed Innovation Cup, San Francisco
-- **1st Place**, MIT Startup Hackathon 2024
-- **Osaka Life Science Nexus Award**, ACCJ Health Tech Pitch 2026
-- **Audience Award**, Rocket Pitch Kansai 2025
-
-## What I'm building now
-
-- **[VisionPath](https://visionpath.tech)**: Founder & CEO, building assistive mobility technology through product engineering, AI, and user research
-- **Sprink**: mobile reference search and reviewable AI assistance for sprinkler fitters
-- Practical software that connects engineering, user research, and product development
-
-## Contribution activity
-
+<details>
+<summary>Contribution activity</summary>
+<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Snake animation eating my GitHub contribution squares" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg">
+  <img alt="Animated GitHub contribution grid" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg">
 </picture>
+</details>
 
-<div align="center">
+---
 
-**Osaka, Japan · Open to engineering, product, AI, and innovation opportunities**
+**Let's build something useful.** Open to engineering, product, AI, and innovation opportunities.
 
-[LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com) · [VisionPath](https://visionpath.tech)
