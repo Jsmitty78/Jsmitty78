@@ -6,6 +6,19 @@ Upstream repository: `my-name-is-yu/InnovationCup`
 Source commit: `7efa012b2e15f433aa39bba0fcbafeac04399d9f`  
 Snapshot prepared: 2026-10-10
 
+## Run the public frontend checks
+
+From the **profile repository root** (`Jsmitty78/`):
+
+```sh
+npm ci --ignore-scripts --no-audit --no-fund
+npm run check
+```
+
+Requires Node 22.19.0 or later. This runs **38 existing frontend tests**, checks maintained portfolio links, and verifies all **306 archived file hashes**. It needs no private dataset or API key. [Verification guide and exact scope](../../docs/VERIFICATION.md) · [Code and contribution tour](../../docs/ENGINEERING_REVIEW.md).
+
+The separate root test harness was added on 13 November 2026. The archived application source remains unchanged. The full-app limitations below still apply.
+
 ## Read the code
 
 - [React interface and mobile Ask flow](sprink/apps/web/src/workbench/ask/AskPanel.tsx)
@@ -27,7 +40,7 @@ The original code directly imports `sprink/packages/core/src/reference/itd-mezza
 
 Other exclusions are reference/manufacturer PDFs, source-derived drawings, and unreviewed binary fixtures and screenshots. Tests and scripts using FS-01, PDF extraction, upload fixtures, drawing-reference verification or related browser scenarios need those files restored. Original README image links to omitted media will not render here. Synthetic fixture generator source remains available, but its generated files have not been recreated or validated for this snapshot. The app favicon and Sprink wordmark are included.
 
-No build, test run, field-accuracy measurement or deployment is claimed for this export. The original source documentation records the project's own earlier checks and their limitations.
+The public frontend subset was verified on 13 November 2026: 38 tests passed. No full application build, backend validation, field-accuracy measurement, or deployment is claimed for this snapshot. The original source documentation records the project's own earlier checks and their limitations.
 
 ## Attribution and reuse
 

@@ -1,0 +1,21 @@
+{
+  "name": "jake-smith-portfolio-checks",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible checks for the published Sprink frontend snapshot and portfolio navigation.",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "test": "vitest run --config vitest.portfolio.config.mjs",
+    "check:links": "node scripts/check-portfolio-links.mjs",
+    "check": "npm run check:links && npm run check:snapshot && npm test",
+    "check:snapshot": "node scripts/verify-snapshot.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "20.14.5",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "vitest": "3.2.7"
+  }
+}

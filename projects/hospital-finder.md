@@ -2,7 +2,7 @@
 
 **PBL3 · Ritsumeikan University · Project management and software development**
 
-[Back to my profile](../README.md)
+[Back to my profile](../README.md) · [Public frontend](https://github.com/daitera1/PBL3-Group-D/tree/add-carepath-frontend/frontend/route-to-care-ai) · [Team documentation](https://daitera1.github.io/PBL3-Group-D/)
 
 ## The problem
 
@@ -63,4 +63,4 @@ The repository records the following responsibilities. Development was collabora
 
 Project management became concrete in the interfaces between people's work: agreeing on data shapes, assigning documentation responsibilities, and making the final workflow coherent. Clear architecture diagrams helped turn separate tasks into a shared implementation plan.
 
-The source snapshot remains private. This public case study describes the work without exposing its private repository.
+The team has published the [frontend snapshot](https://github.com/daitera1/PBL3-Group-D/tree/add-carepath-frontend/frontend/route-to-care-ai) on the `add-carepath-frontend` branch. The [team repository](https://github.com/daitera1/PBL3-Group-D) links the prototype and project documentation. The training dataset and model artifacts remain unavailable in that public snapshot, so this page makes no independently reproduced model-performance claim.

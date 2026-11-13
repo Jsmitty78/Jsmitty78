@@ -6,7 +6,7 @@
 
 Yu and I built Sprink during a 48-hour sprint and won a **$10,000 Special Prize as a team**, followed by continued product and engineering work.
 
-[Back to my profile](../README.md) · [Explore the application code](sprink-source/)
+[Back to my profile](../README.md) · [Code & tests](../docs/ENGINEERING_REVIEW.md#start-with-sprink) · [Run 38 frontend checks](../docs/VERIFICATION.md)
 
 ![Sprink team receiving the $10,000 Special Award at Innovation Cup in San Francisco](../assets/sprink-team-san-francisco.jpg)
 
@@ -119,4 +119,4 @@ The next evaluation is repeated field use: whether workers can verify a source, 
 
 This public snapshot includes the application source, tests, configuration, and technical documentation at commit `7efa012b2e15f433aa39bba0fcbafeac04399d9f`. It includes later work as well as the competition project. Team attribution and original source hashes are preserved.
 
-Reference PDFs, a source-derived drawing dataset, and some binary fixtures are excluded. **The full build requires the omitted dataset**, and some tests require the omitted fixtures. This is a source-review copy, not a turnkey demo. The [source README](sprink-source/) documents setup, provenance, and the exclusions.
+Reference PDFs, a source-derived drawing dataset, and some binary fixtures are excluded. **The full build requires the omitted dataset**, and some tests require the omitted fixtures. The separate public review harness runs 38 existing frontend tests without those assets; it does not build the full app. The [source README](sprink-source/) documents the commands, provenance, and exclusions.

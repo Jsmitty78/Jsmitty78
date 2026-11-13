@@ -6,19 +6,22 @@ I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the *
 
 Currently building **assistive mobility technology at VisionPath** and **reviewable AI tools for sprinkler fitters with Sprink**.
 
+## Inside the code
+
+**[Engineering review](docs/ENGINEERING_REVIEW.md)** · **[Reproduce the checks](docs/VERIFICATION.md)**
+
+[![Public source checks](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml)
+
+| Sprink | MemoryPath | Pathway |
+| :--- | :--- | :--- |
+| **38 frontend tests** · reviewed voice input and request recovery | **58 tests** · evidence checks and profile approval | **27 tests** · reconstructed hazard and fall-event logic |
+
+*Verified 13 November 2026. [Check scope and limitations](docs/VERIFICATION.md).*
+
 ## Selected work
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="The Pathway team with the Oxford first-place certificate" width="100%"></a>
-<h3><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon">Pathway</a></h3>
-<p><strong>1st Place · Oxford Venture Hackathon</strong></p>
-<p>A smartphone and an improvised walking frame, built into an obstacle-detection and fall-alert prototype in 36 hours.</p>
-<p><strong>My work:</strong> user research, physical prototype integration, testing, and pitching. Our team conducted 32 street interviews.</p>
-<p><sub>Python · JavaScript · Computer vision · Hardware</sub></p>
-<p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p>
-</td>
 <td width="50%" valign="top">
 <a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="The Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
 <h3><a href="projects/sprink.md">Sprink</a></h3>
@@ -26,8 +29,15 @@ Currently building **assistive mobility technology at VisionPath** and **reviewa
 <p>An AI field assistant for sprinkler fitters: ask a question, inspect the reference, and review the next step.</p>
 <p><strong>My work:</strong> customer interviews, product direction, pitching, and later mobile Ask UX, voice input, and failure handling.</p>
 <p><sub>React · TypeScript · Hono · SQLite · Retrieval</sub></p>
-<p><a href="projects/sprink.md">Case study</a> · <a href="projects/sprink-source/">Explore the code</a></p>
-</td>
+<p><a href="projects/sprink.md">Case study</a> · <a href="docs/ENGINEERING_REVIEW.md#start-with-sprink">Code &amp; tests</a></p></td>
+<td width="50%" valign="top">
+<a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="The Pathway team with the Oxford first-place certificate" width="100%"></a>
+<h3><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon">Pathway</a></h3>
+<p><strong>1st Place · Oxford Venture Hackathon</strong></p>
+<p>A smartphone and an improvised walking frame, built into an obstacle-detection and fall-alert prototype in 36 hours.</p>
+<p><strong>My work:</strong> user research, physical prototype integration, testing, and pitching. Our team conducted 32 street interviews.</p>
+<p><sub>Python · JavaScript · Computer vision · Hardware</sub></p>
+<p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p></td>
 </tr>
 </table>
 
@@ -51,6 +61,7 @@ A Python application that prepares left and right projector images and applies g
 | :--- | :--- |
 | **[CarePath Navigator / Hospital Finder](projects/hospital-finder.md)** | Led the PBL3 team and built much of the frontend for comparing hospitals by distance, waiting time, language, and specialty. React, TypeScript, Leaflet; seeded portfolio demo. |
 | **[MemoryPath](projects/memorypath.md)** | Frontend, interviews, and workflow design for a dementia-care handoff prototype with evidence-backed proposals and nurse approval. Built with Yu at the Transpose Platform AI Hackathon. [Code](https://github.com/Jsmitty78/MemoryPath). |
+| **[AED Navi North Osaka](https://github.com/Jsmitty78/AED)** | Bilingual map prototype with source-aware AED data, access-state labels, distance sorting, and data checks. |
 | **[People Bridge](projects/bridge.md)** | Product definition and prototype development for an HR tool that organizes records and prepares follow-up questions. Anonymized QREC Venture Life Challenge case study. |
 
 ## How I work

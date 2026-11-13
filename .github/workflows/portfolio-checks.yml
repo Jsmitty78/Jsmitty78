@@ -1,0 +1,33 @@
+name: Portfolio checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'projects/**'
+      - 'docs/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'package*.json'
+      - 'vitest.portfolio.config.mjs'
+      - '.github/workflows/portfolio-checks.yml'
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: portfolio-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  public-review:
+    name: Public source and portfolio
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run check

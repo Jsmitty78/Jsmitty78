@@ -4,7 +4,7 @@
 
 **YC Request for Startups concept · Transpose Platform AI Hackathon, Kansai**
 
-[Back to my profile](../README.md) · [Source repository](https://github.com/Jsmitty78/MemoryPath)
+[Back to my profile](../README.md) · [Source repository](https://github.com/Jsmitty78/MemoryPath) · [Engineering guide & tests](https://github.com/Jsmitty78/MemoryPath/blob/main/docs/ENGINEERING.md)
 
 ## The project
 
