@@ -1,8 +1,10 @@
-# People Bridge
+# PENCIL Bridge
 
 **HR workflow prototype · Kyushu University QREC Venture Life Challenge**
 
-Built while working with a Fukuoka-based host company. This case study omits the company's identity and internal records.
+Built during the PENCIL Co., Ltd. internship in the Kyushu University QREC Venture Life Challenge 2026. This is a student prototype, not an official PENCIL product.
+
+[Public repository](https://github.com/Jsmitty78/pencil-people-bridge) · [Demo linked by the project](https://pencil-bridge-test.lovable.app)
 
 [Back to my profile](../README.md)
 
@@ -46,4 +48,4 @@ Live workplace connectors, authentication, production delivery, and deployment g
 
 An internal tool needs a clear place in an existing workflow. Useful questions, traceable evidence, and a familiar export can matter more than adding another dashboard.
 
-The original source and company-linked demos are intentionally not linked from this case study. A public code edition would need a separate anonymization review covering files, assets, and history.
+The public repository now includes setup instructions, team attribution, fictional demonstration cases, and prototype boundaries. Its README describes a connected data-to-review flow, while this earlier case study describes separate demonstration flows. Check the current implementation before claiming end-to-end integration; this portfolio update has not rerun the application.

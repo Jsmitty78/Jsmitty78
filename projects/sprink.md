@@ -1,6 +1,6 @@
 # Sprink
 
-**2nd Place · $10,000 team Special Prize · Recruit Holdings / Indeed Innovation Cup · San Francisco**
+**Special Award · $10,000 team prize · Recruit Holdings / Indeed Innovation Cup · San Francisco**
 
 **Yu Yoshimuta and Jake Smith · September 25–27, 2026**
 

@@ -2,21 +2,13 @@
 
 **[VisionPath](https://visionpath.tech)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/jake-smith-japan)** &nbsp; / &nbsp; **[Get in touch](mailto:jakesmith1447@gmail.com)**
 
-I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I build software and physical prototypes for accessibility, healthcare, and field work—from talking with users to getting a working demo into their hands.
+I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I work on software prototypes for accessibility, healthcare, and field work, combining user research, implementation, and team delivery.
 
-Currently building **assistive mobility technology at VisionPath** and **reviewable AI tools for sprinkler fitters with Sprink**.
+At **VisionPath**, I am researching camera-based assistive mobility. With **Sprink**, I work on reviewable AI tools for sprinkler fitters.
 
-## Inside the code
+**Start here:** [All projects](projects/INDEX.md) · [Sprink case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
 
-**[Engineering review](docs/ENGINEERING_REVIEW.md)** · **[Reproduce the checks](docs/VERIFICATION.md)**
-
-[![Public source checks](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml)
-
-| Sprink | MemoryPath | Pathway |
-| :--- | :--- | :--- |
-| **38 frontend tests** · reviewed voice input and request recovery | **58 tests** · evidence checks and profile approval | **27 tests** · reconstructed hazard and fall-event logic |
-
-*Verified 13 November 2026. [Check scope and limitations](docs/VERIFICATION.md).*
+Ritsumeikan University, expected graduation **2029** · Native English · Conversational Japanese · Open to engineering and product internships.
 
 ## Selected work
 
@@ -25,7 +17,7 @@ Currently building **assistive mobility technology at VisionPath** and **reviewa
 <td width="50%" valign="top">
 <a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="The Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
 <h3><a href="projects/sprink.md">Sprink</a></h3>
-<p><strong>2nd Place · $10,000 team Special Prize</strong></p>
+<p><strong>Special Award · $10,000 team prize</strong></p>
 <p>An AI field assistant for sprinkler fitters: ask a question, inspect the reference, and review the next step.</p>
 <p><strong>My work:</strong> customer interviews, product direction, pitching, and later mobile Ask UX, voice input, and failure handling.</p>
 <p><sub>React · TypeScript · Hono · SQLite · Retrieval</sub></p>
@@ -34,7 +26,7 @@ Currently building **assistive mobility technology at VisionPath** and **reviewa
 <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="The Pathway team with the Oxford first-place certificate" width="100%"></a>
 <h3><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon">Pathway</a></h3>
 <p><strong>1st Place · Oxford Venture Hackathon</strong></p>
-<p>A smartphone and an improvised walking frame, built into an obstacle-detection and fall-alert prototype in 36 hours.</p>
+<p>A 36-hour team prototype using a smartphone and improvised walking frame. The public repository distinguishes original footage and code from its reconstructed demo.</p>
 <p><strong>My work:</strong> user research, physical prototype integration, testing, and pitching. Our team conducted 32 street interviews.</p>
 <p><sub>Python · JavaScript · Computer vision · Hardware</sub></p>
 <p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p></td>
@@ -57,12 +49,27 @@ A Python application that prepares left and right projector images and applies g
 
 ### More projects
 
+[Browse the complete project index, including research and concept work](projects/INDEX.md).
+
 | Project | What I worked on |
 | :--- | :--- |
 | **[CarePath Navigator / Hospital Finder](projects/hospital-finder.md)** | Led the PBL3 team and built much of the frontend for comparing hospitals by distance, waiting time, language, and specialty. React, TypeScript, Leaflet; seeded portfolio demo. |
 | **[MemoryPath](projects/memorypath.md)** | Frontend, interviews, and workflow design for a dementia-care handoff prototype with evidence-backed proposals and nurse approval. Built with Yu at the Transpose Platform AI Hackathon. [Code](https://github.com/Jsmitty78/MemoryPath). |
 | **[AED Navi North Osaka](https://github.com/Jsmitty78/AED)** | Bilingual map prototype with source-aware AED data, access-state labels, distance sorting, and data checks. |
-| **[People Bridge](projects/bridge.md)** | Product definition and prototype development for an HR tool that organizes records and prepares follow-up questions. Anonymized QREC Venture Life Challenge case study. |
+| **[PENCIL Bridge](projects/bridge.md)** | Bilingual workplace-record review prototype from the QREC Venture Life Challenge internship. Product direction, implementation, and technical demonstration. [Public code](https://github.com/Jsmitty78/pencil-people-bridge). |
+| **[VisionPath / PathOne research](projects/visionpath.md)** | Camera-based assistive-mobility research and product discovery. An integrated PathOne walker and completed LiDAR gait system are not yet built. |
+
+## Inside the code
+
+**[Engineering review](docs/ENGINEERING_REVIEW.md)** · **[Reproduce the checks](docs/VERIFICATION.md)**
+
+[![Public source checks](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml)
+
+| Sprink | MemoryPath | Pathway |
+| :--- | :--- | :--- |
+| **38 frontend tests** · reviewed voice input and request recovery | **58 tests** · evidence checks and profile approval | **27 tests** · reconstructed hazard and fall-event logic |
+
+*Verified 13 November 2026. [Check scope and limitations](docs/VERIFICATION.md).*
 
 ## How I work
 
@@ -77,8 +84,8 @@ A Python application that prepares left and right projector images and applies g
 ## Recognition
 
 - **1st Place** — Oxford Venture Hackathon 2026
-- **2nd Place / $10,000 team Special Prize** — Recruit Holdings / Indeed Innovation Cup, San Francisco
-- **1st Place** — MIT Startup Hackathon 2024
+- **Special Award / $10,000 team prize** — Recruit Holdings / Indeed Innovation Cup, San Francisco
+- **1st Place** — MIT Blueprint Hackathon 2024
 - **Osaka Life Science Nexus Award** — ACCJ Health Tech Pitch 2026
 - **Audience Award** — Rocket Pitch Kansai 2025
 
