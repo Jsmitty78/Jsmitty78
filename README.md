@@ -4,20 +4,22 @@
 
 I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I work on software prototypes for accessibility, healthcare, and field work, combining user research, implementation, and team delivery.
 
-At **VisionPath**, I am researching camera-based assistive mobility. With **Sprink**, I work on reviewable AI tools for sprinkler fitters.
+At **VisionPath**, I am researching camera-based assistive mobility. With **SprinkMate**, I work on reviewable AI tools for sprinkler fitters.
 
-**Start here:** [All projects](projects/INDEX.md) · [Sprink case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
+**Start here:** [All projects](projects/INDEX.md) · [SprinkMate case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
 
 Ritsumeikan University, expected graduation **2029** · Native English · Conversational Japanese · Open to engineering and product internships.
 
 ## Selected work
 
+### Award-winning hackathon projects
+
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="The Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
-<h3><a href="projects/sprink.md">Sprink</a></h3>
-<p><strong>Special Award · $10,000 team prize</strong></p>
+<h3><a href="projects/sprink.md">SprinkMate</a></h3>
+<p><strong>Special Prize · Recruit Holdings Innovation Cup</strong></p>
 <p>An AI field assistant for sprinkler fitters: ask a question, inspect the reference, and review the next step.</p>
 <p><strong>My work:</strong> customer interviews, product direction, pitching, and later mobile Ask UX, voice input, and failure handling.</p>
 <p><sub>React · TypeScript · Hono · SQLite · Retrieval</sub></p>
@@ -33,31 +35,81 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 </tr>
 </table>
 
-### [PBL4 · Multi-projector image blending](projects/pbl4.md)
+### University engineering
 
-**Two projectors. One wide image. A 12-person engineering team.**
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="projects/hospital-finder.md">PBL 3 · CarePath Navigator</a></h3>
+<p><strong>Ritsumeikan University · Hospital Finder</strong></p>
+<p>A hospital comparison interface that brings distance, estimated waiting time, language support, and specialty into one place.</p>
+<p><strong>My work:</strong> project management, much of the frontend, backend contributions, and architecture documentation.</p>
+<p><sub>React · TypeScript · Leaflet · System design</sub></p>
+<p><a href="projects/hospital-finder.md">Case study</a> · <a href="https://daitera1.github.io/PBL3-Group-D/">Team documentation</a></p>
+<p><sub>The portfolio demo uses seeded hospital records and example forecasts.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="projects/pbl4.md">PBL 4 · Multi-projector blending</a></h3>
+<p><strong>Two projectors. One wide image.</strong></p>
+<p>A Python application that prepares left and right projector images and blends their overlap with gamma-corrected alpha masks.</p>
+<p><strong>My work:</strong> managing the 12-person team, coordinating development and documentation, and helping with the practical projector setup.</p>
+<p><sub>Python · OpenCV · NumPy · UML · Jira</sub></p>
+<p><a href="projects/pbl4.md">Case study</a> · <a href="https://github.com/daitera1/PBL4-G1">Team repository</a> · <a href="https://github.com/daitera1/PBL4-G1/tree/main/Development">Code &amp; run guide</a></p>
+<details>
+<summary>See the projector demonstration</summary>
+<br>
+<img src="https://raw.githubusercontent.com/daitera1/PBL4-G1/main/Documentation/final-deliverable-2026-11-12/real.JPG" alt="Our team's photographed two-projector output" width="100%">
+</details>
+</td>
+</tr>
+</table>
 
-<a href="projects/pbl4.md"><img src="https://raw.githubusercontent.com/daitera1/PBL4-G1/main/Documentation/final-deliverable-2026-11-12/real.JPG" alt="The PBL4 team's photographed two-projector output from the final project documentation" width="100%"></a>
+### Research & internship
 
-A Python application that prepares left and right projector images and applies gamma-corrected alpha masks to the overlap. The repository includes both a baseline and a gamma-corrected implementation, alongside the team's demonstration photos and final presentation.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="projects/visionpath.md">The Shaky Walker Effect</a></h3>
+<p><strong>AROB 2027 · Accepted for presentation</strong></p>
+<p>How does motion from a walker affect real-time object detection? This research examines gait-induced camera movement and approaches to keeping detections stable.</p>
+<p><strong>Paper:</strong> Steadying the Shaky Walker: Benchmarking and Mitigating Gait-Induced Camera Motion for Real-Time Object Detection.</p>
+<p><sub>Computer vision · Camera motion · Assistive mobility</sub></p>
+<p><a href="projects/visionpath.md">Research overview &amp; current status</a></p>
+<p><sub>Research in progress. Acceptance is distinct from publication; research code and working notes remain private.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="projects/bridge.md">PENCIL Bridge</a></h3>
+<p><strong>Kyushu University · QREC internship</strong></p>
+<p>A bilingual workplace-record review prototype to help HR teams review and work with workplace information.</p>
+<p><strong>My work:</strong> product direction, implementation, and technical demonstration during the Venture Life Challenge internship.</p>
+<p><sub>Bilingual workflows · HR tools · Product development</sub></p>
+<p><a href="projects/bridge.md">Case study</a> · <a href="https://github.com/Jsmitty78/pencil-people-bridge">Source code</a></p>
+</td>
+</tr>
+</table>
 
-**My role:** project manager, coordinating Development, Documentation, and Management; organizing Jira tasks, team check-ins, shared resources, and the final handover. I also helped with the practical projector setup.
+### Care technology
 
-`Python` `OpenCV` `NumPy` `UML` `Jira` `Technical documentation`
+<table>
+<tr>
+<td valign="top">
+<h3><a href="projects/memorypath.md">MemoryPath</a></h3>
+<p><strong>Osaka AI hackathon · Transpose Platform × Ritsumeikan × OUVC c0mpiled</strong></p>
+<p>Built around a YC Request for Startups theme: helping nurses review dementia-care information. MemoryPath turns care notes and observations into evidence-linked proposals that nurses can inspect, edit, and approve.</p>
+<p><strong>My work:</strong> frontend development, interviews, and workflow design with Yu Yoshimuta.</p>
+<p><sub>Next.js · React · TypeScript · Structured AI output · Evidence verification</sub></p>
+<p><a href="projects/memorypath.md">Case study</a> · <a href="https://github.com/Jsmitty78/MemoryPath">Source code</a> · <a href="https://github.com/Jsmitty78/MemoryPath-original-hackathon">Original hackathon version</a></p>
+<details>
+<summary>See the prototype workspace</summary>
+<br>
+<img src="https://raw.githubusercontent.com/Jsmitty78/MemoryPath/main/docs/screenshot-workspace.png" alt="MemoryPath prototype workspace using synthetic care records" width="100%">
+<p><sub>Prototype with synthetic records. The current repository includes development after the hackathon.</sub></p>
+</details>
+</td>
+</tr>
+</table>
 
-[Project overview](projects/pbl4.md) · [Team repository](https://github.com/daitera1/PBL4-G1) · [Code & run guide](https://github.com/daitera1/PBL4-G1/tree/main/Development) · [Final presentation](https://github.com/daitera1/PBL4-G1/tree/main/Presentation)
-
-### More projects
-
-[Browse the complete project index, including research and concept work](projects/INDEX.md).
-
-| Project | What I worked on |
-| :--- | :--- |
-| **[CarePath Navigator / Hospital Finder](projects/hospital-finder.md)** | Led the PBL3 team and built much of the frontend for comparing hospitals by distance, waiting time, language, and specialty. React, TypeScript, Leaflet; seeded portfolio demo. |
-| **[MemoryPath](projects/memorypath.md)** | Frontend, interviews, and workflow design for a dementia-care handoff prototype with evidence-backed proposals and nurse approval. Built with Yu at the Transpose Platform AI Hackathon. [Code](https://github.com/Jsmitty78/MemoryPath). |
-| **[AED Navi North Osaka](https://github.com/Jsmitty78/AED)** | Bilingual map prototype with source-aware AED data, access-state labels, distance sorting, and data checks. |
-| **[PENCIL Bridge](projects/bridge.md)** | Bilingual workplace-record review prototype from the QREC Venture Life Challenge internship. Product direction, implementation, and technical demonstration. [Public code](https://github.com/Jsmitty78/pencil-people-bridge). |
-| **[VisionPath / PathOne research](projects/visionpath.md)** | Camera-based assistive-mobility research and product discovery. An integrated PathOne walker and completed LiDAR gait system are not yet built. |
+[Browse all projects and supporting documentation](projects/INDEX.md).
 
 ## Inside the code
 
