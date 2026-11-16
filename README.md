@@ -1,105 +1,115 @@
-![Jake Smith — Product engineering, AI and physical prototypes. Founder and CEO of VisionPath. Boston to Osaka.](assets/profile-banner.svg)
+<p align="center"><img src="assets/swiss-grid.svg" alt="Jake Smith. Computer Engineering at Ritsumeikan University. Founder of VisionPath. Boston to Osaka." width="100%"></p>
 
-**[VisionPath](https://visionpath.tech)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/jake-smith-japan)** &nbsp; / &nbsp; **[Get in touch](mailto:jakesmith1447@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/jake-smith-japan)** &nbsp; / &nbsp; **[VisionPath](https://visionpath.tech)** &nbsp; / &nbsp; **[Email](mailto:jakesmith1447@gmail.com)**
 
-I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I work on software prototypes for accessibility, healthcare, and field work, combining user research, implementation, and team delivery.
+I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the founder of **VisionPath**. Originally from Boston, now in Osaka. I work on software and physical prototypes for accessibility, healthcare, and people working in the field.
 
-At **VisionPath**, I am researching camera-based assistive mobility. With **Sprink**, I work on reviewable AI tools for sprinkler fitters.
-
-**Start here:** [All projects](projects/INDEX.md) · [Sprink case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
-
-Ritsumeikan University, expected graduation **2029** · Native English · Conversational Japanese · Open to engineering and product internships.
-
-## Selected work
+## Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="The Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
-<h3><a href="projects/sprink.md">Sprink</a></h3>
-<p><strong>Special Award · $10,000 team prize</strong></p>
-<p>An AI field assistant for sprinkler fitters: ask a question, inspect the reference, and review the next step.</p>
-<p><strong>My work:</strong> customer interviews, product direction, pitching, and later mobile Ask UX, voice input, and failure handling.</p>
-<p><sub>React · TypeScript · Hono · SQLite · Retrieval</sub></p>
-<p><a href="projects/sprink.md">Case study</a> · <a href="docs/ENGINEERING_REVIEW.md#start-with-sprink">Code &amp; tests</a></p></td>
-<td width="50%" valign="top">
-<a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="The Pathway team with the Oxford first-place certificate" width="100%"></a>
-<h3><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon">Pathway</a></h3>
+<a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon"><img src="https://raw.githubusercontent.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/main/assets/hackathon/first-place-team.jpg" alt="Our Pathway team with the Oxford first-place certificate" width="100%"></a>
+<h3>Pathway</h3>
 <p><strong>1st Place · Oxford Venture Hackathon</strong></p>
-<p>A 36-hour team prototype using a smartphone and improvised walking frame. The public repository distinguishes original footage and code from its reconstructed demo.</p>
-<p><strong>My work:</strong> user research, physical prototype integration, testing, and pitching. Our team conducted 32 street interviews.</p>
-<p><sub>Python · JavaScript · Computer vision · Hardware</sub></p>
-<p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p></td>
+<p>A 36-hour assistive-mobility prototype built with a smartphone and an improvised walking frame.</p>
+<p><strong>My part:</strong> user research, physical integration, testing, and pitching.</p>
+<p><a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon/blob/main/docs/HACKATHON_STORY.md">Build story</a> · <a href="https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon#original-hackathon-footage">Original demos</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="projects/sprink.md"><img src="assets/sprink-team-san-francisco.jpg" alt="Our Sprink team at the Innovation Cup award presentation in San Francisco" width="100%"></a>
+<h3>SprinkMate</h3>
+<p><strong>Special Prize · Recruit Holdings Innovation Cup</strong></p>
+<p>An AI field assistant for sprinkler fitters, with references users can inspect before deciding their next step.</p>
+<p><strong>My part:</strong> customer interviews, product direction, pitching, and later mobile experience improvements.</p>
+<p><a href="projects/sprink.md">Case study</a> · <a href="docs/ENGINEERING_REVIEW.md#start-with-sprink">Engineering notes</a></p>
+</td>
 </tr>
 </table>
 
-### [PBL4 · Multi-projector image blending](projects/pbl4.md)
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / PBL 3 · Ritsumeikan</sub>
+<h3><a href="projects/hospital-finder.md">CarePath Navigator</a></h3>
+<p>Compare hospitals by distance, waiting time, language, and specialty.</p>
+<p>Team leadership, frontend development, and architecture documentation.</p>
+<p><sub>React · TypeScript · Leaflet</sub></p>
+<p><a href="projects/hospital-finder.md">Explore project →</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>04 / PBL 4 · Ritsumeikan</sub>
+<h3><a href="projects/pbl4.md">Multi-projector blending</a></h3>
+<p>Two projectors displaying one continuous image.</p>
+<p>Project management for a 12-person team and practical projector setup.</p>
+<p><sub>Python · OpenCV · NumPy</sub></p>
+<p><a href="projects/pbl4.md">Explore project →</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>05 / Research · AROB submission</sub>
+<h3><a href="projects/visionpath.md">The Shaky Walker Effect</a></h3>
+<p>Studying how walker-induced camera motion affects object detection.</p>
+<p>Camera-based assistive-mobility research; methods and current status in the overview.</p>
+<p><sub>Computer vision · Camera motion</sub></p>
+<p><a href="projects/visionpath.md">Explore project →</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>06 / Kyushu University internship</sub>
+<h3><a href="projects/bridge.md">PENCIL Bridge</a></h3>
+<p>Bilingual workplace-record review for HR.</p>
+<p>Product direction, implementation, and technical demonstration.</p>
+<p><sub>Product development · Workplace tools</sub></p>
+<p><a href="projects/bridge.md">Explore project →</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<sub>07 / Osaka · Transpose Platform AI Hackathon</sub>
+<h3><a href="projects/memorypath.md">MemoryPath</a></h3>
+<p>AI-assisted dementia-care handoffs with evidence-linked proposals and nurse review.</p>
+<p>Frontend development, interviews, and care workflow design.</p>
+<p><sub>Next.js · TypeScript · Structured AI output</sub></p>
+<p><a href="projects/memorypath.md">Explore project →</a></p>
+</td>
+</tr>
+</table>
 
-**Two projectors. One wide image. A 12-person engineering team.**
+### Tools & experience
 
-<a href="projects/pbl4.md"><img src="https://raw.githubusercontent.com/daitera1/PBL4-G1/main/Documentation/final-deliverable-2026-11-12/real.JPG" alt="The PBL4 team's photographed two-projector output from the final project documentation" width="100%"></a>
+**Software:** Python · TypeScript · JavaScript · React · OpenCV  
+**Hardware & teamwork:** Raspberry Pi · Cameras · User research · Prototyping · Project management
 
-A Python application that prepares left and right projector images and applies gamma-corrected alpha masks to the overlap. The repository includes both a baseline and a gamma-corrected implementation, alongside the team's demonstration photos and final presentation.
-
-**My role:** project manager, coordinating Development, Documentation, and Management; organizing Jira tasks, team check-ins, shared resources, and the final handover. I also helped with the practical projector setup.
-
-`Python` `OpenCV` `NumPy` `UML` `Jira` `Technical documentation`
-
-[Project overview](projects/pbl4.md) · [Team repository](https://github.com/daitera1/PBL4-G1) · [Code & run guide](https://github.com/daitera1/PBL4-G1/tree/main/Development) · [Final presentation](https://github.com/daitera1/PBL4-G1/tree/main/Presentation)
-
-### More projects
-
-[Browse the complete project index, including research and concept work](projects/INDEX.md).
-
-| Project | What I worked on |
-| :--- | :--- |
-| **[CarePath Navigator / Hospital Finder](projects/hospital-finder.md)** | Led the PBL3 team and built much of the frontend for comparing hospitals by distance, waiting time, language, and specialty. React, TypeScript, Leaflet; seeded portfolio demo. |
-| **[MemoryPath](projects/memorypath.md)** | Frontend, interviews, and workflow design for a dementia-care handoff prototype with evidence-backed proposals and nurse approval. Built with Yu at the Transpose Platform AI Hackathon. [Code](https://github.com/Jsmitty78/MemoryPath). |
-| **[AED Navi North Osaka](https://github.com/Jsmitty78/AED)** | Bilingual map prototype with source-aware AED data, access-state labels, distance sorting, and data checks. |
-| **[PENCIL Bridge](projects/bridge.md)** | Bilingual workplace-record review prototype from the QREC Venture Life Challenge internship. Product direction, implementation, and technical demonstration. [Public code](https://github.com/Jsmitty78/pencil-people-bridge). |
-| **[VisionPath / PathOne research](projects/visionpath.md)** | Camera-based assistive-mobility research and product discovery. An integrated PathOne walker and completed LiDAR gait system are not yet built. |
-
-## Inside the code
-
-**[Engineering review](docs/ENGINEERING_REVIEW.md)** · **[Reproduce the checks](docs/VERIFICATION.md)**
-
-[![Public source checks](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/Jsmitty78/Jsmitty78/actions/workflows/portfolio-checks.yml)
-
-| Sprink | MemoryPath | Pathway |
-| :--- | :--- | :--- |
-| **38 frontend tests** · reviewed voice input and request recovery | **58 tests** · evidence checks and profile approval | **27 tests** · reconstructed hazard and fall-event logic |
-
-*Verified 13 November 2026. [Check scope and limitations](docs/VERIFICATION.md).*
-
-## How I work
-
-**Understand the problem → build with the team → test with people → document the result.**
-
-| Software & AI | Systems & delivery |
-| :--- | :--- |
-| Python, TypeScript, JavaScript, Java | Raspberry Pi, ESP32, cameras, RGB-D sensing |
-| React, Next.js, Node.js, Hono, Flask | User research, requirements, prototyping |
-| OpenCV, YOLO, structured LLM output, retrieval | Testing, CI, UML, Jira, technical documentation |
-
-## Recognition
-
-- **1st Place** — Oxford Venture Hackathon 2026
-- **Special Award / $10,000 team prize** — Recruit Holdings / Indeed Innovation Cup, San Francisco
-- **1st Place** — MIT Blueprint Hackathon 2024
-- **Osaka Life Science Nexus Award** — ACCJ Health Tech Pitch 2026
-- **Audience Award** — Rocket Pitch Kansai 2025
-
-<details>
-<summary>Contribution activity</summary>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Animated GitHub contribution grid" src="https://raw.githubusercontent.com/Jsmitty78/Jsmitty78/output/github-contribution-grid-snake.svg">
-</picture>
-</details>
+[Engineering review](docs/ENGINEERING_REVIEW.md) · [Verification notes](docs/VERIFICATION.md)
 
 ---
 
-**Let's build something useful.** Open to engineering, product, AI, and innovation opportunities.
+**Open to engineering and product internships.**  
+Osaka, Japan · Native English · Conversational Japanese · Expected graduation: 2029
 
-[LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com) · [VisionPath](https://visionpath.tech)
+<sub>Header adapted from the <a href="https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/11-swiss-brutalist/swiss-grid">Swiss Grid template</a> by Awesome GitHub Profile contributors.</sub>
+
+<!--
+Template attribution:
+MIT License
+Copyright (c) 2026 Awesome GitHub Profile contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
