@@ -4,6 +4,10 @@
 
 [Back to my profile](../README.md) · [Public frontend](https://github.com/daitera1/PBL3-Group-D/tree/add-carepath-frontend/frontend/route-to-care-ai) · [Team documentation](https://daitera1.github.io/PBL3-Group-D/)
 
+**At a glance:** seven-person team · 89 survey responses · project management, frontend work and architecture.
+
+[Open the interactive prototype](https://route-to-care-ai.lovable.app)
+
 ## The problem
 
 Choosing a hospital involves more than finding the nearest pin on a map. Our class project explored how distance, estimated waiting time, language support, and specialty could be compared in one interface. The team's research included 89 survey responses and healthcare-professional interviews.
@@ -64,3 +68,12 @@ The repository records the following responsibilities. Development was collabora
 Project management became concrete in the interfaces between people's work: agreeing on data shapes, assigning documentation responsibilities, and making the final workflow coherent. Clear architecture diagrams helped turn separate tasks into a shared implementation plan.
 
 The team has published the [frontend snapshot](https://github.com/daitera1/PBL3-Group-D/tree/add-carepath-frontend/frontend/route-to-care-ai) on the `add-carepath-frontend` branch. The [team repository](https://github.com/daitera1/PBL3-Group-D) links the prototype and project documentation. The training dataset and model artifacts remain unavailable in that public snapshot, so this page makes no independently reproduced model-performance claim.
+
+## Suggested demo walkthrough
+
+1. Set a location and compare nearby hospital cards with the map.
+2. Change a language or specialty preference and inspect the ranked results.
+3. Compare distance with estimated waiting time instead of treating the nearest facility as automatically best.
+4. Inspect uncertainty and explain that this portfolio frontend uses seeded examples.
+
+This is the product decision I want the interface to make visible: help people compare the factors that matter to them, while keeping uncertainty clear.

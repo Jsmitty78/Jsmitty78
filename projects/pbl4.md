@@ -10,6 +10,8 @@ Ritsumeikan University · PBL4 Group 1 · Final handover: 12 November 2026
 
 *Project photograph from the team's final documentation.*
 
+**At a glance:** 12 team members · three departments · two image-processing implementations · final handover on 12 November 2026.
+
 ## The project
 
 Our team built a Python application that prepares an image for two adjacent projectors. Each projector displays its side of the image, with an overlapping region between them. The program applies alpha masks with gamma compensation to control the brightness across that overlap.

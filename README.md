@@ -4,7 +4,11 @@
 
 I'm Jake, a Computer Engineering student at **Ritsumeikan University** and the **Founder & CEO of VisionPath**. Originally from Boston, now based in Osaka. I work on software prototypes for accessibility, healthcare, and field work, combining user research, implementation, and team delivery.
 
+**Product management with hands-on engineering:** I turn interviews into product decisions, coordinate team delivery, and build interfaces and prototypes that make those decisions tangible.
+
 At **VisionPath**, I am researching camera-based assistive mobility. With **SprinkMate**, I work on reviewable AI tools for sprinkler fitters.
+
+**Try a working demo:** [PENCIL Bridge — bilingual HR review](https://pencil-people-bridge.vercel.app) · [My role and product decisions](projects/bridge.md)
 
 **Start here:** [All projects](projects/INDEX.md) · [SprinkMate case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
 
@@ -52,7 +56,7 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 <h3><a href="projects/pbl4.md">PBL 4 · Multi-projector blending</a></h3>
 <p><strong>Two projectors. One wide image.</strong></p>
 <p>A Python application that prepares left and right projector images and blends their overlap with gamma-corrected alpha masks.</p>
-<p><strong>My work:</strong> managing the 12-person team, coordinating development and documentation, and helping with the practical projector setup.</p>
+<p><strong>My work:</strong> leading the 12-person team, coordinating development and documentation, and helping with the practical projector setup.</p>
 <p><sub>Python · OpenCV · NumPy · UML · Jira</sub></p>
 <p><a href="projects/pbl4.md">Case study</a> · <a href="https://github.com/daitera1/PBL4-G1">Team repository</a> · <a href="https://github.com/daitera1/PBL4-G1/tree/main/Development">Code &amp; run guide</a></p>
 <details>
@@ -70,7 +74,7 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 <tr>
 <td width="50%" valign="top">
 <h3><a href="projects/visionpath.md">The Shaky Walker Effect</a></h3>
-<p><strong>AROB 2027 · Accepted for presentation</strong></p>
+<p><strong>AROB 2027 · Accepted for presentation · Co-author</strong></p>
 <p>How does motion from a walker affect real-time object detection? This research examines gait-induced camera movement and approaches to keeping detections stable.</p>
 <p><strong>Paper:</strong> Steadying the Shaky Walker: Benchmarking and Mitigating Gait-Induced Camera Motion for Real-Time Object Detection.</p>
 <p><sub>Computer vision · Camera motion · Assistive mobility</sub></p>
@@ -79,11 +83,11 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 </td>
 <td width="50%" valign="top">
 <h3><a href="projects/bridge.md">PENCIL Bridge</a></h3>
-<p><strong>Kyushu University · QREC internship</strong></p>
-<p>A bilingual workplace-record review prototype to help HR teams review and work with workplace information.</p>
+<p><strong>Product and demo lead · Kyushu University QREC internship</strong></p>
+<p>A bilingual workplace-record review tool developed with feedback from PENCIL engineers and HR. Review source evidence, identify unclear instructions, and prepare a human-led follow-up.</p>
 <p><strong>My work:</strong> product direction, implementation, and technical demonstration during the Venture Life Challenge internship.</p>
 <p><sub>Bilingual workflows · HR tools · Product development</sub></p>
-<p><a href="projects/bridge.md">Case study</a> · <a href="https://github.com/Jsmitty78/pencil-people-bridge">Source code</a></p>
+<p><a href="https://pencil-people-bridge.vercel.app"><strong>Try the live demo</strong></a> · <a href="projects/bridge.md">Case study</a> · <a href="https://github.com/Jsmitty78/pencil-people-bridge">Source code</a></p>
 </td>
 </tr>
 </table>
@@ -122,6 +126,15 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 | **38 frontend tests** · reviewed voice input and request recovery | **58 tests** · evidence checks and profile approval | **27 tests** · reconstructed hazard and fall-event logic |
 
 *Verified 13 November 2026. [Check scope and limitations](docs/VERIFICATION.md).*
+
+## Evidence for a quick review
+
+| Project | Product / leadership evidence | Engineering evidence |
+| :--- | :--- | :--- |
+| PENCIL Bridge | [Employee feedback and internship story](projects/bridge.md) | [Typed detection API and review console](https://github.com/Jsmitty78/pencil-people-bridge) |
+| CarePath Navigator | [89-response discovery and team roles](projects/hospital-finder.md) | [Frontend, ranking logic and architecture](projects/hospital-finder.md#implementation-map) |
+| PBL4 | [12-person delivery and coordination records](projects/pbl4.md) | [Two projector implementations and photographs](https://github.com/daitera1/PBL4-G1/tree/main/Development) |
+| Shaky Walker | [Accepted research and author credits](projects/visionpath.md) | Camera-motion evaluation and tracking research |
 
 ## How I work
 
