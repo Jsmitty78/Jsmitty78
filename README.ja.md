@@ -30,7 +30,7 @@ Jake Smith（ジェイク・スミス）です。**立命館大学**でComputer 
 
 **[10日間の全編ストーリーと写真を見る →](projects/bridge.ja.md)** · [日英対応のデモを試す](https://pencil-people-bridge.vercel.app) · [コードと技術詳細](https://github.com/Jsmitty78/pencil-people-bridge)
 
-**[九州大学へのピッチデックを見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[当時の人事向けデモ動画を見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
+**[九州大学へのピッチデックを見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[当時の人事向けデモ動画を見る](https://pencil-people-bridge.vercel.app/watch?lang=ja)**
 
 ペンシルの人事スーパーバイザーに、10日間でつくったMVPを実際に試していただきました。私たちは会社でのシステム開発を支援し、2026年11月時点でも、更新された社内版が使われています。[全編では、MVP、大学への成果物、その後の展開を紹介しています](projects/bridge.ja.md#our-pitch-deck-and-product-demo)。
 
@@ -188,3 +188,6 @@ Jake Smith（ジェイク・スミス）です。**立命館大学**でComputer 
 **役立つものを、一緒につくりたいと思っています。** エンジニアリング、プロダクト、AI、イノベーションに関わる機会を探しています。
 
 [LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [メール](mailto:jakesmith1447@gmail.com) · [VisionPath](https://visionpath.tech)
+
+
+[オリジナル動画ファイル（変更せず保存）](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)
