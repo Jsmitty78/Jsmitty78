@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="bridge.ja.md">日本語</a></p>
+
 # PENCIL Bridge
 
 **HR workflow prototype · Kyushu University QREC Venture Life Challenge**
