@@ -2,7 +2,7 @@
 
 **HR workflow prototype · Kyushu University QREC Venture Life Challenge**
 
-Built during the PENCIL Co., Ltd. internship in the Kyushu University QREC Venture Life Challenge 2026. This is a student prototype, not an official PENCIL product.
+Built during the PENCIL（株式会社ペンシル） internship in the Kyushu University QREC Venture Life Challenge 2026. This is a student prototype, not an official PENCIL product.
 
 [Public repository](https://github.com/Jsmitty78/pencil-people-bridge) · [Live demo](https://pencil-people-bridge.vercel.app)
 
@@ -12,7 +12,7 @@ Built during the PENCIL Co., Ltd. internship in the Kyushu University QREC Ventu
 
 **Employee interviews, a bilingual prototype and a final presentation — built with feedback from PENCIL’s HR and engineering teams.**
 
-I spent 10 days working on PENCIL Bridge with **Takeshi Yamamoto** and **Sydney Magnolia Tjandra**, during our placement at **PENCIL Co., Ltd. in Fukuoka** through Kyushu University’s **QREC Venture Life Challenge 2026**. I led the prototype and demo development, alongside product direction and the technical delivery.
+I spent 10 days working on PENCIL Bridge with **Takeshi Yamamoto** and **Sydney Magnolia Tjandra**, during our placement at **PENCIL（株式会社ペンシル） in Fukuoka** through Kyushu University’s **QREC Venture Life Challenge 2026**. I led the prototype and demo development, alongside product direction and the technical delivery.
 
 <img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/engineering-and-hr-review.jpg" alt="Jake and the team reviewing PENCIL Bridge with the internal engineering division, two HR supervisors and an engineering director" width="900">
 
