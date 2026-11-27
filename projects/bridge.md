@@ -34,7 +34,7 @@ In ten days, we went from interviewing employees about an internal communication
 
 ## Why I went to Fukuoka
 
-I am usually based in Kansai, and I wanted to spend my summer break getting hands-on experience somewhere new. Fukuoka gave me the chance to meet people outside my usual circle and work on a problem inside a company.
+I went to Fukuoka because I wanted to challenge myself. I am usually based in Kansai, and I had never been to Kyushu before. I had no connections there; my goal was to make them. I wanted to spend my summer meeting new people, taking on a project inside a company, and seeing what I could make happen somewhere completely new to me.
 
 PENCIL’s office stood out to me straight away. It was creative and open, and I enjoyed seeing engineers and consultants work closely together. I was excited that we could interview people, test ideas and build something during the placement.
 
@@ -49,7 +49,29 @@ PENCIL’s office stood out to me straight away. It was creative and open, and I
 </tr>
 </table>
 
-Outside work, I enjoyed getting to know Fukuoka’s startup community. People were welcoming, and I also spent part of the trip moving between capsule hotels to keep it affordable. I shared those first impressions on LinkedIn while I was there, because meeting people and getting to know the city were a big part of the experience too.
+I was on a very tight budget, so I moved between small capsule hotels and internet cafés while finding my way around the city. Eventually, friends I made there offered me places to stay. I had to be resourceful to make the trip work, but I was excited to be there, meet people and get involved in new projects.
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/capsule-hotel.jpg" alt="A small sleeping capsule from Jake’s stay in Fukuoka" width="300">
+
+*One of the capsule hotels I stayed in while making the trip work on a tight budget.*
+
+One of my favourite memories started with meeting a family at an arcade. They were wonderful: they showed me around, treated me like one of their own and even let me stay with them for a few days. I had arrived without knowing anyone, and suddenly I had people welcoming me into their everyday lives. I am still grateful for that kindness.
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/fukuoka-family-dinner.jpg" alt="Jake sharing dinner with people he met during his time in Fukuoka" width="900">
+
+*Sharing a meal with the family who made me feel so welcome.*
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/fukuoka-festival-friend.jpg" alt="Jake and a friend at an outdoor festival during his time in Fukuoka" width="900">
+
+*Making friends and memories outside the office, too.*
+
+I loved Fukuoka and getting to know Kyushu. Fukuoka’s startup community was welcoming, and the people I met made me want to keep exploring. During my days off, I also took a few days to travel to Kumamoto and volunteer with earthquake recovery work. I wanted to contribute while I was there, as well as experience a place I had never visited before.
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/exploring-kyushu.jpg" alt="Jake exploring a garden during his trip around Kyushu" width="900">
+
+*Taking time to explore Kyushu outside the project.*
+
+I came back with a project I was proud of, new friendships and so many memories. Going somewhere without an existing network pushed me to introduce myself, ask questions and get involved. That same curiosity carried into our work at PENCIL: we needed to listen to the people inside the company before deciding what to build.
 
 ## Starting with the people doing the work
 
@@ -57,9 +79,13 @@ Our challenge was to understand an organisational problem involving a growing, d
 
 We carried out **10 interviews** across HR, management, consultants and engineers, speaking with both Japanese and international employees. We looked at where information was shared, what happened when instructions were unclear, and how HR learned about a problem after it had developed.
 
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/working-session.jpg" alt="Jake interviewing a PENCIL engineer and listening to his concerns" width="900">
+
+*Interviewing an engineer, hearing his concerns and understanding how communication affected his work.*
+
 A recurring issue was that the history of a decision could be spread across several places: a meeting, a Chatwork thread, a Backlog issue, a document in Box, or a verbal conversation. Someone investigating later might have the outcome but not the context that led to it.
 
-<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/whiteboard-problem-framing.jpg" alt="Jake explaining the communication problem at a whiteboard showing lost verbal information and the project plan" width="900">
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/whiteboard-discussion.jpg" alt="Jake explaining the communication problem at a whiteboard showing lost verbal information and the project plan" width="900">
 
 *Working through the problem on the whiteboard: important information getting lost between people, languages and tools.*
 
@@ -75,21 +101,21 @@ That decision affected the interface as well as the analysis. We grouped records
 
 ## Building with Takeshi and Sydney
 
-We brought different skills to the project. I led the prototype, product direction, demo and technical delivery. Takeshi worked on employee research, engineering support, subtitles and presentation delivery. Sydney worked on design, filming, the financial presentation and presentation delivery. Between the three of us, we covered product and prototype development, user research and systems engineering, and business strategy and impact. We needed all of those parts to come together for the final presentation.
+We came from three different universities and brought different skills to the project. I was studying Computer Engineering at Ritsumeikan University, Takeshi was studying Civil Engineering at Kyushu University, and Sydney was studying Finance and Accounting at Ritsumeikan Asia Pacific University (APU). Working together meant learning how each of us approached the problem and making room for those different perspectives. I led the prototype, product direction, demo and technical delivery. Takeshi worked on employee research, engineering support, subtitles and presentation delivery. Sydney worked on design, filming, the financial presentation and presentation delivery. Between the three of us, we covered product and prototype development, user research and systems engineering, and business strategy and impact. We needed all of those parts to come together for the final presentation.
 
-<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/working-session.jpg" alt="Jake and a teammate discussing the project with laptops during a working session" width="900">
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/three-university-team.jpg" alt="Sydney, Jake and Takeshi together at PENCIL in Fukuoka" width="900">
 
-*A working session during the placement, with the project open on our laptops.*
+*Sydney, me and Takeshi at PENCIL: three universities and different skills, working towards the same ten-day delivery.*
 
 There was a lot to fit into the build: understanding the interviews, choosing the scope, implementing the demonstration, getting feedback and preparing a presentation that explained both the product and the business case. The research, software and presentation had to stay connected as the idea changed.
-
-<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/team-at-pencil.jpg" alt="The PENCIL Bridge team with company colleagues in front of the project presentation" width="900">
-
-*With company colleagues at PENCIL, with our project presentation on screen.*
 
 ## Bringing the prototype to HR and engineering
 
 The review with the internal engineering division, two HR supervisors and an engineering director was an important part of the process. We had to explain how the idea would work with existing records and what HR would actually see.
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/team-at-pencil.jpg" alt="The PENCIL Bridge team working with HR and an engineering manager on the proposal" width="900">
+
+*Working with HR and an engineering manager on our proposal, with PENCIL Bridge on screen.*
 
 We took three main points from the engineering feedback and worked them into the design:
 
@@ -143,7 +169,6 @@ We helped PENCIL develop this, and the company has continued with an updated ver
 
 The deck captures our proposal at the time, including planned integrations and estimated financial benefits. The implementation details below explain what this public MVP actually supports; the financial figures remain planning estimates, not measured savings from the updated internal system.
 
-
 ## Presenting what we had built
 
 Our final presentation was on **August 29, 2026, at PwC Consulting in Fukuoka**. We prepared an approximately eight-minute presentation followed by five minutes of questions. The demo video had subtitles so it did not depend on everyone being able to hear the room audio.
@@ -152,7 +177,7 @@ I handled the opening, demo introduction and transition, then the financials, ro
 
 <img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/final-presentation.jpg" alt="Jake at the Venture Life Challenge 2026 final presentation with the audience and August 29 event screen" width="900">
 
-*At the Venture Life Challenge final presentation on August 29.*
+*Showcasing our work at PwC Japan’s Fukuoka office for the Venture Life Challenge final presentation on August 29.*
 
 We also presented a financial planning case: **150 hours of annual HR capacity**, valued at **¥3,000 per hour**, giving **¥450,000 of estimated annual value** against a **¥150,000 investment assumption**. The resulting 3.0 benefit-cost ratio, approximately 200% ROI and four-month payback were modelled estimates. We had not measured those savings through a company rollout.
 
