@@ -10,11 +10,23 @@ At **VisionPath**, I am researching camera-based assistive mobility. With **Spri
 
 **Try a working demo:** [PENCIL Bridge — bilingual HR review](https://pencil-people-bridge.vercel.app) · [My role and product decisions](projects/bridge.md)
 
-**Start here:** [All projects](projects/INDEX.md) · [SprinkMate case study](projects/sprink.md) · [PENCIL Bridge](https://github.com/Jsmitty78/pencil-people-bridge) · [Engineering review](docs/ENGINEERING_REVIEW.md)
+**Start here:** [PENCIL Bridge — full story & photos](projects/bridge.md) · [SprinkMate case study](projects/sprink.md) · [All projects](projects/INDEX.md) · [Engineering review](docs/ENGINEERING_REVIEW.md)
 
 Ritsumeikan University, expected graduation **2029** · Native English · Conversational Japanese · Open to engineering and product internships.
 
 ## Selected work
+
+### PENCIL Bridge · From employee interviews to a bilingual prototype in 10 days
+
+[![Working on PENCIL Bridge with the internal engineering division, two HR supervisors and an engineering director](https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/engineering-and-hr-review.jpg)](projects/bridge.md)
+
+During my internship at **PENCIL in Fukuoka**, our team carried out **10 employee interviews**, built a **Japanese and English HR review prototype**, and worked through feedback with the company’s HR and engineering teams. I led the **product direction, prototype implementation and technical demo**, working with Takeshi Yamamoto and Sydney Magnolia Tjandra through Kyushu University’s QREC Venture Life Challenge.
+
+In ten days, we brought together the research, a working demonstration, company feedback and a final presentation with a financial planning case. The prototype lets HR inspect source evidence and prepare follow-up questions, with decisions kept in human hands.
+
+**[Read the full ten-day story and all eight photos →](projects/bridge.md)** · [Try the bilingual demo](https://pencil-people-bridge.vercel.app) · [Explore the code and technical details](https://github.com/Jsmitty78/pencil-people-bridge)
+
+*Next.js · React · TypeScript · IndexedDB · Optional local Ollama analysis*
 
 ### Award-winning hackathon projects
 
