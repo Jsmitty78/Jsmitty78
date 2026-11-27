@@ -51,9 +51,16 @@ PENCIL’s office stood out to me straight away. It was creative and open, and I
 
 I was on a very tight budget, so I moved between small capsule hotels and internet cafés while finding my way around the city. Eventually, friends I made there offered me places to stay. I had to be resourceful to make the trip work, but I was excited to be there, meet people and get involved in new projects.
 
-<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/capsule-hotel.jpg" alt="A small sleeping capsule from Jake’s stay in Fukuoka" width="300">
-
-*One of the capsule hotels I stayed in while making the trip work on a tight budget.*
+<table>
+<tr>
+<td width="35%" valign="middle" align="center"><img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/capsule-hotel.jpg" alt="A small sleeping capsule from Jake’s stay in Fukuoka" width="220"></td>
+<td width="65%" valign="middle"><img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/temple-waterfall.jpg" alt="Jake and a friend visiting a waterfall on a temple trip in Kyushu" width="600"></td>
+</tr>
+<tr>
+<td><sub>One of the capsule hotels I stayed in while making the trip work on a tight budget.</sub></td>
+<td><sub>A trip to a temple and its beautiful waterfall—a chance to explore Kyushu with a friend and enjoy some time outside the office.</sub></td>
+</tr>
+</table>
 
 One of my favourite memories started with meeting a family at an arcade. They were wonderful: they showed me around, treated me like one of their own and even let me stay with them for a few days. I had arrived without knowing anyone, and suddenly I had people welcoming me into their everyday lives. I am still grateful for that kindness.
 
@@ -78,6 +85,8 @@ I came back with a project I was proud of, new friendships and so many memories.
 Our challenge was to understand an organisational problem involving a growing, diverse workforce and changes in how people work with AI. Before deciding what to build, we needed to hear how communication worked inside the company.
 
 We carried out **10 interviews** across HR, management, consultants and engineers, speaking with both Japanese and international employees. We looked at where information was shared, what happened when instructions were unclear, and how HR learned about a problem after it had developed.
+
+Doing interviews in Japanese was challenging for me. I was still learning, and I used some AI tools to help me with the language along the way. It pushed me to keep practising while listening to the concerns people were sharing. I also learned how division meetings worked inside a Japanese company by seeing how the teams communicated and discussed their work. That was an important part of the experience for me, alongside building the product.
 
 <img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/working-session.jpg" alt="Jake interviewing a PENCIL engineer and listening to his concerns" width="900">
 
@@ -201,7 +210,7 @@ The full internship ran from **August 17–29, 2026**, with ten days spent on th
 
 ## Handing it over and heading back to Kansai
 
-We also presented PENCIL Bridge to the company’s CEO, who was very impressed with what we had built and decided to start a pilot. After everything we had fitted into those ten days, it meant a lot to see the company want to take the project forward.
+We also presented PENCIL Bridge at the company’s quarterly meeting, in front of **100 employees, including the CEO**, in **both English and Japanese**. After finding the Japanese interviews challenging, being able to share our work in both languages meant a lot to me. The CEO was very impressed with what we had built and decided to start a pilot. After everything we had fitted into those ten days, it meant a lot to see the company want to take the project forward.
 
 Unfortunately, I had to head back to Kansai for the start of my new semester. It was hard to leave when there was still more I wanted to do, especially after getting to know the team and the people at PENCIL. Before I left, I handed over all my project deliverables to the engineering team so they could continue the work.
 
