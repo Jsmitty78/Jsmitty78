@@ -168,7 +168,7 @@
 
 ## 九州大学への発表資料と製品デモ
 
-**[九州大学への最終成果物として制作したピッチデックを見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[人事スーパーバイザーのHitomiさんが登場する製品デモを見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
+**[九州大学への最終成果物として制作したピッチデックを見る](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[人事スーパーバイザーのHitomiさんが登場する製品デモを見る](https://pencil-people-bridge.vercel.app/watch?lang=ja)**
 
 [![九州大学QREC Venture Life Challengeに向けて制作したPENCIL Bridgeのピッチデック](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pitch-deck-cover.jpg)](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)
 
@@ -289,3 +289,6 @@ flowchart TD
 5. CSV出力と、模擬的な週次レポートを確認します。
 
 公開ソースでは、保存データを使う検出ラボと、事前に用意した確認待ち一覧は別の機能です。デモを評価する際は、この点もご確認ください。
+
+
+[オリジナル動画ファイル（変更せず保存）](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)
