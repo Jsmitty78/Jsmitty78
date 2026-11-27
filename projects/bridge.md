@@ -125,6 +125,25 @@ The interface presents each signal as something to review, with the original evi
 
 Live workplace connectors, production authentication, access control, approved retention and external notification delivery remain outside the prototype. The [architecture and setup instructions](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/README.md#architecture) explain the current implementation, and the [system-design alignment](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/system-design-alignment.md) records the work needed beyond the demonstration.
 
+## Our pitch deck and product demo
+
+**[Look through the pitch deck we designed for Kyushu University](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch our product demo with HR supervisor Hitomi-san](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
+
+[![Our PENCIL Bridge pitch deck for Kyushu University’s QREC Venture Life Challenge](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pitch-deck-cover.jpg)](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)
+
+We designed this deck as our final deliverable for **Kyushu University（九州大学）**, bringing together what we learned at **PENCIL（株式会社ペンシル）**, the interviews, our product decisions, the demo and the business case. It is the original 13-slide presentation, including the technical appendix.
+
+The demo was part of that presentation. We tested our system with a real HR supervisor at PENCIL, Hitomi-san, and the video features her alongside the product walkthrough. I directed the video, Sydney filmed it, and Takeshi added the subtitles. You can watch the original 84-second video above; the PDF itself does not play the video embedded in the presentation.
+
+### The ten-day MVP and what happened next
+
+We only had ten days to build the MVP, test it with people inside the company and prepare our final delivery. For me, the project was a success because we got something working, put it in front of a real HR supervisor, and used the company’s feedback to improve it.
+
+We helped PENCIL develop this, and the company has continued with an updated version that is still in use as of November 2026. The code and demo shared here preserve our internship MVP. The updated internal system is separate from this public version.
+
+The deck captures our proposal at the time, including planned integrations and estimated financial benefits. The implementation details below explain what this public MVP actually supports; the financial figures remain planning estimates, not measured savings from the updated internal system.
+
+
 ## Presenting what we had built
 
 Our final presentation was on **August 29, 2026, at PwC Consulting in Fukuoka**. We prepared an approximately eight-minute presentation followed by five minutes of questions. The demo video had subtitles so it did not depend on everyone being able to hear the room audio.
@@ -151,7 +170,7 @@ It is the kind of work I wanted to experience when I came to Fukuoka: understand
 
 ## What comes after the prototype
 
-The next step would be a permission-reviewed pilot using approved or anonymised cases. Useful findings, false positives, HR review time and trust would need to be measured before expanding access or making claims about impact.
+At the end of the internship, we proposed a permission-reviewed pilot using approved or anonymised cases. Our evaluation plan was to measure useful findings, false positives, HR review time and trust before expanding access or making claims about impact. That was the next-step plan for the MVP described here; PENCIL’s subsequent internal version is separate.
 
 The full internship ran from **August 17–29, 2026**, with ten days spent on the project build described here. I have kept the demonstration, code and technical documentation in this repository so people can explore what we made and how it works. This is our student internship prototype, not an official PENCIL product or a production HR system.
 
