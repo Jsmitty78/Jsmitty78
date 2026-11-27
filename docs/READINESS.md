@@ -14,7 +14,7 @@ Documentation language and app language are separate. PENCIL and AED offer bilin
 
 | Project | Result | Scope |
 |---|---|---|
-| Portfolio | **38 tests passed**, all **306 source hashes matched**, and **231 local link/image targets resolved**. | Japanese profile and project pages included in link checks; external URLs and fragment anchors are checked separately. |
+| Portfolio | **38 tests passed**, all **306 source hashes matched**, and **232 local link/image targets resolved**. | Japanese profile and project pages included in link checks; external URLs and fragment anchors are checked separately. |
 | SprinkMate | **340 tests passed**; workspace typecheck and production web build passed. | Node 22.19.0, pnpm 10.17.1, frozen lockfile. Tests include mocks; no paid provider or real field validation performed. Build warns about bundle size. |
 | MemoryPath | **58 tests passed**; typecheck, lint and production build passed. | Reused the existing local dependencies after a disk-space failure. Model calls are mocked. Build emitted workspace-root and ESLint-plugin warnings. No real clinical data or live model request used. |
 | Pathway | **27 tests passed**; syntax checks passed. Browser scenario selection updated the displayed triage. | Reconstructed engine and synthetic inputs; not an iPhone device test or a fall-detection accuracy measurement. |
