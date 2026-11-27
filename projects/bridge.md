@@ -164,7 +164,7 @@ Live workplace connectors, production authentication, access control, approved r
 
 ## Our pitch deck and product demo
 
-**[Look through the pitch deck we designed for Kyushu University](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch our product demo with HR supervisor Hitomi-san](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
+**[Look through the pitch deck we designed for Kyushu University](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch our product demo with HR supervisor Hitomi-san](https://pencil-people-bridge.vercel.app/watch?lang=en)**
 
 [![Our PENCIL Bridge pitch deck for Kyushu University’s QREC Venture Life Challenge](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pitch-deck-cover.jpg)](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)
 
@@ -285,3 +285,6 @@ My [internship post and 12-photo gallery](https://www.linkedin.com/feed/update/u
 5. Inspect CSV export and the simulated weekly report.
 
 The stored-data detection lab is separate from the seeded review queue in the inspected source. That distinction matters when evaluating the demo.
+
+
+[Original video file (preserved unchanged)](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)
