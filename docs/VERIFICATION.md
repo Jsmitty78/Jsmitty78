@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="VERIFICATION.ja.md">日本語</a></p>
+
 [Profile](../README.md) · [Engineering review](ENGINEERING_REVIEW.md)
 
 # Run the public checks

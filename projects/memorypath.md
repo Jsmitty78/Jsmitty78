@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="memorypath.ja.md">日本語</a></p>
+
 # MemoryPath
 
 **Human-in-the-loop AI for care handoffs**

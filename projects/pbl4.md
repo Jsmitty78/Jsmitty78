@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="pbl4.ja.md">日本語</a></p>
+
 [Back to profile](../README.md) · [Team repository](https://github.com/daitera1/PBL4-G1)
 
 # PBL4 · Multi-projector image blending

@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="ENGINEERING_REVIEW.ja.md">日本語</a></p>
+
 [Profile](../README.md) · [Run the public checks](VERIFICATION.md)
 
 # Engineering review
@@ -26,7 +28,7 @@ The 38-test public suite runs the existing frontend tests against the published 
 
 ### Contribution provenance
 
-The upstream history records these commits under Jake's GitHub account. They identify contributions, not exclusive authorship of the whole system. AI coauthor credit exists in the original history; the public snapshot does not reproduce the full upstream Git history.
+The upstream history records these commits under Jake's GitHub account. They identify contributions, not exclusive authorship of the whole system. The public snapshot does not reproduce the full upstream Git history.
 
 | Contribution, 1 October 2026 | Upstream commit |
 | :--- | :--- |

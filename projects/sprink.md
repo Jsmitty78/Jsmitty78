@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="sprink.ja.md">日本語</a></p>
+
 # Sprink
 
 **Special Award · $10,000 team prize · Recruit Holdings / Indeed Innovation Cup · San Francisco**
@@ -41,7 +43,7 @@ Presenting to the four judges gave us a chance to discuss both the implementatio
 
 I worked on customer discovery, product direction, workflow design, validation, pitching, and product development. My later repository contributions include the mobile Ask interface, browser dictation and its tests, bounded API requests, and provider-error handling.
 
-Yu Yoshimuta contributed substantial core integration, planning, and workflow engineering. The architecture below describes our team system. Some of my development used AI-assisted tooling, with coauthor credit retained in the source history.
+Yu Yoshimuta contributed substantial core integration, planning, and workflow engineering. The architecture below describes our team system.
 
 ## How the system fits together
 
@@ -96,7 +98,7 @@ export function statusForError(code: string): DictationStatus {
 }
 ```
 
-[Open the typed source excerpt](sprink-speech-example.ts). Selected from `sprink/apps/web/src/workbench/ask/speech.ts`, introduced in my dictation contribution with AI coauthor credit. The excerpt is not the full controller; listening, review, submission, and cleanup are separate responsibilities.
+[Open the typed source excerpt](sprink-speech-example.ts). Selected from `sprink/apps/web/src/workbench/ask/speech.ts`, introduced in my dictation contribution. The excerpt is not the full controller; listening, review, submission, and cleanup are separate responsibilities.
 
 ## What I learned
 
@@ -120,3 +122,5 @@ The next evaluation is repeated field use: whether workers can verify a source, 
 This public snapshot includes the application source, tests, configuration, and technical documentation at commit `7efa012b2e15f433aa39bba0fcbafeac04399d9f`. It includes later work as well as the competition project. Team attribution and original source hashes are preserved.
 
 Reference PDFs, a source-derived drawing dataset, and some binary fixtures are excluded. **The full build requires the omitted dataset**, and some tests require the omitted fixtures. The separate public review harness runs 38 existing frontend tests without those assets; it does not build the full app. The [source README](sprink-source/) documents the commands, provenance, and exclusions.
+
+[Full story and field photos](https://github.com/Jsmitty78/SprinkMate/blob/main/docs/PROJECT_STORY.md) · [Current application and local setup](https://github.com/Jsmitty78/SprinkMate)

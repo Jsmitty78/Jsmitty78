@@ -16,6 +16,8 @@ At **VisionPath**, I am researching camera-based assistive mobility. With **Spri
 
 Ritsumeikan University, expected graduation **2029** · Native English · Conversational Japanese · Open to engineering and product internships.
 
+**[Try the projects — live demos, videos and setup →](projects/DEMOS.md)**
+
 ## Selected work
 
 ### PENCIL Bridge · From employee interviews to a bilingual prototype in 10 days

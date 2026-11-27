@@ -2,7 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, resolve, sep } from "node:path";
 
 const root = process.cwd();
-const files = ["README.md", "projects/sprink-source/README.md"];
+const files = ["README.md", "README.ja.md", "projects/sprink-source/README.md"];
 for (const directory of ["projects", "docs"]) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
     if (entry.isFile() && entry.name.endsWith(".md")) files.push(`${directory}/${entry.name}`);

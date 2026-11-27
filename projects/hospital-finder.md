@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="hospital-finder.ja.md">日本語</a></p>
+
 # Hospital Finder / CarePath Navigator
 
 **PBL3 · Ritsumeikan University · Project management and software development**

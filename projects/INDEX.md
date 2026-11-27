@@ -1,6 +1,8 @@
+<p align="right"><strong>English</strong> | <a href="INDEX.ja.md">日本語</a></p>
+
 # Project index
 
-[Back to profile](../README.md) · [Engineering review](../docs/ENGINEERING_REVIEW.md)
+[Back to profile](../README.md) · [Engineering review](../docs/ENGINEERING_REVIEW.md) · [Demos, videos and setup](DEMOS.md)
 
 A guide to my public projects, collaborative work, and early research. Team projects credit my contribution separately from the team's full implementation. Public source, reconstructed demos, and concepts are labeled below.
 
@@ -8,7 +10,7 @@ A guide to my public projects, collaborative work, and early research. Team proj
 
 | Project | Purpose and my contribution | Status and where to start |
 | :--- | :--- | :--- |
-| **Sprink** | AI field assistant for sprinkler fitters. Customer discovery, product direction, pitching, and later mobile Ask and voice-input work. Built with Yu Yoshimuta. | Innovation Cup Special Award, USD 10,000 team prize. [Case study](sprink.md) · [Public source snapshot](sprink-source/) · [Check scope](../docs/VERIFICATION.md). Full application dependencies are not all published. |
+| **Sprink** | AI field assistant for sprinkler fitters. Customer discovery, product direction, pitching, and later mobile Ask and voice-input work. Built with Yu Yoshimuta. | Innovation Cup Special Award, USD 10,000 team prize. [Case study](sprink.md) · [Public source snapshot](sprink-source/) · [Check scope](../docs/VERIFICATION.md). This archived snapshot omits some assets; [the current SprinkMate application and run guide](https://github.com/Jsmitty78/SprinkMate) are separate. |
 | **Pathway** | Smartphone-based walking-frame hackathon demonstration. User research, physical integration, testing, and pitching with the team. | Oxford Venture Hackathon 2026 first place. [Repository](https://github.com/Jsmitty78/Pathway-Oxford1stPlaceHackathon). Includes original material and an explicitly reconstructed runnable demo. |
 | **MemoryPath** | Dementia-care handoff prototype. Concept, interviews, workflow design, and software contributions with Yu. | Synthetic-data prototype, not a clinical product. [Case study](memorypath.md) · [Current public repository](https://github.com/Jsmitty78/MemoryPath) · [Additional public repository](https://github.com/Jsmitty78/MemoryPath-original-hackathon). These represent the same project, not two separate products. |
 | **PENCIL Bridge** | Bilingual HR review prototype for fragmented workplace records. Product direction, implementation, and technical demonstration during the QREC internship. | Student prototype using fictional records. [Live demo](https://pencil-people-bridge.vercel.app) · [Case study](bridge.md) · [Public repository](https://github.com/Jsmitty78/pencil-people-bridge). Live workplace integrations and production access controls are outside the demonstrated scope. |

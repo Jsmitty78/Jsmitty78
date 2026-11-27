@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="visionpath.ja.md">日本語</a></p>
+
 # VisionPath and PathOne research
 
 [Back to profile](../README.md) · [All projects](INDEX.md) · [VisionPath](https://visionpath.tech)
