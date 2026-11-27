@@ -30,7 +30,7 @@ In ten days, we brought together the research, a working demonstration, company 
 
 **[Read the full ten-day story and photo gallery →](projects/bridge.md)** · [Try the bilingual demo](https://pencil-people-bridge.vercel.app) · [Explore the code and technical details](https://github.com/Jsmitty78/pencil-people-bridge)
 
-**[See our Kyushu University pitch deck](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch the original HR demo video](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
+**[See our Kyushu University pitch deck](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch the original HR demo video](https://pencil-people-bridge.vercel.app/watch?lang=en)**
 
 We tested the ten-day MVP with a real HR supervisor at PENCIL. We helped the company develop the system, and it continues to use an updated internal version as of November 2026. [The full story explains the MVP, the university deliverables and what happened next](projects/bridge.md#our-pitch-deck-and-product-demo).
 
@@ -188,3 +188,6 @@ We tested the ten-day MVP with a real HR supervisor at PENCIL. We helped the com
 **Let's build something useful.** Open to engineering, product, AI, and innovation opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/jake-smith-japan) · [Email](mailto:jakesmith1447@gmail.com) · [VisionPath](https://visionpath.tech)
+
+
+[Original video file (preserved unchanged)](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)
