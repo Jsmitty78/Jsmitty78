@@ -26,7 +26,7 @@ During my internship at **PENCIL（株式会社ペンシル）in Fukuoka**, our 
 
 In ten days, we brought together the research, a working demonstration, company feedback and a final presentation with a financial planning case. The prototype lets HR inspect source evidence and prepare follow-up questions, with decisions kept in human hands.
 
-**[Read the full ten-day story and all eight photos →](projects/bridge.md)** · [Try the bilingual demo](https://pencil-people-bridge.vercel.app) · [Explore the code and technical details](https://github.com/Jsmitty78/pencil-people-bridge)
+**[Read the full ten-day story and photo gallery →](projects/bridge.md)** · [Try the bilingual demo](https://pencil-people-bridge.vercel.app) · [Explore the code and technical details](https://github.com/Jsmitty78/pencil-people-bridge)
 
 **[See our Kyushu University pitch deck](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-kyushu-pitch-deck.pdf)** · **[Watch the original HR demo video](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/deliverables/pencil-bridge-hr-demo.mp4)**
 
