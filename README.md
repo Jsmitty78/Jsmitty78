@@ -1,3 +1,5 @@
+<p align="right"><strong>English</strong> | <a href="README.ja.md">日本語</a></p>
+
 ![Jake Smith — Product engineering, AI and physical prototypes. Founder and CEO of VisionPath. Boston to Osaka.](assets/profile-banner.svg)
 
 **[VisionPath](https://visionpath.tech)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/jake-smith-japan)** &nbsp; / &nbsp; **[Get in touch](mailto:jakesmith1447@gmail.com)**
