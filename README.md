@@ -18,9 +18,11 @@ Ritsumeikan University, expected graduation **2029** · Native English · Conver
 
 ### PENCIL Bridge · From employee interviews to a bilingual prototype in 10 days
 
+**PENCIL（株式会社ペンシル） · Kyushu University（九州大学）QREC Venture Life Challenge**
+
 [![Working on PENCIL Bridge with the internal engineering division, two HR supervisors and an engineering director](https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/engineering-and-hr-review.jpg)](projects/bridge.md)
 
-During my internship at **PENCIL in Fukuoka**, our team carried out **10 employee interviews**, built a **Japanese and English HR review prototype**, and worked through feedback with the company’s HR and engineering teams. I led the **product direction, prototype implementation and technical demo**, working with Takeshi Yamamoto and Sydney Magnolia Tjandra through Kyushu University’s QREC Venture Life Challenge.
+During my internship at **PENCIL（株式会社ペンシル）in Fukuoka**, our team carried out **10 employee interviews**, built a **Japanese and English HR review prototype**, and worked through feedback with the company’s HR and engineering teams. I led the **product direction, prototype implementation and technical demo**, working with Takeshi Yamamoto and Sydney Magnolia Tjandra through Kyushu University’s QREC Venture Life Challenge.
 
 In ten days, we brought together the research, a working demonstration, company feedback and a final presentation with a financial planning case. The prototype lets HR inspect source evidence and prepare follow-up questions, with decisions kept in human hands.
 
