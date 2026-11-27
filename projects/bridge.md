@@ -199,6 +199,18 @@ At the end of the internship, we proposed a permission-reviewed pilot using appr
 
 The full internship ran from **August 17–29, 2026**, with ten days spent on the project build described here. I have kept the demonstration, code and technical documentation in this repository so people can explore what we made and how it works. This is our student internship prototype, not an official PENCIL product or a production HR system.
 
+## Handing it over and heading back to Kansai
+
+We also presented PENCIL Bridge to the company’s CEO, who was very impressed with what we had built and decided to start a pilot. After everything we had fitted into those ten days, it meant a lot to see the company want to take the project forward.
+
+Unfortunately, I had to head back to Kansai for the start of my new semester. It was hard to leave when there was still more I wanted to do, especially after getting to know the team and the people at PENCIL. Before I left, I handed over all my project deliverables to the engineering team so they could continue the work.
+
+I went to Fukuoka wanting to challenge myself and build connections from scratch. I left with new friends, a project we had taken from interviews to a working MVP, and the experience of handing it over for a company pilot. It was a great experience, and I’m grateful to everyone who made us feel welcome and helped us get there.
+
+<img src="https://raw.githubusercontent.com/Jsmitty78/pencil-people-bridge/main/docs/media/story/pencil-team-farewell.jpg" alt="Jake, his teammates and PENCIL colleagues together at the office holding the large red PENCIL letters" width="900">
+
+*With our teammates and colleagues at PENCIL—a final memory of the people who made this experience so special.*
+
 [Explore the code and full technical details](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/README.md) · [Read the original project archive](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/PROJECT_ARCHIVE.md) · [Photo and story sources](https://github.com/Jsmitty78/pencil-people-bridge/blob/main/docs/media/README.md)
 
 ---
